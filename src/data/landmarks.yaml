@@ -1,0 +1,67 @@
+# Mohenjo-daro Landmarks Registry
+# Source of truth for procedural generation.
+
+landmarks:
+  # --- CITADEL (Mound of the Dead) ---
+  - id: citadel_great_bath
+    name: "The Great Bath"
+    region: "Citadel"
+    description: "Public water tank, brick-lined, waterproofed with bitumen."
+    dimensions_m: 
+      width: 33
+      length: 55
+      pool_w: 7
+      pool_l: 12
+    height_m: 3
+    shape: "RECT_COMPLEX"
+    location: 
+      grid_x: 0 # Placeholder
+      grid_y: 0 
+
+  - id: citadel_granary
+    name: "The Granary"
+    region: "Citadel"
+    description: "Massive brick foundation with air ducts."
+    dimensions_m:
+      width: 27
+      length: 50
+    height_m: 4.5
+    shape: "RECT_GRID"
+    location:
+      relative_to: "citadel_great_bath"
+      direction: "WEST"
+
+  - id: citadel_stupa
+    name: "Buddhist Stupa"
+    region: "Citadel"
+    description: "Later Kushan-period addition on top of ruins."
+    dimensions_m:
+      diameter: 20
+    height_m: 8
+    shape: "CIRCLE"
+    location:
+      relative_to: "citadel_great_bath"
+      direction: "EAST"
+
+  - id: citadel_assembly_hall
+    name: "Assembly Hall"
+    region: "Citadel"
+    description: "Pillared hall."
+    dimensions_m:
+      width: 27
+      length: 27
+    height_m: 4
+    shape: "SQUARE_GRID"
+    location:
+      relative_to: "citadel_great_bath"
+      direction: "SOUTH"
+
+  # --- LOWER CITY ---
+  - id: lower_main_street_1
+    name: "First Street"
+    region: "Lower City"
+    description: "Central North-South axis."
+    dimensions_m:
+      width: 10
+      length: 800
+    shape: "LINE"

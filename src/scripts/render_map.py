@@ -1,8 +1,12 @@
 import argparse
 import os
+import sys
 import math
 from typing import List, Dict, Optional
-from landmark_lib import LandmarkRegistry
+
+# Add src/ to path
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+from mohenjo.registry import LandmarkRegistry
 
 # Constants
 SCALE_PIXELS_PER_METER = 2.0  # 1 meter = 2 pixels in SVG
@@ -95,49 +99,59 @@ class LandmarkRenderer:
                 l = lm.dimensions.length * SCALE_PIXELS_PER_METER
                 svg_lines.append(f'<rect x="{cx - w/2}" y="{cy - l/2}" width="{w}" height="{l}" fill="{color}" opacity="0.6" />')
                 
-            elif lm.shape == 'RECT_COMPLEX' and 'bath' in lm.id:
+            elif lm.shape == 'OVAL':
+                rx = (lm.dimensions.width / 2) * SCALE_PIXELS_PER_METER
+                ry = (lm.dimensions.length / 2) * SCALE_PIXELS_PER_METER
+                svg_lines.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="{color}" stroke="black" opacity="0.8" />')
+                svg_lines.append(f'<title>{lm.name}</title>')
+
+            elif lm.shape == 'RECT_COMPLEX':
                 w = lm.dimensions.width * SCALE_PIXELS_PER_METER
                 l = lm.dimensions.length * SCALE_PIXELS_PER_METER
+                
+                # Base rect
                 svg_lines.append(f'<rect x="{cx - w/2}" y="{cy - l/2}" width="{w}" height="{l}" fill="{color}" stroke="black" />')
                 
-                pw = lm.dimensions.pool_w * SCALE_PIXELS_PER_METER
-                pl = lm.dimensions.pool_l * SCALE_PIXELS_PER_METER
-                svg_lines.append(f'<rect x="{cx - pw/2}" y="{cy - pl/2}" width="{pw}" height="{pl}" fill="#4DD0E1" stroke="black" />')
-            
+                if 'bath' in lm.id:
+                    pw = lm.dimensions.pool_w * SCALE_PIXELS_PER_METER
+                    pl = lm.dimensions.pool_l * SCALE_PIXELS_PER_METER
+                    svg_lines.append(f'<rect x="{cx - pw/2}" y="{cy - pl/2}" width="{pw}" height="{pl}" fill="#4DD0E1" stroke="black" />')
+                elif 'college' in lm.id:
+                    # Courtyard
+                    cw = getattr(lm.dimensions, 'courtyard_w', 10) * SCALE_PIXELS_PER_METER
+                    cl = getattr(lm.dimensions, 'courtyard_l', 10) * SCALE_PIXELS_PER_METER
+                    svg_lines.append(f'<rect x="{cx - cw/2}" y="{cy - cl/2}" width="{cw}" height="{cl}" fill="#F5F5F5" stroke="black" opacity="0.7" />')
+
             elif lm.id == 'citadel_walls':
                  w = lm.dimensions.width * SCALE_PIXELS_PER_METER
                  l = lm.dimensions.length * SCALE_PIXELS_PER_METER
-                 # Main Platform
-                 svg_lines.append(f'<rect x="{cx - w/2}" y="{cy - l/2}" width="{w}" height="{l}" fill="{color}" stroke="#5D4037" stroke-width="3" opacity="0.5" />')
+                 # Main Platform (Base) - Walls are now separate segments
+                 svg_lines.append(f'<rect x="{cx - w/2}" y="{cy - l/2}" width="{w}" height="{l}" fill="{color}" stroke="none" opacity="0.3" />')
                  
-                 # Bastions (Procedural)
-                 bastion_w = 5 * SCALE_PIXELS_PER_METER
-                 bastion_l = 5 * SCALE_PIXELS_PER_METER
-                 interval = 30 * SCALE_PIXELS_PER_METER
-                 
-                 # Calculate corners
-                 x_start = cx - w/2
-                 x_end = cx + w/2
-                 y_start = cy - l/2
-                 y_end = cy + l/2
-                 
-                 bastions = []
-                 # Top & Bottom edges
-                 current_x = x_start
-                 while current_x <= x_end:
-                     bastions.append((current_x - bastion_w/2, y_start - bastion_l/2)) # Top
-                     bastions.append((current_x - bastion_w/2, y_end - bastion_l/2))   # Bottom
-                     current_x += interval
-                     
-                 # Left & Right edges
-                 current_y = y_start
-                 while current_y <= y_end:
-                    bastions.append((x_start - bastion_w/2, current_y - bastion_l/2)) # Left
-                    bastions.append((x_end - bastion_w/2, current_y - bastion_l/2))   # Right
-                    current_y += interval
+                 # Bastions now rendered via procedural features
+
+            elif lm.shape == 'RECT_GRID' or lm.shape == 'SQUARE_GRID':
+                w = lm.dimensions.width * SCALE_PIXELS_PER_METER
+                l = lm.dimensions.length * SCALE_PIXELS_PER_METER
+                
+                # Base background
+                svg_lines.append(f'<rect x="{cx - w/2}" y="{cy - l/2}" width="{w}" height="{l}" fill="{color}" stroke="black" />')
+                
+                # Draw grid if specified
+                rows = getattr(lm.dimensions, 'grid_rows', 0)
+                cols = getattr(lm.dimensions, 'grid_cols', 0)
+                
+                if rows > 0 and cols > 0:
+                    cell_w = w / cols
+                    cell_h = l / rows
                     
-                 for bx, by in bastions:
-                     svg_lines.append(f'<rect x="{bx}" y="{by}" width="{bastion_w}" height="{bastion_l}" fill="#5D4037" stroke="none" opacity="0.8" />')
+                    for r in range(rows):
+                        for c in range(cols):
+                            cell_x = (cx - w/2) + c * cell_w
+                            cell_y = (cy - l/2) + r * cell_h
+                            # Small gap to show grid
+                            gap = 1
+                            svg_lines.append(f'<rect x="{cell_x + gap}" y="{cell_y + gap}" width="{cell_w - gap*2}" height="{cell_h - gap*2}" fill="none" stroke="black" stroke-width="0.5" opacity="0.5" />')
 
             elif lm.shape == 'LINE':
                 w = lm.dimensions.width * SCALE_PIXELS_PER_METER
@@ -209,6 +223,45 @@ class LandmarkRenderer:
             placed_labels.append({'x': lx, 'y': ly, 'w': lw, 'h': lh})
             svg_lines.append(f'<text x="{lx}" y="{ly}" font-family="Arial" font-size="12" text-anchor="middle" fill="black" stroke="white" stroke-width="0.5" paint-order="stroke">{label["text"]}</text>')
 
+        # Render Procedural Features (Bastions etc)
+        # Assuming we filter these by region/parent if needed, but for now allow all if parent is rendered?
+        # Or just render all loaded features if we are in relevant region.
+        # Let's check parent_id against to_render IDs.
+        rendered_ids = set(lm.id for lm in to_render)
+        
+        for pf in self.registry.procedural_features:
+            if pf.parent_id not in rendered_ids:
+                continue
+                
+            if pf.shape == 'RECT':
+                # Geometry is in METERS, need to convert to SVG pixels
+                # geometry={'x': current_x, 'y': y_start, 'w': bastion_w, 'h': bastion_l}
+                
+                # Careful: pf.geometry['x'] is world X.
+                # world_to_svg handles the flip and scale.
+                
+                px, py = world_to_svg(pf.geometry['x'], pf.geometry['y'])
+                
+                # Height/Width in pixels
+                pw = pf.geometry['w'] * SCALE_PIXELS_PER_METER
+                pl = pf.geometry['h'] * SCALE_PIXELS_PER_METER
+                
+                # Let's assume X/Y is center for simplicity in world_to_svg
+                
+                fill_color = "#8D6E63" # Distinct Brown/Red
+                stroke_color = "black"
+                stroke_width = "1"
+                opacity = "1.0"
+                
+                if "Courtyard" in pf.description:
+                    fill_color = "#E0E0E0" # darker grey to stand out from background
+                    stroke_color = "none"
+                    opacity = "1.0"
+                elif "Building" in pf.description:
+                     fill_color = "#EF5350" # Brighter Red
+                
+                svg_lines.append(f'<rect x="{px - pw/2}" y="{py - pl/2}" width="{pw}" height="{pl}" fill="{fill_color}" stroke="{stroke_color}" stroke-width="{stroke_width}" opacity="{opacity}" />')
+
         svg_lines.append('</svg>')
         
         with open(output_path, 'w') as f:
@@ -220,14 +273,19 @@ def main():
     parser.add_argument('--all', action='store_true', help="Render all landmarks")
     parser.add_argument('--id', type=str, help="Render specific landmark by ID")
     parser.add_argument('--region', type=str, help="Render landmarks by Region")
-    parser.add_argument('--output', type=str, default='landmark_map.svg', help="Output SVG file")
+    
+    # Default output should be relative to where script is run, but let's make it go to outputs/ if CWD is root
+    # Ideally, just default='outputs/landmark_map.svg' if running from root.
+    parser.add_argument('--output', type=str, default='outputs/landmark_map.svg', help="Output SVG file")
     
     args = parser.parse_args()
     
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    data_path = os.path.join(base_dir, 'data', 'landmarks.yaml')
+    # Scripts in src/scripts, data in src/data
+    data_path = os.path.join(base_dir, '..', 'data', 'landmarks.yaml')
+    procedural_path = os.path.join(base_dir, '..', 'data', 'procedural.yaml')
     
-    registry = LandmarkRegistry(data_path)
+    registry = LandmarkRegistry(data_path, procedural_path)
     renderer = LandmarkRenderer(registry)
     
     if args.id:

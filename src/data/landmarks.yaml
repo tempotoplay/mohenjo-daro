@@ -53,21 +53,39 @@ landmarks:
     height_m: 3
     shape: "RECT_COMPLEX"
     location: 
-      grid_x: 0 
+      grid_x: -7.5 
       grid_y: 0 
 
   - id: citadel_granary
     name: "The Granary"
     region: "Citadel"
-    description: "Massive brick foundation with air ducts."
+    description: "Massive brick foundation with air ducts. 27 blocks in 3 rows."
     dimensions_m:
-      width: 27
-      length: 50
+      width: 45
+      length: 45
+      grid_rows: 3
+      grid_cols: 9
     height_m: 4.5
     shape: "RECT_GRID"
     location:
       relative_to: "citadel_great_bath"
       direction: "WEST"
+
+  - id: citadel_college
+    name: "College of Priests"
+    region: "Citadel"
+    description: "Large complex with courtyard, potentially a residence for high priests."
+    dimensions_m:
+      width: 70
+      length: 24
+      courtyard_w: 10 # inferred
+      courtyard_l: 10 # inferred
+    height_m: 6
+    shape: "RECT_COMPLEX"
+    location:
+      relative_to: "citadel_great_bath"
+      direction: "EAST"
+      offset_x: 10 # Reduced gap and Bath moved West to fit within walls
 
   - id: citadel_stupa
     name: "Buddhist Stupa"
@@ -79,20 +97,51 @@ landmarks:
     shape: "CIRCLE"
     location:
       relative_to: "citadel_great_bath"
-      direction: "EAST"
+      direction: "EAST" # In reality it's on top of the mound, often associated with the highest point.
+      offset_x: 60 # Reduced from 70 to fit within walls
 
   - id: citadel_assembly_hall
-    name: "Assembly Hall"
+    name: "Pillared Hall (L Area)"
     region: "Citadel"
-    description: "Pillared hall."
+    description: "Large assembly hall with 20 brick pillars, located in the L Area south of the main mound."
     dimensions_m:
       width: 27
       length: 27
+      grid_rows: 5
+      grid_cols: 4
     height_m: 4
     shape: "SQUARE_GRID"
     location:
       relative_to: "citadel_great_bath"
       direction: "SOUTH"
+      offset_y: -80 # L area is distinct / separated by some distance
+
+  - id: citadel_oval_well
+    name: "Oval Well"
+    region: "Citadel"
+    description: "Unique elliptical well in the SD Area."
+    dimensions_m:
+      width: 2.5
+      length: 1.8
+    height_m: 0 # ground level
+    shape: "OVAL"
+    location:
+      relative_to: "citadel_college"
+      direction: "EAST"
+      offset_x: 15
+
+  - id: citadel_divinity_street
+    name: "Divinity Street"
+    region: "Citadel"
+    description: "Narrow street with high walls and drains."
+    dimensions_m:
+      width: 60
+      length: 3
+    shape: "LINE"
+    location:
+      relative_to: "citadel_college"
+      direction: "NORTH"
+      offset_y: 15
 
   - id: citadel_se_tower
     name: "Southeast Corner Tower"

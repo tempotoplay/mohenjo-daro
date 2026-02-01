@@ -251,7 +251,7 @@ def generate_svg_sample(filename):
     print(f"Saved SVG sample to {filename}")
 
 if __name__ == "__main__":
-    os.makedirs("samples", exist_ok=True)
-    draw_raster_sample("samples/mohenjo_test_sample.png", mode="ORIGINAL")
-    draw_raster_sample("samples/mohenjo_test_sample_block.png", mode="BLOCK")
-    generate_svg_sample("samples/mohenjo_test_sample.svg")
+    os.makedirs("outputs/samples", exist_ok=True)
+    draw_raster_sample("outputs/samples/mohenjo_test_sample.png", mode="ORIGINAL")
+    draw_raster_sample("outputs/samples/mohenjo_test_sample_block.png", mode="BLOCK")
+    generate_svg_sample("outputs/samples/mohenjo_test_sample.svg")

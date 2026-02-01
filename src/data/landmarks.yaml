@@ -2,7 +2,45 @@
 # Source of truth for procedural generation.
 
 landmarks:
-  # --- CITADEL (Mound of the Dead) ---
+  # --- SITE BOUNDARIES ---
+  - id: site_boundary
+    name: "Mohenjo-daro Site Boundary"
+    region: "Site"
+    description: "Estimated archaeological extent of the main city mounds (excluding the river)."
+    dimensions_m:
+      width: 900
+      length: 1200
+    height_m: 0
+    shape: "RECT_BORDER"
+    location:
+      grid_x: 250
+      grid_y: 0 
+
+  - id: lower_city_boundary
+    name: "Lower City Boundary"
+    region: "Lower City"
+    description: "Estimated extent of the Lower City residential districts."
+    dimensions_m:
+      width: 600
+      length: 820
+    height_m: 0
+    shape: "RECT_BORDER"
+    location:
+      grid_x: 400
+      grid_y: 0
+  - id: citadel_walls
+    name: "Citadel Walls"
+    region: "Citadel"
+    description: "Defensive mud-brick fortification walls and retaining structures enclosing the Citadel mound."
+    dimensions_m:
+      width: 183
+      length: 366
+    height_m: 12
+    shape: "RECT_COMPLEX"
+    location:
+      grid_x: 0
+      grid_y: 0 
+
   - id: citadel_great_bath
     name: "The Great Bath"
     region: "Citadel"
@@ -15,7 +53,7 @@ landmarks:
     height_m: 3
     shape: "RECT_COMPLEX"
     location: 
-      grid_x: 0 # Placeholder
+      grid_x: 0 
       grid_y: 0 
 
   - id: citadel_granary
@@ -56,7 +94,46 @@ landmarks:
       relative_to: "citadel_great_bath"
       direction: "SOUTH"
 
+  - id: citadel_se_tower
+    name: "Southeast Corner Tower"
+    region: "Citadel"
+    description: "Solid burnt-brick tower at the southeast corner of the Citadel mound."
+    dimensions_m:
+      width: 10
+      length: 10
+    height_m: 8
+    shape: "SQUARE_GRID"
+    location:
+      grid_x: 90  # Approx half width (183/2)
+      grid_y: -180 # Approx half length (366/2)
+
   # --- LOWER CITY ---
+  - id: lower_city_south_wall
+    name: "Southern Defensive Wall"
+    region: "Lower City"
+    description: "Massive mud-brick fortification protecting the southern edge of the Lower City."
+    dimensions_m:
+      width: 500
+      length: 15
+    height_m: 8
+    shape: "RECT_COMPLEX"
+    location:
+      grid_x: 300
+      grid_y: -420
+
+  - id: lower_city_west_towers
+    name: "Western Guard Towers"
+    region: "Lower City"
+    description: "Series of baked brick watchtowers facing the Citadel."
+    dimensions_m:
+      width: 10
+      length: 50
+    height_m: 10
+    shape: "RECT_GRID" # Interpreted as a row of towers
+    location:
+      grid_x: 100
+      grid_y: 0
+
   - id: lower_main_street_1
     name: "First Street"
     region: "Lower City"
@@ -65,3 +142,123 @@ landmarks:
       width: 10
       length: 800
     shape: "LINE"
+    location:
+        grid_x: 300
+        grid_y: 0
+
+  - id: lower_main_street_2
+    name: "Second Street"
+    region: "Lower City"
+    description: "Secondary North-South axis in the eastern sector."
+    dimensions_m:
+      width: 10
+      length: 800
+    shape: "LINE"
+    location:
+        grid_x: 600
+        grid_y: 0
+
+  - id: lower_cross_street_1
+    name: "East-West Street"
+    region: "Lower City"
+    description: "Major East-West axis intersecting the main streets."
+    dimensions_m:
+      width: 600
+      length: 10
+    shape: "LINE"
+    location:
+        grid_x: 400
+        grid_y: 0
+
+  - id: lower_hr_house_a1
+    name: "House A1 (Chief's House)"
+    region: "Lower City"
+    description: "Large residence in HR Area. Fragments of a seated figure similar to the Priest-King were found here."
+    dimensions_m:
+      width: 22
+      length: 18
+    height_m: 6
+    shape: "RECT_COMPLEX"
+    location:
+      grid_x: 420
+      grid_y: -220
+
+  - id: lower_vs_workshop
+    name: "Industrial Workshop (VS Area)"
+    region: "Lower City"
+    description: "Structure associated with shell working and crafts."
+    dimensions_m:
+      width: 15
+      length: 20
+    height_m: 4
+    shape: "RECT_GRID"
+    location:
+      grid_x: 225
+      grid_y: 150
+
+  - id: lower_dk_priest_king_site
+    name: "Priest-King Discovery Site"
+    region: "Lower City"
+    description: "Location in DK-B Area where the famous Priest-King statue was found."
+    dimensions_m:
+        width: 10
+        length: 10
+    height_m: 3
+    shape: "SQUARE_GRID"
+    location:
+        grid_x: 550
+        grid_y: 250
+
+
+  # --- NATURAL FEATURES ---
+  - id: indus_river
+    name: "Indus River"
+    region: "Natural"
+    description: "Major river flowing East of the city (historical course)."
+    dimensions_m:
+      width: 500 # Variable, widely flooded
+      length: 2000
+    shape: "CURVE" # Simplified as thick line/path
+    location: 
+      grid_x: 1000 # East of the city
+      grid_y: -500
+
+  # --- LOWER CITY QUARTERS ---
+  - id: lower_hr_area
+    name: "HR Area (South)"
+    region: "Lower City"
+    description: "High-density residential zone southeast of the Citadel."
+    dimensions_m:
+      width: 500
+      length: 350
+    height_m: 0
+    shape: "RECT_BORDER"
+    location:
+      grid_x: 400
+      grid_y: -200
+
+  - id: lower_vs_area
+    name: "VS Area (Central/West)"
+    region: "Lower City"
+    description: "Mixed industrial and residential zone west of Main Street."
+    dimensions_m:
+      width: 250
+      length: 300
+    height_m: 0
+    shape: "RECT_BORDER"
+    location:
+      grid_x: 225
+      grid_y: 150
+
+  - id: lower_dk_area
+    name: "DK Area (North/East)"
+    region: "Lower City"
+    description: "Sprawling northern and eastern residential sector."
+    dimensions_m:
+      width: 350
+      length: 400
+    height_m: 0
+    shape: "RECT_BORDER"
+    location:
+      grid_x: 525
+      grid_y: 200

@@ -208,6 +208,30 @@ landmarks:
         grid_x: 600
         grid_y: 0
 
+  - id: lower_hr_lane_1
+    name: "HR Lane 1 (North)"
+    region: "Lower City"
+    description: "Secondary East-West lane in HR Area."
+    dimensions_m:
+      width: 450
+      length: 4
+    shape: "LINE"
+    location:
+        grid_x: 425
+        grid_y: -120
+
+  - id: lower_hr_lane_2
+    name: "HR Lane 2 (South)"
+    region: "Lower City"
+    description: "Secondary East-West lane in HR Area."
+    dimensions_m:
+      width: 450
+      length: 4
+    shape: "LINE"
+    location:
+        grid_x: 425
+        grid_y: -280
+
   - id: lower_cross_street_1
     name: "East-West Street"
     region: "Lower City"
@@ -279,12 +303,64 @@ landmarks:
     region: "Lower City"
     description: "High-density residential zone southeast of the Citadel."
     dimensions_m:
-      width: 500
+      width: 530
       length: 350
     height_m: 0
     shape: "RECT_BORDER"
     location:
-      grid_x: 400
+      grid_x: 385
+      grid_y: -200
+
+  - id: lower_hr_zone_rich_west
+    name: "HR Block 1 (Rich West)"
+    region: "Lower City"
+    description: "Wealthy block west of First Street."
+    dimensions_m:
+      width: 175
+      length: 350
+    height_m: 0
+    shape: "RECT_ZONE"
+    location:
+      grid_x: 207.5
+      grid_y: -200
+
+  - id: lower_hr_zone_rich_east
+    name: "HR Block 2 (Rich Central)"
+    region: "Lower City"
+    description: "Wealthy block east of First Street."
+    dimensions_m:
+      width: 70
+      length: 350
+    height_m: 0
+    shape: "RECT_ZONE"
+    location:
+      grid_x: 345 # 305 (Street Edge) + 35 + margin? Let's say center at 345 (Width 70 -> 310 to 380)
+      grid_y: -200
+
+  - id: lower_hr_zone_poor_central
+    name: "HR Block 3 (Common Central)"
+    region: "Lower City"
+    description: "Common housings between Rich sector and Second Street."
+    dimensions_m:
+      width: 200
+      length: 350
+    height_m: 0
+    shape: "RECT_ZONE"
+    location:
+      grid_x: 490 # Width 200. Range 390 to 590. (Street starts 595).
+      grid_y: -200
+
+  - id: lower_hr_zone_poor_east
+    name: "HR Block 4 (Common East)"
+    region: "Lower City"
+    description: "Common housings east of Second Street."
+    dimensions_m:
+      width: 40
+      length: 350
+    height_m: 0
+    shape: "RECT_ZONE"
+    location:
+      grid_x: 630 # Width 40. Range 610 to 650. (Street ends 605).
       grid_y: -200
 
   - id: lower_vs_area

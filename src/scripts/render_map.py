@@ -7,6 +7,7 @@ from typing import List, Dict, Optional
 # Add src/ to path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from mohenjo.registry import LandmarkRegistry
+from mohenjo.generators import generate_rich_zone, generate_poor_zone
 
 # Constants
 SCALE_PIXELS_PER_METER = 2.0  # 1 meter = 2 pixels in SVG
@@ -23,8 +24,10 @@ class LandmarkRenderer:
             'Default': '#B0BEC5'       # Grey
         }
 
-    def render(self, output_path: str, target_id: Optional[str] = None, region: Optional[str] = None):
-        if target_id:
+    def render(self, output_path: str, target_id: Optional[str] = None, region: Optional[str] = None, custom_list: Optional[List] = None):
+        if custom_list:
+            to_render = custom_list
+        elif target_id:
             to_render = [self.registry.landmarks[target_id]]
         elif region:
             to_render = [lm for lm in self.registry.landmarks.values() if lm.region == region]
@@ -36,10 +39,18 @@ class LandmarkRenderer:
             return
 
         # Calculate bounding box
+        if not to_render:
+            print("To Render List is Empty!")
+            return
+
         min_x = min(lm.abs_x - (lm.dimensions.width/2 + lm.dimensions.diameter/2) for lm in to_render)
         max_x = max(lm.abs_x + (lm.dimensions.width/2 + lm.dimensions.diameter/2) for lm in to_render)
         min_y = min(lm.abs_y - (lm.dimensions.length/2 + lm.dimensions.diameter/2) for lm in to_render)
         max_y = max(lm.abs_y + (lm.dimensions.length/2 + lm.dimensions.diameter/2) for lm in to_render)
+
+        print(f"DEBUG: Rendering {len(to_render)} landmarks.")
+        print(f"DEBUG: World Bounds: X[{min_x:.1f}, {max_x:.1f}] Y[{min_y:.1f}, {max_y:.1f}]")
+        # print(f"DEBUG: IDs: {[lm.id for lm in to_render]}") 
 
         # SVG ViewBox logic
         # Map World (min_x, min_y) -> SVG (PADDING, height-PADDING)
@@ -262,6 +273,87 @@ class LandmarkRenderer:
                 
                 svg_lines.append(f'<rect x="{px - pw/2}" y="{py - pl/2}" width="{pw}" height="{pl}" fill="{fill_color}" stroke="{stroke_color}" stroke-width="{stroke_width}" opacity="{opacity}" />')
 
+        # [Collision Detection Preparation]
+        # Identify Obstacles (Streets, specific landmarks)
+        obstacles = []
+        # print("Identifying Obstacles for Collision Detection...")
+        for lm in self.registry.landmarks.values():
+            if "street" in lm.id or "lane" in lm.id or "house" in lm.id:
+                if "zone" in lm.id: continue
+                
+                w = lm.dimensions.width
+                l = lm.dimensions.length
+                obs_min_x = lm.abs_x - w/2
+                obs_max_x = lm.abs_x + w/2
+                obs_min_y = lm.abs_y - l/2
+                obs_max_y = lm.abs_y + l/2
+                obstacles.append((obs_min_x, obs_max_x, obs_min_y, obs_max_y))
+
+        def check_collision(poly_points_global, obstacles):
+            p_xs = [p[0] for p in poly_points_global]
+            p_ys = [p[1] for p in poly_points_global]
+            p_min_x, p_max_x = min(p_xs), max(p_xs)
+            p_min_y, p_max_y = min(p_ys), max(p_ys)
+            
+            for (o_min_x, o_max_x, o_min_y, o_max_y) in obstacles:
+                if (p_min_x < o_max_x and p_max_x > o_min_x and
+                    p_min_y < o_max_y and p_max_y > o_min_y):
+                    return True
+            return False
+
+        # Identify rendered zones
+        for lm in to_render:
+             if "zone" in lm.shape.lower():
+                 # Generate houses
+                 houses = []
+                 if "rich" in lm.id:
+                     houses = generate_rich_zone(lm.dimensions.width, lm.dimensions.length)
+                 elif "poor" in lm.id:
+                     houses = generate_poor_zone(lm.dimensions.width, lm.dimensions.length)
+                 
+                 zone_w_m = lm.dimensions.width
+                 zone_l_m = lm.dimensions.length
+                 
+                 # Calculate World Top-Left
+                 world_tl_x = lm.abs_x - zone_w_m / 2
+                 world_tl_y = lm.abs_y + zone_l_m / 2 # Max Y
+                 
+                 # Iterate houses
+                 for h in houses:
+                     # Calculate Global Points in Meters
+                     global_points = []
+                     for (hx, hy) in h.points:
+                         wx = world_tl_x + hx
+                         wy = world_tl_y - hy
+                         global_points.append((wx, wy))
+                     
+                     # Collision Check
+                     if check_collision(global_points, obstacles):
+                         continue
+
+                     poly_points = []
+                     for (wx, wy) in global_points:
+                         sx, sy = world_to_svg(wx, wy)
+                         poly_points.append(f"{sx},{sy}")
+                     
+                     points_str = " ".join(poly_points)
+                     
+                     # Styling
+                     fill = "#BCAAA4" # Light Brown
+                     stroke = "none"
+                     if h.category == "RICH_WALL":
+                         fill = "#8D6E63"
+                     elif h.category == "COURTYARD":
+                         fill = "#F5F5F5" # Same as ground
+                         stroke = "#5D4037"
+                         stroke_width = "0.5"
+                     elif h.category == "POOR":
+                         fill = "#A1887F"
+                         stroke = "black"
+                         stroke_width = "0.5"
+                         
+                     svg_lines.append(f'<polygon points="{points_str}" fill="{fill}" stroke="{stroke}" />')
+
         svg_lines.append('</svg>')
         
         with open(output_path, 'w') as f:
@@ -273,6 +365,7 @@ def main():
     parser.add_argument('--all', action='store_true', help="Render all landmarks")
     parser.add_argument('--id', type=str, help="Render specific landmark by ID")
     parser.add_argument('--region', type=str, help="Render landmarks by Region")
+    parser.add_argument('--match', type=str, help="Render landmarks containing string in ID")
     
     # Default output should be relative to where script is run, but let's make it go to outputs/ if CWD is root
     # Ideally, just default='outputs/landmark_map.svg' if running from root.
@@ -293,6 +386,13 @@ def main():
             print(f"Error: Landmark ID '{args.id}' not found.")
             return
         renderer.render(args.output, target_id=args.id)
+    elif args.match:
+        # Custom matching logic
+        to_render = [lm for lm in registry.landmarks.values() if args.match in lm.id]
+        if not to_render:
+            print(f"No landmarks matched '{args.match}'")
+            return
+        renderer.render(args.output, custom_list=to_render)
     elif args.region:
         renderer.render(args.output, region=args.region)
     else:

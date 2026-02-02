@@ -70,6 +70,7 @@ landmarks:
     location:
       relative_to: "citadel_great_bath"
       direction: "WEST"
+      offset_x: 30 # Reduced distance to separate from West Wall (Effective gap 10m)
 
   - id: citadel_college
     name: "College of Priests"
@@ -85,7 +86,7 @@ landmarks:
     location:
       relative_to: "citadel_great_bath"
       direction: "EAST"
-      offset_x: 10 # Reduced gap and Bath moved West to fit within walls
+      offset_x: 5 # Reduced gap to 5m to pull College West (away from East Wall)
 
   - id: citadel_stupa
     name: "Buddhist Stupa"
@@ -98,7 +99,7 @@ landmarks:
     location:
       relative_to: "citadel_great_bath"
       direction: "EAST" # In reality it's on top of the mound, often associated with the highest point.
-      offset_x: 60 # Reduced from 70 to fit within walls
+      offset_x: 50 # Reduced from 60 to separate from East Wall
 
   - id: citadel_assembly_hall
     name: "Pillared Hall (L Area)"
@@ -121,8 +122,8 @@ landmarks:
     region: "Citadel"
     description: "Unique elliptical well in the SD Area."
     dimensions_m:
-      width: 2.5
-      length: 1.8
+      width: 4.5 # Increased from 2.5
+      length: 3.0 # Increased from 1.8
     height_m: 0 # ground level
     shape: "OVAL"
     location:

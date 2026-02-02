@@ -173,7 +173,7 @@ def generate_citadel_interior(registry: LandmarkRegistry) -> list[ProceduralFeat
     random.seed(42) # Deterministic seed
     
     # Grid of potential blocks
-    block_size = 12.0
+    block_size = 15.0 # Updated to 15m to match test sample
     street_width = 4.0
     step = block_size + street_width
     

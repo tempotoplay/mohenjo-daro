@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw
 import random
 
 # Constants
-SCALE_RATIO = 5533  # 1:5533
+SCALE_RATIO = 4000  # 1:4000 (Updated from 5533)
 DPI = 600           # High resolution for small details
 CM_TO_INCH = 1 / 2.54
 SAMPLE_W_CM = 8     # 8cm Width

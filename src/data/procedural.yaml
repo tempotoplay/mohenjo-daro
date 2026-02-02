@@ -651,8 +651,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -77.5
-    y: -165.0
+    x: -76.0
+    y: -163.5
   id: cit_bldg_0_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -660,8 +660,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -69.5
-    y: -165.0
+    x: -68.0
+    y: -163.5
   id: cit_bldg_0_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -669,8 +669,8 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -73.5
-    y: -161.0
+    x: -72.0
+    y: -159.5
   id: cit_bldg_0_u_2
   parent_id: citadel_walls
   shape: RECT
@@ -678,8 +678,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -77.5
-    y: -149.0
+    x: -76.0
+    y: -144.5
   id: cit_bldg_1_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -687,8 +687,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -69.5
-    y: -149.0
+    x: -68.0
+    y: -144.5
   id: cit_bldg_1_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -696,17 +696,17 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -73.5
-    y: -153.0
+    x: -72.0
+    y: -148.5
   id: cit_bldg_1_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -73.5
-    y: -133.0
+    h: 15.0
+    w: 15.0
+    x: -72.0
+    y: -125.5
   id: cit_bldg_2_main
   parent_id: citadel_walls
   shape: RECT
@@ -714,8 +714,8 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -73.5
-    y: -133.0
+    x: -72.0
+    y: -125.5
   id: cit_bldg_2_court
   parent_id: citadel_walls
   shape: RECT
@@ -723,8 +723,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -77.5
-    y: -117.0
+    x: -76.0
+    y: -106.5
   id: cit_bldg_3_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -732,8 +732,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -69.5
-    y: -117.0
+    x: -68.0
+    y: -106.5
   id: cit_bldg_3_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -741,17 +741,17 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -73.5
-    y: -113.0
+    x: -72.0
+    y: -102.5
   id: cit_bldg_3_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -73.5
-    y: -101.0
+    h: 15.0
+    w: 15.0
+    x: -72.0
+    y: -87.5
   id: cit_bldg_4_main
   parent_id: citadel_walls
   shape: RECT
@@ -759,35 +759,35 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -73.5
-    y: -101.0
+    x: -72.0
+    y: -87.5
   id: cit_bldg_4_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block Solid
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -73.5
-    y: -85.0
+    h: 15.0
+    w: 15.0
+    x: -72.0
+    y: -68.5
   id: cit_bldg_5
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block Solid
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -73.5
-    y: -69.0
+    h: 15.0
+    w: 15.0
+    x: -72.0
+    y: -49.5
   id: cit_bldg_6
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -73.5
-    y: -53.0
+    h: 15.0
+    w: 15.0
+    x: -72.0
+    y: 45.5
   id: cit_bldg_7_main
   parent_id: citadel_walls
   shape: RECT
@@ -795,8 +795,8 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -73.5
-    y: -53.0
+    x: -72.0
+    y: 45.5
   id: cit_bldg_7_court
   parent_id: citadel_walls
   shape: RECT
@@ -804,8 +804,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -77.5
-    y: -37.0
+    x: -76.0
+    y: 64.5
   id: cit_bldg_8_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -813,8 +813,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -69.5
-    y: -37.0
+    x: -68.0
+    y: 64.5
   id: cit_bldg_8_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -822,8 +822,8 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -73.5
-    y: -41.0
+    x: -72.0
+    y: 60.5
   id: cit_bldg_8_u_2
   parent_id: citadel_walls
   shape: RECT
@@ -831,8 +831,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -73.5
-    y: 39.0
+    x: -72.0
+    y: 79.5
   id: cit_bldg_9_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -840,8 +840,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -73.5
-    y: 47.0
+    x: -72.0
+    y: 87.5
   id: cit_bldg_9_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -849,17 +849,17 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -69.5
-    y: 43.0
+    x: -68.0
+    y: 83.5
   id: cit_bldg_9_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -73.5
-    y: 59.0
+    h: 15.0
+    w: 15.0
+    x: -72.0
+    y: 102.5
   id: cit_bldg_10_main
   parent_id: citadel_walls
   shape: RECT
@@ -867,17 +867,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -73.5
-    y: 59.0
+    x: -72.0
+    y: 102.5
   id: cit_bldg_10_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -73.5
-    y: 75.0
+    h: 15.0
+    w: 15.0
+    x: -72.0
+    y: 121.5
   id: cit_bldg_11_main
   parent_id: citadel_walls
   shape: RECT
@@ -885,8 +885,8 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -73.5
-    y: 75.0
+    x: -72.0
+    y: 121.5
   id: cit_bldg_11_court
   parent_id: citadel_walls
   shape: RECT
@@ -894,8 +894,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -77.5
-    y: 91.0
+    x: -76.0
+    y: 140.5
   id: cit_bldg_12_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -903,8 +903,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -69.5
-    y: 91.0
+    x: -68.0
+    y: 140.5
   id: cit_bldg_12_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -912,8 +912,8 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -73.5
-    y: 95.0
+    x: -72.0
+    y: 144.5
   id: cit_bldg_12_u_2
   parent_id: citadel_walls
   shape: RECT
@@ -921,8 +921,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -77.5
-    y: 107.0
+    x: -76.0
+    y: 159.5
   id: cit_bldg_13_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -930,8 +930,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -69.5
-    y: 107.0
+    x: -68.0
+    y: 159.5
   id: cit_bldg_13_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -939,8 +939,8 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -73.5
-    y: 103.0
+    x: -72.0
+    y: 155.5
   id: cit_bldg_13_u_2
   parent_id: citadel_walls
   shape: RECT
@@ -948,8 +948,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -73.5
-    y: 119.0
+    x: -53.0
+    y: -167.5
   id: cit_bldg_14_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -957,8 +957,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -73.5
-    y: 127.0
+    x: -53.0
+    y: -159.5
   id: cit_bldg_14_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -966,17 +966,17 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -77.5
-    y: 123.0
+    x: -57.0
+    y: -163.5
   id: cit_bldg_14_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -73.5
-    y: 139.0
+    h: 15.0
+    w: 15.0
+    x: -53.0
+    y: -144.5
   id: cit_bldg_15_main
   parent_id: citadel_walls
   shape: RECT
@@ -984,17 +984,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -73.5
-    y: 139.0
+    x: -53.0
+    y: -144.5
   id: cit_bldg_15_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -73.5
-    y: 155.0
+    h: 15.0
+    w: 15.0
+    x: -53.0
+    y: -125.5
   id: cit_bldg_16_main
   parent_id: citadel_walls
   shape: RECT
@@ -1002,8 +1002,8 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -73.5
-    y: 155.0
+    x: -53.0
+    y: -125.5
   id: cit_bldg_16_court
   parent_id: citadel_walls
   shape: RECT
@@ -1011,8 +1011,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -61.5
-    y: -165.0
+    x: -57.0
+    y: -106.5
   id: cit_bldg_17_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1020,8 +1020,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -53.5
-    y: -165.0
+    x: -49.0
+    y: -106.5
   id: cit_bldg_17_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1029,26 +1029,26 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -57.5
-    y: -161.0
+    x: -53.0
+    y: -102.5
   id: cit_bldg_17_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block Solid
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -57.5
-    y: -149.0
+    h: 15.0
+    w: 15.0
+    x: -53.0
+    y: -87.5
   id: cit_bldg_18
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block Solid
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -57.5
-    y: -133.0
+    h: 15.0
+    w: 15.0
+    x: -53.0
+    y: -68.5
   id: cit_bldg_19
   parent_id: citadel_walls
   shape: RECT
@@ -1056,8 +1056,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -57.5
-    y: -121.0
+    x: -53.0
+    y: -53.5
   id: cit_bldg_20_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1065,8 +1065,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -57.5
-    y: -113.0
+    x: -53.0
+    y: -45.5
   id: cit_bldg_20_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1074,8 +1074,8 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -61.5
-    y: -117.0
+    x: -57.0
+    y: -49.5
   id: cit_bldg_20_u_2
   parent_id: citadel_walls
   shape: RECT
@@ -1083,8 +1083,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -57.5
-    y: -105.0
+    x: -53.0
+    y: 41.5
   id: cit_bldg_21_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1092,8 +1092,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -57.5
-    y: -97.0
+    x: -53.0
+    y: 49.5
   id: cit_bldg_21_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1101,17 +1101,17 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -53.5
-    y: -101.0
+    x: -49.0
+    y: 45.5
   id: cit_bldg_21_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -57.5
-    y: -85.0
+    h: 15.0
+    w: 15.0
+    x: -53.0
+    y: 64.5
   id: cit_bldg_22_main
   parent_id: citadel_walls
   shape: RECT
@@ -1119,8 +1119,8 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -57.5
-    y: -85.0
+    x: -53.0
+    y: 64.5
   id: cit_bldg_22_court
   parent_id: citadel_walls
   shape: RECT
@@ -1128,8 +1128,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -57.5
-    y: -73.0
+    x: -53.0
+    y: 79.5
   id: cit_bldg_23_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1137,8 +1137,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -57.5
-    y: -65.0
+    x: -53.0
+    y: 87.5
   id: cit_bldg_23_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1146,26 +1146,26 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -53.5
-    y: -69.0
+    x: -49.0
+    y: 83.5
   id: cit_bldg_23_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block Solid
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -57.5
-    y: -53.0
+    h: 15.0
+    w: 15.0
+    x: -53.0
+    y: 102.5
   id: cit_bldg_24
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -57.5
-    y: -37.0
+    h: 15.0
+    w: 15.0
+    x: -53.0
+    y: 121.5
   id: cit_bldg_25_main
   parent_id: citadel_walls
   shape: RECT
@@ -1173,8 +1173,8 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -57.5
-    y: -37.0
+    x: -53.0
+    y: 121.5
   id: cit_bldg_25_court
   parent_id: citadel_walls
   shape: RECT
@@ -1182,8 +1182,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -57.5
-    y: 39.0
+    x: -53.0
+    y: 136.5
   id: cit_bldg_26_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1191,8 +1191,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -57.5
-    y: 47.0
+    x: -53.0
+    y: 144.5
   id: cit_bldg_26_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1200,17 +1200,17 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -61.5
-    y: 43.0
+    x: -57.0
+    y: 140.5
   id: cit_bldg_26_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -57.5
-    y: 59.0
+    h: 15.0
+    w: 15.0
+    x: -53.0
+    y: 159.5
   id: cit_bldg_27_main
   parent_id: citadel_walls
   shape: RECT
@@ -1218,8 +1218,8 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -57.5
-    y: 59.0
+    x: -53.0
+    y: 159.5
   id: cit_bldg_27_court
   parent_id: citadel_walls
   shape: RECT
@@ -1227,8 +1227,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -61.5
-    y: 75.0
+    x: -38.0
+    y: -163.5
   id: cit_bldg_28_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1236,8 +1236,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -53.5
-    y: 75.0
+    x: -30.0
+    y: -163.5
   id: cit_bldg_28_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1245,8 +1245,8 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -57.5
-    y: 79.0
+    x: -34.0
+    y: -159.5
   id: cit_bldg_28_u_2
   parent_id: citadel_walls
   shape: RECT
@@ -1254,8 +1254,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -57.5
-    y: 87.0
+    x: -34.0
+    y: -148.5
   id: cit_bldg_29_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1263,8 +1263,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -57.5
-    y: 95.0
+    x: -34.0
+    y: -140.5
   id: cit_bldg_29_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1272,8 +1272,8 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -61.5
-    y: 91.0
+    x: -38.0
+    y: -144.5
   id: cit_bldg_29_u_2
   parent_id: citadel_walls
   shape: RECT
@@ -1281,8 +1281,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -61.5
-    y: 107.0
+    x: -38.0
+    y: -125.5
   id: cit_bldg_30_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1290,8 +1290,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -53.5
-    y: 107.0
+    x: -30.0
+    y: -125.5
   id: cit_bldg_30_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1299,8 +1299,8 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -57.5
-    y: 103.0
+    x: -34.0
+    y: -129.5
   id: cit_bldg_30_u_2
   parent_id: citadel_walls
   shape: RECT
@@ -1308,8 +1308,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -57.5
-    y: 119.0
+    x: -34.0
+    y: -110.5
   id: cit_bldg_31_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1317,8 +1317,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -57.5
-    y: 127.0
+    x: -34.0
+    y: -102.5
   id: cit_bldg_31_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1326,17 +1326,17 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -53.5
-    y: 123.0
+    x: -30.0
+    y: -106.5
   id: cit_bldg_31_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -57.5
-    y: 139.0
+    h: 15.0
+    w: 15.0
+    x: -34.0
+    y: -87.5
   id: cit_bldg_32_main
   parent_id: citadel_walls
   shape: RECT
@@ -1344,8 +1344,8 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -57.5
-    y: 139.0
+    x: -34.0
+    y: -87.5
   id: cit_bldg_32_court
   parent_id: citadel_walls
   shape: RECT
@@ -1353,8 +1353,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -57.5
-    y: 151.0
+    x: -34.0
+    y: -72.5
   id: cit_bldg_33_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1362,8 +1362,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -57.5
-    y: 159.0
+    x: -34.0
+    y: -64.5
   id: cit_bldg_33_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1371,26 +1371,26 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -61.5
-    y: 155.0
+    x: -38.0
+    y: -68.5
   id: cit_bldg_33_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block Solid
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -41.5
-    y: -165.0
+    h: 15.0
+    w: 15.0
+    x: -34.0
+    y: -49.5
   id: cit_bldg_34
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -41.5
-    y: -149.0
+    h: 15.0
+    w: 15.0
+    x: -34.0
+    y: 45.5
   id: cit_bldg_35_main
   parent_id: citadel_walls
   shape: RECT
@@ -1398,8 +1398,8 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -41.5
-    y: -149.0
+    x: -34.0
+    y: 45.5
   id: cit_bldg_35_court
   parent_id: citadel_walls
   shape: RECT
@@ -1407,8 +1407,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -45.5
-    y: -133.0
+    x: -38.0
+    y: 64.5
   id: cit_bldg_36_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1416,8 +1416,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -37.5
-    y: -133.0
+    x: -30.0
+    y: 64.5
   id: cit_bldg_36_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1425,8 +1425,8 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -41.5
-    y: -129.0
+    x: -34.0
+    y: 68.5
   id: cit_bldg_36_u_2
   parent_id: citadel_walls
   shape: RECT
@@ -1434,8 +1434,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -45.5
-    y: -117.0
+    x: -38.0
+    y: 83.5
   id: cit_bldg_37_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1443,8 +1443,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -37.5
-    y: -117.0
+    x: -30.0
+    y: 83.5
   id: cit_bldg_37_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1452,17 +1452,17 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -41.5
-    y: -121.0
+    x: -34.0
+    y: 79.5
   id: cit_bldg_37_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -41.5
-    y: -101.0
+    h: 15.0
+    w: 15.0
+    x: -34.0
+    y: 102.5
   id: cit_bldg_38_main
   parent_id: citadel_walls
   shape: RECT
@@ -1470,17 +1470,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -41.5
-    y: -101.0
+    x: -34.0
+    y: 102.5
   id: cit_bldg_38_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -41.5
-    y: -85.0
+    h: 15.0
+    w: 15.0
+    x: -34.0
+    y: 121.5
   id: cit_bldg_39_main
   parent_id: citadel_walls
   shape: RECT
@@ -1488,17 +1488,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -41.5
-    y: -85.0
+    x: -34.0
+    y: 121.5
   id: cit_bldg_39_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -41.5
-    y: -69.0
+    h: 15.0
+    w: 15.0
+    x: -34.0
+    y: 140.5
   id: cit_bldg_40_main
   parent_id: citadel_walls
   shape: RECT
@@ -1506,17 +1506,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -41.5
-    y: -69.0
+    x: -34.0
+    y: 140.5
   id: cit_bldg_40_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -41.5
-    y: -53.0
+    h: 15.0
+    w: 15.0
+    x: -34.0
+    y: 159.5
   id: cit_bldg_41_main
   parent_id: citadel_walls
   shape: RECT
@@ -1524,8 +1524,8 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -41.5
-    y: -53.0
+    x: -34.0
+    y: 159.5
   id: cit_bldg_41_court
   parent_id: citadel_walls
   shape: RECT
@@ -1533,8 +1533,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -45.5
-    y: -37.0
+    x: -19.0
+    y: -125.5
   id: cit_bldg_42_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1542,8 +1542,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -37.5
-    y: -37.0
+    x: -11.0
+    y: -125.5
   id: cit_bldg_42_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1551,8 +1551,8 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -41.5
-    y: -41.0
+    x: -15.0
+    y: -129.5
   id: cit_bldg_42_u_2
   parent_id: citadel_walls
   shape: RECT
@@ -1560,8 +1560,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -45.5
-    y: 43.0
+    x: -19.0
+    y: -106.5
   id: cit_bldg_43_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1569,8 +1569,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -37.5
-    y: 43.0
+    x: -11.0
+    y: -106.5
   id: cit_bldg_43_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1578,17 +1578,17 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -41.5
-    y: 47.0
+    x: -15.0
+    y: -102.5
   id: cit_bldg_43_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -41.5
-    y: 59.0
+    h: 15.0
+    w: 15.0
+    x: -15.0
+    y: -87.5
   id: cit_bldg_44_main
   parent_id: citadel_walls
   shape: RECT
@@ -1596,26 +1596,26 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -41.5
-    y: 59.0
+    x: -15.0
+    y: -87.5
   id: cit_bldg_44_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block Solid
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -41.5
-    y: 75.0
+    h: 15.0
+    w: 15.0
+    x: -15.0
+    y: -68.5
   id: cit_bldg_45
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -41.5
-    y: 91.0
+    h: 15.0
+    w: 15.0
+    x: -15.0
+    y: -49.5
   id: cit_bldg_46_main
   parent_id: citadel_walls
   shape: RECT
@@ -1623,17 +1623,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -41.5
-    y: 91.0
+    x: -15.0
+    y: -49.5
   id: cit_bldg_46_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -41.5
-    y: 107.0
+    h: 15.0
+    w: 15.0
+    x: -15.0
+    y: 45.5
   id: cit_bldg_47_main
   parent_id: citadel_walls
   shape: RECT
@@ -1641,17 +1641,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -41.5
-    y: 107.0
+    x: -15.0
+    y: 45.5
   id: cit_bldg_47_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -41.5
-    y: 123.0
+    h: 15.0
+    w: 15.0
+    x: -15.0
+    y: 64.5
   id: cit_bldg_48_main
   parent_id: citadel_walls
   shape: RECT
@@ -1659,8 +1659,8 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -41.5
-    y: 123.0
+    x: -15.0
+    y: 64.5
   id: cit_bldg_48_court
   parent_id: citadel_walls
   shape: RECT
@@ -1668,8 +1668,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -41.5
-    y: 135.0
+    x: -15.0
+    y: 79.5
   id: cit_bldg_49_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1677,8 +1677,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -41.5
-    y: 143.0
+    x: -15.0
+    y: 87.5
   id: cit_bldg_49_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1686,17 +1686,17 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -45.5
-    y: 139.0
+    x: -19.0
+    y: 83.5
   id: cit_bldg_49_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -41.5
-    y: 155.0
+    h: 15.0
+    w: 15.0
+    x: -15.0
+    y: 102.5
   id: cit_bldg_50_main
   parent_id: citadel_walls
   shape: RECT
@@ -1704,17 +1704,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -41.5
-    y: 155.0
+    x: -15.0
+    y: 102.5
   id: cit_bldg_50_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -25.5
-    y: -133.0
+    h: 15.0
+    w: 15.0
+    x: -15.0
+    y: 121.5
   id: cit_bldg_51_main
   parent_id: citadel_walls
   shape: RECT
@@ -1722,8 +1722,8 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -25.5
-    y: -133.0
+    x: -15.0
+    y: 121.5
   id: cit_bldg_51_court
   parent_id: citadel_walls
   shape: RECT
@@ -1731,8 +1731,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -25.5
-    y: -121.0
+    x: -15.0
+    y: 136.5
   id: cit_bldg_52_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1740,8 +1740,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -25.5
-    y: -113.0
+    x: -15.0
+    y: 144.5
   id: cit_bldg_52_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1749,26 +1749,26 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -21.5
-    y: -117.0
+    x: -11.0
+    y: 140.5
   id: cit_bldg_52_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block Solid
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -25.5
-    y: -101.0
+    h: 15.0
+    w: 15.0
+    x: -15.0
+    y: 159.5
   id: cit_bldg_53
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block Solid
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -25.5
-    y: -85.0
+    h: 15.0
+    w: 15.0
+    x: 4.0
+    y: -125.5
   id: cit_bldg_54
   parent_id: citadel_walls
   shape: RECT
@@ -1776,8 +1776,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -25.5
-    y: -73.0
+    x: 4.0
+    y: -110.5
   id: cit_bldg_55_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1785,8 +1785,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -25.5
-    y: -65.0
+    x: 4.0
+    y: -102.5
   id: cit_bldg_55_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1794,8 +1794,8 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -29.5
-    y: -69.0
+    x: 0.0
+    y: -106.5
   id: cit_bldg_55_u_2
   parent_id: citadel_walls
   shape: RECT
@@ -1803,8 +1803,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -25.5
-    y: -57.0
+    x: 4.0
+    y: -91.5
   id: cit_bldg_56_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1812,8 +1812,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -25.5
-    y: -49.0
+    x: 4.0
+    y: -83.5
   id: cit_bldg_56_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1821,8 +1821,8 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -21.5
-    y: -53.0
+    x: 8.0
+    y: -87.5
   id: cit_bldg_56_u_2
   parent_id: citadel_walls
   shape: RECT
@@ -1830,8 +1830,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -25.5
-    y: 39.0
+    x: 4.0
+    y: -72.5
   id: cit_bldg_57_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1839,8 +1839,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -25.5
-    y: 47.0
+    x: 4.0
+    y: -64.5
   id: cit_bldg_57_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1848,17 +1848,17 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -21.5
-    y: 43.0
+    x: 8.0
+    y: -68.5
   id: cit_bldg_57_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -25.5
-    y: 59.0
+    h: 15.0
+    w: 15.0
+    x: 4.0
+    y: -49.5
   id: cit_bldg_58_main
   parent_id: citadel_walls
   shape: RECT
@@ -1866,8 +1866,8 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -25.5
-    y: 59.0
+    x: 4.0
+    y: -49.5
   id: cit_bldg_58_court
   parent_id: citadel_walls
   shape: RECT
@@ -1875,8 +1875,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -29.5
-    y: 75.0
+    x: 0.0
+    y: 45.5
   id: cit_bldg_59_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1884,8 +1884,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -21.5
-    y: 75.0
+    x: 8.0
+    y: 45.5
   id: cit_bldg_59_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1893,17 +1893,17 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -25.5
-    y: 71.0
+    x: 4.0
+    y: 41.5
   id: cit_bldg_59_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -25.5
-    y: 91.0
+    h: 15.0
+    w: 15.0
+    x: 4.0
+    y: 64.5
   id: cit_bldg_60_main
   parent_id: citadel_walls
   shape: RECT
@@ -1911,35 +1911,35 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -25.5
-    y: 91.0
+    x: 4.0
+    y: 64.5
   id: cit_bldg_60_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block Solid
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -25.5
-    y: 107.0
+    h: 15.0
+    w: 15.0
+    x: 4.0
+    y: 83.5
   id: cit_bldg_61
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block Solid
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -25.5
-    y: 123.0
+    h: 15.0
+    w: 15.0
+    x: 4.0
+    y: 102.5
   id: cit_bldg_62
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block Solid
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -25.5
-    y: 139.0
+    h: 15.0
+    w: 15.0
+    x: 4.0
+    y: 121.5
   id: cit_bldg_63
   parent_id: citadel_walls
   shape: RECT
@@ -1947,8 +1947,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -25.5
-    y: 151.0
+    x: 4.0
+    y: 136.5
   id: cit_bldg_64_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -1956,8 +1956,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -25.5
-    y: 159.0
+    x: 4.0
+    y: 144.5
   id: cit_bldg_64_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -1965,17 +1965,17 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -21.5
-    y: 155.0
+    x: 8.0
+    y: 140.5
   id: cit_bldg_64_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -9.5
-    y: -133.0
+    h: 15.0
+    w: 15.0
+    x: 4.0
+    y: 159.5
   id: cit_bldg_65_main
   parent_id: citadel_walls
   shape: RECT
@@ -1983,17 +1983,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -9.5
-    y: -133.0
+    x: 4.0
+    y: 159.5
   id: cit_bldg_65_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -9.5
-    y: -117.0
+    h: 15.0
+    w: 15.0
+    x: 23.0
+    y: -163.5
   id: cit_bldg_66_main
   parent_id: citadel_walls
   shape: RECT
@@ -2001,17 +2001,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -9.5
-    y: -117.0
+    x: 23.0
+    y: -163.5
   id: cit_bldg_66_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -9.5
-    y: -101.0
+    h: 15.0
+    w: 15.0
+    x: 23.0
+    y: -144.5
   id: cit_bldg_67_main
   parent_id: citadel_walls
   shape: RECT
@@ -2019,17 +2019,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -9.5
-    y: -101.0
+    x: 23.0
+    y: -144.5
   id: cit_bldg_67_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -9.5
-    y: -85.0
+    h: 15.0
+    w: 15.0
+    x: 23.0
+    y: -125.5
   id: cit_bldg_68_main
   parent_id: citadel_walls
   shape: RECT
@@ -2037,17 +2037,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -9.5
-    y: -85.0
+    x: 23.0
+    y: -125.5
   id: cit_bldg_68_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -9.5
-    y: -69.0
+    h: 15.0
+    w: 15.0
+    x: 23.0
+    y: -106.5
   id: cit_bldg_69_main
   parent_id: citadel_walls
   shape: RECT
@@ -2055,17 +2055,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -9.5
-    y: -69.0
+    x: 23.0
+    y: -106.5
   id: cit_bldg_69_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -9.5
-    y: -53.0
+    h: 15.0
+    w: 15.0
+    x: 23.0
+    y: -87.5
   id: cit_bldg_70_main
   parent_id: citadel_walls
   shape: RECT
@@ -2073,8 +2073,8 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -9.5
-    y: -53.0
+    x: 23.0
+    y: -87.5
   id: cit_bldg_70_court
   parent_id: citadel_walls
   shape: RECT
@@ -2082,8 +2082,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -13.5
-    y: 43.0
+    x: 19.0
+    y: -68.5
   id: cit_bldg_71_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -2091,8 +2091,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -5.5
-    y: 43.0
+    x: 27.0
+    y: -68.5
   id: cit_bldg_71_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -2100,8 +2100,8 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -9.5
-    y: 47.0
+    x: 23.0
+    y: -64.5
   id: cit_bldg_71_u_2
   parent_id: citadel_walls
   shape: RECT
@@ -2109,8 +2109,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -9.5
-    y: 55.0
+    x: 23.0
+    y: -53.5
   id: cit_bldg_72_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -2118,8 +2118,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -9.5
-    y: 63.0
+    x: 23.0
+    y: -45.5
   id: cit_bldg_72_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -2127,8 +2127,8 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -13.5
-    y: 59.0
+    x: 19.0
+    y: -49.5
   id: cit_bldg_72_u_2
   parent_id: citadel_walls
   shape: RECT
@@ -2136,8 +2136,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -9.5
-    y: 71.0
+    x: 23.0
+    y: -34.5
   id: cit_bldg_73_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -2145,8 +2145,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -9.5
-    y: 79.0
+    x: 23.0
+    y: -26.5
   id: cit_bldg_73_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -2154,26 +2154,26 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -13.5
-    y: 75.0
+    x: 19.0
+    y: -30.5
   id: cit_bldg_73_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block Solid
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -9.5
-    y: 91.0
+    h: 15.0
+    w: 15.0
+    x: 23.0
+    y: 45.5
   id: cit_bldg_74
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -9.5
-    y: 107.0
+    h: 15.0
+    w: 15.0
+    x: 23.0
+    y: 64.5
   id: cit_bldg_75_main
   parent_id: citadel_walls
   shape: RECT
@@ -2181,17 +2181,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -9.5
-    y: 107.0
+    x: 23.0
+    y: 64.5
   id: cit_bldg_75_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: -9.5
-    y: 123.0
+    h: 15.0
+    w: 15.0
+    x: 23.0
+    y: 83.5
   id: cit_bldg_76_main
   parent_id: citadel_walls
   shape: RECT
@@ -2199,8 +2199,8 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: -9.5
-    y: 123.0
+    x: 23.0
+    y: 83.5
   id: cit_bldg_76_court
   parent_id: citadel_walls
   shape: RECT
@@ -2208,8 +2208,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -9.5
-    y: 135.0
+    x: 23.0
+    y: 98.5
   id: cit_bldg_77_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -2217,8 +2217,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: -9.5
-    y: 143.0
+    x: 23.0
+    y: 106.5
   id: cit_bldg_77_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -2226,8 +2226,8 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -13.5
-    y: 139.0
+    x: 19.0
+    y: 102.5
   id: cit_bldg_77_u_2
   parent_id: citadel_walls
   shape: RECT
@@ -2235,8 +2235,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -13.5
-    y: 155.0
+    x: 19.0
+    y: 121.5
   id: cit_bldg_78_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -2244,8 +2244,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: -5.5
-    y: 155.0
+    x: 27.0
+    y: 121.5
   id: cit_bldg_78_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -2253,17 +2253,17 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: -9.5
-    y: 151.0
+    x: 23.0
+    y: 117.5
   id: cit_bldg_78_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 6.5
-    y: -133.0
+    h: 15.0
+    w: 15.0
+    x: 23.0
+    y: 140.5
   id: cit_bldg_79_main
   parent_id: citadel_walls
   shape: RECT
@@ -2271,17 +2271,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: 6.5
-    y: -133.0
+    x: 23.0
+    y: 140.5
   id: cit_bldg_79_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block Solid
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 6.5
-    y: -117.0
+    h: 15.0
+    w: 15.0
+    x: 23.0
+    y: 159.5
   id: cit_bldg_80
   parent_id: citadel_walls
   shape: RECT
@@ -2289,8 +2289,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: 2.5
-    y: -101.0
+    x: 38.0
+    y: -163.5
   id: cit_bldg_81_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -2298,8 +2298,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: 10.5
-    y: -101.0
+    x: 46.0
+    y: -163.5
   id: cit_bldg_81_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -2307,17 +2307,17 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: 6.5
-    y: -105.0
+    x: 42.0
+    y: -167.5
   id: cit_bldg_81_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block Solid
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 6.5
-    y: -85.0
+    h: 15.0
+    w: 15.0
+    x: 42.0
+    y: -144.5
   id: cit_bldg_82
   parent_id: citadel_walls
   shape: RECT
@@ -2325,8 +2325,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: 2.5
-    y: -69.0
+    x: 38.0
+    y: -125.5
   id: cit_bldg_83_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -2334,8 +2334,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: 10.5
-    y: -69.0
+    x: 46.0
+    y: -125.5
   id: cit_bldg_83_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -2343,17 +2343,17 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: 6.5
-    y: -65.0
+    x: 42.0
+    y: -121.5
   id: cit_bldg_83_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 6.5
-    y: -53.0
+    h: 15.0
+    w: 15.0
+    x: 42.0
+    y: -106.5
   id: cit_bldg_84_main
   parent_id: citadel_walls
   shape: RECT
@@ -2361,17 +2361,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: 6.5
-    y: -53.0
+    x: 42.0
+    y: -106.5
   id: cit_bldg_84_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 6.5
-    y: 43.0
+    h: 15.0
+    w: 15.0
+    x: 42.0
+    y: -87.5
   id: cit_bldg_85_main
   parent_id: citadel_walls
   shape: RECT
@@ -2379,26 +2379,26 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: 6.5
-    y: 43.0
+    x: 42.0
+    y: -87.5
   id: cit_bldg_85_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block Solid
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 6.5
-    y: 59.0
+    h: 15.0
+    w: 15.0
+    x: 42.0
+    y: -68.5
   id: cit_bldg_86
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 6.5
-    y: 75.0
+    h: 15.0
+    w: 15.0
+    x: 42.0
+    y: -49.5
   id: cit_bldg_87_main
   parent_id: citadel_walls
   shape: RECT
@@ -2406,8 +2406,8 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: 6.5
-    y: 75.0
+    x: 42.0
+    y: -49.5
   id: cit_bldg_87_court
   parent_id: citadel_walls
   shape: RECT
@@ -2415,8 +2415,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: 6.5
-    y: 87.0
+    x: 42.0
+    y: -34.5
   id: cit_bldg_88_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -2424,8 +2424,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: 6.5
-    y: 95.0
+    x: 42.0
+    y: -26.5
   id: cit_bldg_88_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -2433,17 +2433,17 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: 2.5
-    y: 91.0
+    x: 38.0
+    y: -30.5
   id: cit_bldg_88_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 6.5
-    y: 107.0
+    h: 15.0
+    w: 15.0
+    x: 42.0
+    y: 45.5
   id: cit_bldg_89_main
   parent_id: citadel_walls
   shape: RECT
@@ -2451,17 +2451,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: 6.5
-    y: 107.0
+    x: 42.0
+    y: 45.5
   id: cit_bldg_89_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 6.5
-    y: 123.0
+    h: 15.0
+    w: 15.0
+    x: 42.0
+    y: 64.5
   id: cit_bldg_90_main
   parent_id: citadel_walls
   shape: RECT
@@ -2469,17 +2469,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: 6.5
-    y: 123.0
+    x: 42.0
+    y: 64.5
   id: cit_bldg_90_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 6.5
-    y: 139.0
+    h: 15.0
+    w: 15.0
+    x: 42.0
+    y: 83.5
   id: cit_bldg_91_main
   parent_id: citadel_walls
   shape: RECT
@@ -2487,17 +2487,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: 6.5
-    y: 139.0
+    x: 42.0
+    y: 83.5
   id: cit_bldg_91_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block Solid
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 6.5
-    y: 155.0
+    h: 15.0
+    w: 15.0
+    x: 42.0
+    y: 102.5
   id: cit_bldg_92
   parent_id: citadel_walls
   shape: RECT
@@ -2505,8 +2505,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: 18.5
-    y: -165.0
+    x: 38.0
+    y: 121.5
   id: cit_bldg_93_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -2514,8 +2514,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: 26.5
-    y: -165.0
+    x: 46.0
+    y: 121.5
   id: cit_bldg_93_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -2523,8 +2523,8 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: 22.5
-    y: -161.0
+    x: 42.0
+    y: 125.5
   id: cit_bldg_93_u_2
   parent_id: citadel_walls
   shape: RECT
@@ -2532,8 +2532,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: 18.5
-    y: -149.0
+    x: 38.0
+    y: 140.5
   id: cit_bldg_94_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -2541,8 +2541,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: 26.5
-    y: -149.0
+    x: 46.0
+    y: 140.5
   id: cit_bldg_94_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -2550,26 +2550,26 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: 22.5
-    y: -153.0
+    x: 42.0
+    y: 136.5
   id: cit_bldg_94_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block Solid
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 22.5
-    y: -133.0
+    h: 15.0
+    w: 15.0
+    x: 42.0
+    y: 159.5
   id: cit_bldg_95
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 22.5
-    y: -117.0
+    h: 15.0
+    w: 15.0
+    x: 61.0
+    y: -163.5
   id: cit_bldg_96_main
   parent_id: citadel_walls
   shape: RECT
@@ -2577,17 +2577,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: 22.5
-    y: -117.0
+    x: 61.0
+    y: -163.5
   id: cit_bldg_96_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 22.5
-    y: -101.0
+    h: 15.0
+    w: 15.0
+    x: 61.0
+    y: -144.5
   id: cit_bldg_97_main
   parent_id: citadel_walls
   shape: RECT
@@ -2595,17 +2595,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: 22.5
-    y: -101.0
+    x: 61.0
+    y: -144.5
   id: cit_bldg_97_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 22.5
-    y: -85.0
+    h: 15.0
+    w: 15.0
+    x: 61.0
+    y: -125.5
   id: cit_bldg_98_main
   parent_id: citadel_walls
   shape: RECT
@@ -2613,8 +2613,8 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: 22.5
-    y: -85.0
+    x: 61.0
+    y: -125.5
   id: cit_bldg_98_court
   parent_id: citadel_walls
   shape: RECT
@@ -2622,8 +2622,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: 22.5
-    y: -73.0
+    x: 61.0
+    y: -110.5
   id: cit_bldg_99_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -2631,8 +2631,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: 22.5
-    y: -65.0
+    x: 61.0
+    y: -102.5
   id: cit_bldg_99_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -2640,8 +2640,8 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: 26.5
-    y: -69.0
+    x: 65.0
+    y: -106.5
   id: cit_bldg_99_u_2
   parent_id: citadel_walls
   shape: RECT
@@ -2649,8 +2649,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: 18.5
-    y: -53.0
+    x: 57.0
+    y: -87.5
   id: cit_bldg_100_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -2658,8 +2658,8 @@ features:
   geometry:
     h: 12.0
     w: 4.0
-    x: 26.5
-    y: -53.0
+    x: 65.0
+    y: -87.5
   id: cit_bldg_100_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -2667,8 +2667,8 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: 22.5
-    y: -57.0
+    x: 61.0
+    y: -91.5
   id: cit_bldg_100_u_2
   parent_id: citadel_walls
   shape: RECT
@@ -2676,8 +2676,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: 22.5
-    y: -41.0
+    x: 61.0
+    y: -72.5
   id: cit_bldg_101_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -2685,8 +2685,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: 22.5
-    y: -33.0
+    x: 61.0
+    y: -64.5
   id: cit_bldg_101_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -2694,8 +2694,8 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: 26.5
-    y: -37.0
+    x: 65.0
+    y: -68.5
   id: cit_bldg_101_u_2
   parent_id: citadel_walls
   shape: RECT
@@ -2703,8 +2703,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: 22.5
-    y: 39.0
+    x: 61.0
+    y: -53.5
   id: cit_bldg_102_u_0
   parent_id: citadel_walls
   shape: RECT
@@ -2712,8 +2712,8 @@ features:
   geometry:
     h: 4.0
     w: 12.0
-    x: 22.5
-    y: 47.0
+    x: 61.0
+    y: -45.5
   id: cit_bldg_102_u_1
   parent_id: citadel_walls
   shape: RECT
@@ -2721,17 +2721,17 @@ features:
   geometry:
     h: 4.0
     w: 4.0
-    x: 18.5
-    y: 43.0
+    x: 57.0
+    y: -49.5
   id: cit_bldg_102_u_2
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 22.5
-    y: 59.0
+    h: 15.0
+    w: 15.0
+    x: 61.0
+    y: -30.5
   id: cit_bldg_103_main
   parent_id: citadel_walls
   shape: RECT
@@ -2739,17 +2739,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: 22.5
-    y: 59.0
+    x: 61.0
+    y: -30.5
   id: cit_bldg_103_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 22.5
-    y: 75.0
+    h: 15.0
+    w: 15.0
+    x: 61.0
+    y: 45.5
   id: cit_bldg_104_main
   parent_id: citadel_walls
   shape: RECT
@@ -2757,26 +2757,26 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: 22.5
-    y: 75.0
+    x: 61.0
+    y: 45.5
   id: cit_bldg_104_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block Solid
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 22.5
-    y: 91.0
+    h: 15.0
+    w: 15.0
+    x: 61.0
+    y: 64.5
   id: cit_bldg_105
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 22.5
-    y: 107.0
+    h: 15.0
+    w: 15.0
+    x: 61.0
+    y: 83.5
   id: cit_bldg_106_main
   parent_id: citadel_walls
   shape: RECT
@@ -2784,17 +2784,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: 22.5
-    y: 107.0
+    x: 61.0
+    y: 83.5
   id: cit_bldg_106_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 22.5
-    y: 123.0
+    h: 15.0
+    w: 15.0
+    x: 61.0
+    y: 102.5
   id: cit_bldg_107_main
   parent_id: citadel_walls
   shape: RECT
@@ -2802,17 +2802,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: 22.5
-    y: 123.0
+    x: 61.0
+    y: 102.5
   id: cit_bldg_107_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 22.5
-    y: 139.0
+    h: 15.0
+    w: 15.0
+    x: 61.0
+    y: 121.5
   id: cit_bldg_108_main
   parent_id: citadel_walls
   shape: RECT
@@ -2820,17 +2820,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: 22.5
-    y: 139.0
+    x: 61.0
+    y: 121.5
   id: cit_bldg_108_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 22.5
-    y: 155.0
+    h: 15.0
+    w: 15.0
+    x: 61.0
+    y: 140.5
   id: cit_bldg_109_main
   parent_id: citadel_walls
   shape: RECT
@@ -2838,17 +2838,17 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: 22.5
-    y: 155.0
+    x: 61.0
+    y: 140.5
   id: cit_bldg_109_court
   parent_id: citadel_walls
   shape: RECT
 - description: Citadel Building Block O-Type
   geometry:
-    h: 12.0
-    w: 12.0
-    x: 38.5
-    y: -165.0
+    h: 15.0
+    w: 15.0
+    x: 61.0
+    y: 159.5
   id: cit_bldg_110_main
   parent_id: citadel_walls
   shape: RECT
@@ -2856,935 +2856,8 @@ features:
   geometry:
     h: 5.0
     w: 5.0
-    x: 38.5
-    y: -165.0
+    x: 61.0
+    y: 159.5
   id: cit_bldg_110_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block Solid
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 38.5
-    y: -149.0
-  id: cit_bldg_111
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type S
-  geometry:
-    h: 12.0
-    w: 4.0
-    x: 34.5
-    y: -133.0
-  id: cit_bldg_112_u_0
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type S
-  geometry:
-    h: 12.0
-    w: 4.0
-    x: 42.5
-    y: -133.0
-  id: cit_bldg_112_u_1
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type S
-  geometry:
-    h: 4.0
-    w: 4.0
-    x: 38.5
-    y: -137.0
-  id: cit_bldg_112_u_2
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block Solid
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 38.5
-    y: -117.0
-  id: cit_bldg_113
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block Solid
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 38.5
-    y: -101.0
-  id: cit_bldg_114
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 38.5
-    y: -85.0
-  id: cit_bldg_115_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 38.5
-    y: -85.0
-  id: cit_bldg_115_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 38.5
-    y: -69.0
-  id: cit_bldg_116_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 38.5
-    y: -69.0
-  id: cit_bldg_116_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 38.5
-    y: -53.0
-  id: cit_bldg_117_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 38.5
-    y: -53.0
-  id: cit_bldg_117_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 38.5
-    y: -37.0
-  id: cit_bldg_118_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 38.5
-    y: -37.0
-  id: cit_bldg_118_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 38.5
-    y: 43.0
-  id: cit_bldg_119_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 38.5
-    y: 43.0
-  id: cit_bldg_119_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type W
-  geometry:
-    h: 4.0
-    w: 12.0
-    x: 38.5
-    y: 55.0
-  id: cit_bldg_120_u_0
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type W
-  geometry:
-    h: 4.0
-    w: 12.0
-    x: 38.5
-    y: 63.0
-  id: cit_bldg_120_u_1
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type W
-  geometry:
-    h: 4.0
-    w: 4.0
-    x: 42.5
-    y: 59.0
-  id: cit_bldg_120_u_2
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 38.5
-    y: 75.0
-  id: cit_bldg_121_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 38.5
-    y: 75.0
-  id: cit_bldg_121_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 38.5
-    y: 91.0
-  id: cit_bldg_122_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 38.5
-    y: 91.0
-  id: cit_bldg_122_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 38.5
-    y: 107.0
-  id: cit_bldg_123_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 38.5
-    y: 107.0
-  id: cit_bldg_123_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block Solid
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 38.5
-    y: 123.0
-  id: cit_bldg_124
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type E
-  geometry:
-    h: 4.0
-    w: 12.0
-    x: 38.5
-    y: 135.0
-  id: cit_bldg_125_u_0
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type E
-  geometry:
-    h: 4.0
-    w: 12.0
-    x: 38.5
-    y: 143.0
-  id: cit_bldg_125_u_1
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type E
-  geometry:
-    h: 4.0
-    w: 4.0
-    x: 34.5
-    y: 139.0
-  id: cit_bldg_125_u_2
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 38.5
-    y: 155.0
-  id: cit_bldg_126_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 38.5
-    y: 155.0
-  id: cit_bldg_126_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 54.5
-    y: -165.0
-  id: cit_bldg_127_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 54.5
-    y: -165.0
-  id: cit_bldg_127_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type N
-  geometry:
-    h: 12.0
-    w: 4.0
-    x: 50.5
-    y: -149.0
-  id: cit_bldg_128_u_0
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type N
-  geometry:
-    h: 12.0
-    w: 4.0
-    x: 58.5
-    y: -149.0
-  id: cit_bldg_128_u_1
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type N
-  geometry:
-    h: 4.0
-    w: 4.0
-    x: 54.5
-    y: -145.0
-  id: cit_bldg_128_u_2
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block Solid
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 54.5
-    y: -133.0
-  id: cit_bldg_129
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type N
-  geometry:
-    h: 12.0
-    w: 4.0
-    x: 50.5
-    y: -117.0
-  id: cit_bldg_130_u_0
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type N
-  geometry:
-    h: 12.0
-    w: 4.0
-    x: 58.5
-    y: -117.0
-  id: cit_bldg_130_u_1
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type N
-  geometry:
-    h: 4.0
-    w: 4.0
-    x: 54.5
-    y: -113.0
-  id: cit_bldg_130_u_2
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 54.5
-    y: -101.0
-  id: cit_bldg_131_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 54.5
-    y: -101.0
-  id: cit_bldg_131_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block Solid
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 54.5
-    y: -85.0
-  id: cit_bldg_132
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 54.5
-    y: -69.0
-  id: cit_bldg_133_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 54.5
-    y: -69.0
-  id: cit_bldg_133_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 54.5
-    y: -53.0
-  id: cit_bldg_134_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 54.5
-    y: -53.0
-  id: cit_bldg_134_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 54.5
-    y: -37.0
-  id: cit_bldg_135_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 54.5
-    y: -37.0
-  id: cit_bldg_135_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 54.5
-    y: 43.0
-  id: cit_bldg_136_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 54.5
-    y: 43.0
-  id: cit_bldg_136_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type W
-  geometry:
-    h: 4.0
-    w: 12.0
-    x: 54.5
-    y: 55.0
-  id: cit_bldg_137_u_0
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type W
-  geometry:
-    h: 4.0
-    w: 12.0
-    x: 54.5
-    y: 63.0
-  id: cit_bldg_137_u_1
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type W
-  geometry:
-    h: 4.0
-    w: 4.0
-    x: 58.5
-    y: 59.0
-  id: cit_bldg_137_u_2
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type N
-  geometry:
-    h: 12.0
-    w: 4.0
-    x: 50.5
-    y: 75.0
-  id: cit_bldg_138_u_0
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type N
-  geometry:
-    h: 12.0
-    w: 4.0
-    x: 58.5
-    y: 75.0
-  id: cit_bldg_138_u_1
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type N
-  geometry:
-    h: 4.0
-    w: 4.0
-    x: 54.5
-    y: 79.0
-  id: cit_bldg_138_u_2
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block Solid
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 54.5
-    y: 91.0
-  id: cit_bldg_139
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type N
-  geometry:
-    h: 12.0
-    w: 4.0
-    x: 50.5
-    y: 107.0
-  id: cit_bldg_140_u_0
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type N
-  geometry:
-    h: 12.0
-    w: 4.0
-    x: 58.5
-    y: 107.0
-  id: cit_bldg_140_u_1
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type N
-  geometry:
-    h: 4.0
-    w: 4.0
-    x: 54.5
-    y: 111.0
-  id: cit_bldg_140_u_2
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type S
-  geometry:
-    h: 12.0
-    w: 4.0
-    x: 50.5
-    y: 123.0
-  id: cit_bldg_141_u_0
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type S
-  geometry:
-    h: 12.0
-    w: 4.0
-    x: 58.5
-    y: 123.0
-  id: cit_bldg_141_u_1
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type S
-  geometry:
-    h: 4.0
-    w: 4.0
-    x: 54.5
-    y: 119.0
-  id: cit_bldg_141_u_2
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block Solid
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 54.5
-    y: 139.0
-  id: cit_bldg_142
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 54.5
-    y: 155.0
-  id: cit_bldg_143_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 54.5
-    y: 155.0
-  id: cit_bldg_143_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 70.5
-    y: -165.0
-  id: cit_bldg_144_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 70.5
-    y: -165.0
-  id: cit_bldg_144_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 70.5
-    y: -149.0
-  id: cit_bldg_145_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 70.5
-    y: -149.0
-  id: cit_bldg_145_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block Solid
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 70.5
-    y: -133.0
-  id: cit_bldg_146
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 70.5
-    y: -117.0
-  id: cit_bldg_147_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 70.5
-    y: -117.0
-  id: cit_bldg_147_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type E
-  geometry:
-    h: 4.0
-    w: 12.0
-    x: 70.5
-    y: -105.0
-  id: cit_bldg_148_u_0
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type E
-  geometry:
-    h: 4.0
-    w: 12.0
-    x: 70.5
-    y: -97.0
-  id: cit_bldg_148_u_1
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type E
-  geometry:
-    h: 4.0
-    w: 4.0
-    x: 66.5
-    y: -101.0
-  id: cit_bldg_148_u_2
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type W
-  geometry:
-    h: 4.0
-    w: 12.0
-    x: 70.5
-    y: -89.0
-  id: cit_bldg_149_u_0
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type W
-  geometry:
-    h: 4.0
-    w: 12.0
-    x: 70.5
-    y: -81.0
-  id: cit_bldg_149_u_1
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type W
-  geometry:
-    h: 4.0
-    w: 4.0
-    x: 74.5
-    y: -85.0
-  id: cit_bldg_149_u_2
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 70.5
-    y: -69.0
-  id: cit_bldg_150_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 70.5
-    y: -69.0
-  id: cit_bldg_150_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type W
-  geometry:
-    h: 4.0
-    w: 12.0
-    x: 70.5
-    y: -57.0
-  id: cit_bldg_151_u_0
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type W
-  geometry:
-    h: 4.0
-    w: 12.0
-    x: 70.5
-    y: -49.0
-  id: cit_bldg_151_u_1
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type W
-  geometry:
-    h: 4.0
-    w: 4.0
-    x: 74.5
-    y: -53.0
-  id: cit_bldg_151_u_2
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block Solid
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 70.5
-    y: -37.0
-  id: cit_bldg_152
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 70.5
-    y: 43.0
-  id: cit_bldg_153_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 70.5
-    y: 43.0
-  id: cit_bldg_153_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type N
-  geometry:
-    h: 12.0
-    w: 4.0
-    x: 66.5
-    y: 59.0
-  id: cit_bldg_154_u_0
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type N
-  geometry:
-    h: 12.0
-    w: 4.0
-    x: 74.5
-    y: 59.0
-  id: cit_bldg_154_u_1
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type N
-  geometry:
-    h: 4.0
-    w: 4.0
-    x: 70.5
-    y: 63.0
-  id: cit_bldg_154_u_2
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type N
-  geometry:
-    h: 12.0
-    w: 4.0
-    x: 66.5
-    y: 75.0
-  id: cit_bldg_155_u_0
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type N
-  geometry:
-    h: 12.0
-    w: 4.0
-    x: 74.5
-    y: 75.0
-  id: cit_bldg_155_u_1
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type N
-  geometry:
-    h: 4.0
-    w: 4.0
-    x: 70.5
-    y: 79.0
-  id: cit_bldg_155_u_2
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block Solid
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 70.5
-    y: 91.0
-  id: cit_bldg_156
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 70.5
-    y: 107.0
-  id: cit_bldg_157_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 70.5
-    y: 107.0
-  id: cit_bldg_157_court
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type S
-  geometry:
-    h: 12.0
-    w: 4.0
-    x: 66.5
-    y: 123.0
-  id: cit_bldg_158_u_0
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type S
-  geometry:
-    h: 12.0
-    w: 4.0
-    x: 74.5
-    y: 123.0
-  id: cit_bldg_158_u_1
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block U-Type S
-  geometry:
-    h: 4.0
-    w: 4.0
-    x: 70.5
-    y: 119.0
-  id: cit_bldg_158_u_2
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block Solid
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 70.5
-    y: 139.0
-  id: cit_bldg_159
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Block O-Type
-  geometry:
-    h: 12.0
-    w: 12.0
-    x: 70.5
-    y: 155.0
-  id: cit_bldg_160_main
-  parent_id: citadel_walls
-  shape: RECT
-- description: Citadel Building Courtyard
-  geometry:
-    h: 5.0
-    w: 5.0
-    x: 70.5
-    y: 155.0
-  id: cit_bldg_160_court
   parent_id: citadel_walls
   shape: RECT

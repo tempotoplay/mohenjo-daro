@@ -2866,2351 +2866,3779 @@ features:
     points:
     - - 109.7150064531336
       - 290.13498240897854
-    - - 123.8339264428893
+    - - 121.8339264428893
       - 289.8581172715016
-    - - 124.10601969245374
-      - 275.7646922593771
+    - - 122.10601969245374
+      - 277.7646922593771
     - - 109.75216329957765
-      - 276.04684690818885
+      - 278.04684690818885
   id: lower_vs_zone_mixed_north_house_0
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 113.40595944388761
+    - - 112.90595944388761
       - 290.0562724050393
-    - - 120.50107105762068
+    - - 119.00107105762068
       - 290.0946928060632
-    - - 120.43976753013733
-      - 279.4700231124441
-    - - 113.50898829612065
-      - 279.55591187559185
+    - - 118.93976753013733
+      - 280.9700231124441
+    - - 113.00898829612065
+      - 281.05591187559185
   id: lower_vs_zone_mixed_north_house_1
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 126.8669144249384
+    - - 123.8669144249384
       - 289.77841980752424
-    - - 141.15528442027787
+    - - 136.15528442027787
       - 290.2042044101739
-    - - 140.9535686388921
-      - 276.133277194997
-    - - 126.82918825726455
-      - 275.8419035225961
+    - - 135.9535686388921
+      - 278.133277194997
+    - - 123.82918825726455
+      - 277.8419035225961
   id: lower_vs_zone_mixed_north_house_2
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 130.42044205530397
-      - 286.52401453987255
-    - - 137.47179587609693
-      - 286.5312088555042
-    - - 137.4529041734444
-      - 279.5913099114154
-    - - 130.49188497593437
-      - 279.5750347674294
+    - - 126.92044205530397
+      - 287.02401453987255
+    - - 132.97179587609693
+      - 287.0312088555042
+    - - 132.9529041734444
+      - 281.0913099114154
+    - - 126.99188497593437
+      - 281.0750347674294
   id: lower_vs_zone_mixed_north_house_3
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 143.74728011884707
+    - - 137.74728011884707
       - 290.1240930311557
-    - - 158.07718387969666
+    - - 150.07718387969666
       - 289.7687289512379
-    - - 157.91698101570017
-      - 276.184626845846
-    - - 143.74173308929426
-      - 275.90324200885937
+    - - 149.91698101570017
+      - 278.184626845846
+    - - 137.74173308929426
+      - 277.90324200885937
   id: lower_vs_zone_mixed_north_house_4
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 144.05461366815774
-      - 286.40295569586783
-    - - 154.571063544203
-      - 286.42670326664893
-    - - 154.47602524500783
-      - 279.50931793952634
-    - - 144.06682208532814
-      - 279.56746918056876
+    - - 138.05461366815774
+      - 286.90295569586783
+    - - 147.071063544203
+      - 286.92670326664893
+    - - 146.97602524500783
+      - 281.00931793952634
+    - - 138.06682208532814
+      - 281.06746918056876
   id: lower_vs_zone_mixed_north_house_5
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 160.8257042184629
+    - - 151.8257042184629
       - 290.1398133067705
-    - - 175.2619927526275
+    - - 164.2619927526275
       - 289.91117876885204
-    - - 175.0654786034002
-      - 276.1973168110811
-    - - 161.13747607877022
-      - 276.20195850374284
+    - - 164.0654786034002
+      - 278.1973168110811
+    - - 152.13747607877022
+      - 278.20195850374284
   id: lower_vs_zone_mixed_north_house_6
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 164.47589108835155
-      - 286.4020953298727
-    - - 171.52799995197083
-      - 286.4886100512451
-    - - 171.53692285019798
-      - 275.93142961596203
-    - - 164.55519998230926
-      - 276.05419038560717
+    - - 154.97589108835155
+      - 286.9020953298727
+    - - 161.02799995197083
+      - 286.9886100512451
+    - - 161.03692285019798
+      - 277.93142961596203
+    - - 155.05519998230926
+      - 278.05419038560717
   id: lower_vs_zone_mixed_north_house_7
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 178.18302748046273
+    - - 166.18302748046273
       - 290.0593011277866
-    - - 191.7397131631269
+    - - 177.7397131631269
       - 289.75211832548865
-    - - 192.0403080308871
-      - 275.8692514375686
-    - - 177.82757592643247
-      - 276.00046124430463
+    - - 178.0403080308871
+      - 277.8692514375686
+    - - 165.82757592643247
+      - 278.00046124430463
   id: lower_vs_zone_mixed_north_house_8
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 181.57693663077734
+    - - 169.07693663077734
       - 289.9714296259599
-    - - 188.4285743180884
+    - - 174.9285743180884
       - 290.0720739360949
-    - - 188.54899779641832
-      - 279.49220454206653
-    - - 181.54940276233043
-      - 279.5143132345411
+    - - 175.04899779641832
+      - 280.99220454206653
+    - - 169.04940276233046
+      - 281.0143132345411
   id: lower_vs_zone_mixed_north_house_9
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 194.93964030308422
+    - - 179.93964030308422
       - 290.1684075445056
-    - - 209.29852256389705
+    - - 192.29852256389705
       - 289.9942842237941
-    - - 208.75454564730427
-      - 276.27173017474513
-    - - 194.7657894782104
-      - 275.92353237497815
+    - - 191.75454564730427
+      - 278.27173017474513
+    - - 179.7657894782104
+      - 277.92353237497815
   id: lower_vs_zone_mixed_north_house_10
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 198.5584158728726
-      - 286.5155680066401
-    - - 205.4127055412304
-      - 286.5236761426987
-    - - 205.599224276048
-      - 279.4941771309802
-    - - 198.59421567552272
-      - 279.4278440595531
+    - - 183.0584158728726
+      - 287.0155680066401
+    - - 188.9127055412304
+      - 287.0236761426987
+    - - 189.099224276048
+      - 280.9941771309802
+    - - 183.09421567552272
+      - 280.9278440595531
   id: lower_vs_zone_mixed_north_house_11
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 212.10817004615393
+    - - 194.10817004615393
       - 290.2312689542098
-    - - 226.23087307007745
+    - - 206.23087307007745
       - 289.849473320245
-    - - 226.16115923959447
-      - 276.09589471618136
-    - - 211.87610007718845
-      - 276.2051053473932
+    - - 206.16115923959447
+      - 278.09589471618136
+    - - 193.87610007718845
+      - 278.2051053473932
   id: lower_vs_zone_mixed_north_house_12
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 215.40064906322033
+    - - 196.90064906322033
       - 289.95558158773804
-    - - 222.54393613377718
+    - - 203.04393613377718
       - 289.90562238022596
-    - - 222.55239243981043
-      - 279.49846366507916
-    - - 215.42128216455956
-      - 279.47493996128674
+    - - 203.05239243981043
+      - 280.99846366507916
+    - - 196.92128216455956
+      - 280.97493996128674
   id: lower_vs_zone_mixed_north_house_13
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 229.06538212686291
+    - - 208.06538212686291
       - 290.2082964388702
-    - - 243.1575064800451
+    - - 220.15750648004507
       - 289.9763725819282
-    - - 243.16717588717833
-      - 275.9817877966829
-    - - 228.70034313767678
-      - 276.10550636579717
+    - - 220.16717588717833
+      - 277.9817877966829
+    - - 207.70034313767678
+      - 278.10550636579717
   id: lower_vs_zone_mixed_north_house_14
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 232.40389534847716
-      - 286.41418027674706
-    - - 239.57574437556462
-      - 286.4336668941278
-    - - 239.46150282508054
-      - 279.5884149667012
-    - - 232.5756019198408
-      - 279.4106101109404
+    - - 210.90389534847716
+      - 286.91418027674706
+    - - 217.07574437556462
+      - 286.9336668941278
+    - - 216.96150282508052
+      - 281.0884149667012
+    - - 211.0756019198408
+      - 280.9106101109404
   id: lower_vs_zone_mixed_north_house_15
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 246.13914455690679
+    - - 222.13914455690679
       - 289.81038604794793
-    - - 260.28679069620637
+    - - 234.2867906962064
       - 289.9803762982823
-    - - 259.77545630691225
-      - 275.9041495063516
-    - - 246.268109207823
-      - 276.20092382461553
+    - - 233.77545630691225
+      - 277.9041495063516
+    - - 222.268109207823
+      - 278.20092382461553
   id: lower_vs_zone_mixed_north_house_16
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 249.50553475748364
+    - - 225.00553475748364
       - 289.97868121650345
-    - - 256.5928725812015
+    - - 231.0928725812015
       - 289.91421730139956
-    - - 256.55105303932714
-      - 279.46202647358007
-    - - 249.54258979456384
-      - 279.5202015400005
+    - - 231.05105303932714
+      - 280.96202647358007
+    - - 225.0425897945638
+      - 281.0202015400005
   id: lower_vs_zone_mixed_north_house_17
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 262.9628600503487
+    - - 235.9628600503487
       - 289.98945449537865
-    - - 276.77260251752097
+    - - 247.77260251752097
       - 290.16518159778104
-    - - 276.90285133728844
-      - 275.94701476892567
-    - - 262.83806883955793
-      - 276.16786956932907
+    - - 247.90285133728847
+      - 277.94701476892567
+    - - 235.83806883955793
+      - 278.16786956932907
   id: lower_vs_zone_mixed_north_house_18
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 266.4141986172018
-      - 286.47377940854597
-    - - 273.44578835676225
-      - 286.41891599739876
-    - - 273.5719270800507
-      - 276.08582853002224
-    - - 266.4476009268738
-      - 275.96620444434075
+    - - 238.9141986172018
+      - 286.97377940854597
+    - - 244.94578835676222
+      - 286.91891599739876
+    - - 245.07192708005076
+      - 278.08582853002224
+    - - 238.9476009268738
+      - 277.96620444434075
   id: lower_vs_zone_mixed_north_house_19
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 280.02354035883684
+    - - 250.02354035883684
       - 289.86598846047144
-    - - 294.22942984508444
+    - - 262.22942984508444
       - 289.95427301016747
-    - - 293.8457983454374
-      - 276.01621623423324
-    - - 279.94423597689155
-      - 276.24340452210487
+    - - 261.8457983454374
+      - 278.01621623423324
+    - - 249.94423597689155
+      - 278.24340452210487
   id: lower_vs_zone_mixed_north_house_20
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 283.53179654990294
-      - 286.5291404866821
-    - - 293.9822204552099
-      - 286.42723265032606
-    - - 293.91083423744647
-      - 279.4693089023468
-    - - 283.529235950259
-      - 279.5878774651846
+    - - 253.03179654990294
+      - 287.0291404866821
+    - - 261.9822204552099
+      - 286.92723265032606
+    - - 261.91083423744647
+      - 280.9693089023468
+    - - 253.029235950259
+      - 281.0878774651846
   id: lower_vs_zone_mixed_north_house_21
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 313.79978666636237
+    - - 264.180355506517
+      - 290.2344385806531
+    - - 275.81495404328496
+      - 289.97822854765377
+    - - 275.78410937825686
+      - 278.1899071785277
+    - - 263.97757684104056
+      - 277.77530842755766
+  id: lower_vs_zone_mixed_north_house_22
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 266.91507697767486
+      - 286.93839555105365
+    - - 273.07119337849366
+      - 287.0804182543597
+    - - 273.0304289787997
+      - 277.99188241237994
+    - - 266.9029515712991
+      - 278.08134744476325
+  id: lower_vs_zone_mixed_north_house_23
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 277.79978666636237
       - 290.0086153247296
-    - - 327.82824837951955
+    - - 289.82824837951955
       - 290.05937582447035
-    - - 327.7351812399833
-      - 276.07261612861384
-    - - 314.29118530626783
-      - 276.1408781650967
+    - - 289.7351812399833
+      - 278.07261612861384
+    - - 278.29118530626783
+      - 278.1408781650967
   id: lower_vs_zone_mixed_north_house_24
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 317.55681412038973
-      - 286.50899832653215
-    - - 327.984601497198
-      - 286.4085364718281
-    - - 328.09908453789853
-      - 279.4888463353189
-    - - 317.54368165505923
-      - 279.56904063494517
+    - - 281.05681412038973
+      - 287.00899832653215
+    - - 289.984601497198
+      - 286.9085364718281
+    - - 290.09908453789853
+      - 280.9888463353189
+    - - 281.04368165505923
+      - 281.06904063494517
   id: lower_vs_zone_mixed_north_house_25
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 109.83062053904851
-      - 273.2649100247956
-    - - 124.14144230727342
-      - 273.26342545711407
-    - - 123.88816288586185
-      - 259.2699145976416
-    - - 109.98607311026537
-      - 258.74836772150076
-  id: lower_vs_zone_mixed_north_house_26
-  parent_id: lower_vs_zone_mixed_north
-  shape: POLYGON
-- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
-  geometry:
-    points:
-    - - 113.5062252270541
-      - 269.5886240840543
-    - - 120.50156569939868
-      - 269.4297314909312
-    - - 120.41370426654076
-      - 259.0864078273248
-    - - 113.57236384039402
-      - 259.01924488973634
-  id: lower_vs_zone_mixed_north_house_27
-  parent_id: lower_vs_zone_mixed_north
-  shape: POLYGON
-- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
-  geometry:
-    points:
-    - - 126.84772920867317
-      - 272.9432885078799
-    - - 141.07162890619927
-      - 273.0484650507985
-    - - 141.05020337357473
-      - 258.98633037068083
-    - - 127.26082375464185
-      - 259.17744448034586
+    - - 305.8477292086732
+      - 289.9432885078799
+    - - 318.0716289061993
+      - 290.0484650507985
+    - - 318.05020337357473
+      - 277.98633037068083
+    - - 306.2608237546418
+      - 278.17744448034586
   id: lower_vs_zone_mixed_north_house_28
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 130.5432383601579
-      - 269.5522628094768
-    - - 137.47915716935825
-      - 269.465661955408
-    - - 137.45999941595974
-      - 262.5367645607456
-    - - 130.5503728984829
-      - 262.5854913771014
+    - - 309.0432383601579
+      - 287.0522628094768
+    - - 314.97915716935825
+      - 286.965661955408
+    - - 314.9599994159597
+      - 281.0367645607456
+    - - 309.0503728984829
+      - 281.0854913771014
   id: lower_vs_zone_mixed_north_house_29
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 144.07269555329586
-      - 272.9622038126166
-    - - 157.75998874935476
-      - 272.977419357539
-    - - 158.00353081642925
-      - 259.22052605778015
-    - - 143.9094053009787
-      - 259.258725211564
+    - - 320.07269555329583
+      - 289.9622038126166
+    - - 331.75998874935476
+      - 289.977419357539
+    - - 332.00353081642925
+      - 278.22052605778015
+    - - 319.90940530097873
+      - 278.258725211564
   id: lower_vs_zone_mixed_north_house_30
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 143.94885688330163
-      - 269.54300252175665
-    - - 154.48763691460155
-      - 269.4913564075477
-    - - 154.46050342859579
-      - 262.4032293379497
-    - - 144.06141998865303
-      - 262.4942118614795
+    - - 319.94885688330163
+      - 287.04300252175665
+    - - 328.9876369146016
+      - 286.9913564075477
+    - - 328.96050342859576
+      - 280.9032293379497
+    - - 320.06141998865303
+      - 280.9942118614795
   id: lower_vs_zone_mixed_north_house_31
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 160.87962725132
-      - 272.90196677102034
-    - - 175.26335800235626
-      - 273.219425331364
-    - - 174.76925720225148
-      - 259.23577841337436
-    - - 161.03193418453088
-      - 259.1365910726111
+    - - 109.87962725131999
+      - 275.90196677102034
+    - - 122.26335800235626
+      - 276.219425331364
+    - - 121.76925720225147
+      - 264.23577841337436
+    - - 110.03193418453088
+      - 264.1365910726111
   id: lower_vs_zone_mixed_north_house_32
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 164.52096596540605
-      - 269.4564775625722
-    - - 171.4407194624655
-      - 269.473152408223
-    - - 171.45279678032608
-      - 262.50229362957015
-    - - 164.58106729821586
-      - 262.43077925734104
+    - - 113.02096596540605
+      - 272.9564775625722
+    - - 118.9407194624655
+      - 272.973152408223
+    - - 118.95279678032608
+      - 267.00229362957015
+    - - 113.08106729821587
+      - 266.93077925734104
   id: lower_vs_zone_mixed_north_house_33
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 178.08057066838552
-      - 272.8023911463767
-    - - 191.72645205707943
-      - 273.099866076837
-    - - 191.778491796421
-      - 258.7121212277027
-    - - 177.79694918576433
-      - 259.0348986928835
+    - - 124.08057066838552
+      - 275.8023911463767
+    - - 135.72645205707943
+      - 276.099866076837
+    - - 135.778491796421
+      - 263.7121212277027
+    - - 123.79694918576433
+      - 264.0348986928835
   id: lower_vs_zone_mixed_north_house_34
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 181.54113348935198
-      - 272.98781862704504
-    - - 188.42237477611786
-      - 272.9109898121907
-    - - 188.53820392475117
-      - 262.57018914290427
-    - - 181.40720562761217
-      - 262.52615680309754
+    - - 127.041133489352
+      - 275.98781862704504
+    - - 132.92237477611786
+      - 275.9109898121907
+    - - 133.03820392475117
+      - 267.07018914290427
+    - - 126.90720562761217
+      - 267.02615680309754
   id: lower_vs_zone_mixed_north_house_35
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 194.78885627134048
-      - 273.22353268843074
-    - - 208.88495500995808
-      - 272.7606111067544
-    - - 209.17767338293282
-      - 258.78357845079944
-    - - 195.2393547819159
-      - 259.17395407699615
+    - - 137.78885627134048
+      - 276.22353268843074
+    - - 149.88495500995808
+      - 275.7606111067544
+    - - 150.17767338293282
+      - 263.78357845079944
+    - - 138.2393547819159
+      - 264.17395407699615
   id: lower_vs_zone_mixed_north_house_36
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 198.44990594784457
-      - 269.57944127566566
-    - - 205.5560232483743
-      - 269.4231730597098
-    - - 205.48127547796642
-      - 262.4758676979699
-    - - 198.43091066766644
-      - 262.4140237968613
+    - - 140.94990594784457
+      - 273.07944127566566
+    - - 147.0560232483743
+      - 272.9231730597098
+    - - 146.98127547796642
+      - 266.9758676979699
+    - - 140.93091066766644
+      - 266.9140237968613
   id: lower_vs_zone_mixed_north_house_37
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 212.28572361975858
-      - 272.81353696803575
-    - - 226.22884972279797
-      - 273.28512818286106
-    - - 226.14193868305307
-      - 259.10068871923215
-    - - 212.25848953162898
-      - 258.81865891663773
+    - - 152.28572361975858
+      - 275.81353696803575
+    - - 164.228849722798
+      - 276.28512818286106
+    - - 164.14193868305304
+      - 264.10068871923215
+    - - 152.25848953162898
+      - 263.81865891663773
   id: lower_vs_zone_mixed_north_house_38
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 215.57281280567506
-      - 269.43785013668514
-    - - 225.9533611419189
-      - 269.4425250981729
-    - - 225.92161912528059
-      - 262.4255666434188
-    - - 215.57171865026754
-      - 262.5555132564909
+    - - 155.07281280567506
+      - 272.93785013668514
+    - - 163.9533611419189
+      - 272.9425250981729
+    - - 163.92161912528059
+      - 266.9255666434188
+    - - 155.07171865026754
+      - 267.0555132564909
   id: lower_vs_zone_mixed_north_house_39
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 228.90979505466754
-      - 272.8076781714171
-    - - 243.2227938215178
-      - 273.1662458716765
-    - - 243.0960199096492
-      - 259.06092041286115
-    - - 228.8671618366138
-      - 259.25834754720233
+    - - 165.90979505466754
+      - 275.8076781714171
+    - - 178.22279382151783
+      - 276.1662458716765
+    - - 178.09601990964916
+      - 264.06092041286115
+    - - 165.8671618366138
+      - 264.25834754720233
   id: lower_vs_zone_mixed_north_house_40
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 229.05466532748807
-      - 269.5297707741835
-    - - 239.5018811351056
-      - 269.464096376328
-    - - 239.5687322326544
-      - 262.5337700263571
-    - - 228.90552010702393
-      - 262.42459231768487
+    - - 166.05466532748807
+      - 273.0297707741835
+    - - 175.0018811351056
+      - 272.964096376328
+    - - 175.0687322326544
+      - 267.0337700263571
+    - - 165.90552010702393
+      - 266.92459231768487
   id: lower_vs_zone_mixed_north_house_41
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 245.8071406897035
-      - 272.7224794105431
-    - - 259.85927981751377
-      - 273.2349584716712
-    - - 259.9607382551388
-      - 258.86287296360837
-    - - 245.888206388517
-      - 258.93627468801634
+    - - 179.8071406897035
+      - 275.7224794105431
+    - - 191.85927981751377
+      - 276.2349584716712
+    - - 191.96073825513878
+      - 263.86287296360837
+    - - 179.888206388517
+      - 263.93627468801634
   id: lower_vs_zone_mixed_north_house_42
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 249.5022846119339
-      - 269.5229609133311
-    - - 256.5153176086993
-      - 269.5490554987723
-    - - 256.54175705676687
-      - 259.0996617443563
-    - - 249.5851150330998
-      - 258.99230960058145
+    - - 183.0022846119339
+      - 273.0229609133311
+    - - 189.01531760869932
+      - 273.0490554987723
+    - - 189.04175705676684
+      - 264.0996617443563
+    - - 183.0851150330998
+      - 263.99230960058145
   id: lower_vs_zone_mixed_north_house_43
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 262.9185328830688
-      - 273.2580157133242
-    - - 277.09854261094677
-      - 273.1018799783744
-    - - 276.888349387035
-      - 258.7911908322962
-    - - 263.1318525578084
-      - 259.11980663907326
+    - - 193.91853288306876
+      - 276.2580157133242
+    - - 206.09854261094677
+      - 276.1018799783744
+    - - 205.88834938703502
+      - 263.7911908322962
+    - - 194.13185255780837
+      - 264.11980663907326
   id: lower_vs_zone_mixed_north_house_44
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 266.4618569324417
-      - 269.5183214182762
-    - - 276.9804800774116
-      - 269.5408689594948
-    - - 276.92545755981183
-      - 262.5159107332454
-    - - 266.58807273414607
-      - 262.46453641094547
+    - - 196.96185693244172
+      - 273.0183214182762
+    - - 205.98048007741153
+      - 273.0408689594948
+    - - 205.92545755981183
+      - 267.0159107332454
+    - - 197.08807273414604
+      - 266.96453641094547
   id: lower_vs_zone_mixed_north_house_45
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 280.0693089495708
-      - 273.11943007526065
-    - - 294.0287623278814
-      - 273.2997564361816
-    - - 293.87214823012135
-      - 259.0420671100061
-    - - 280.0479908687174
-      - 258.90717662577816
+    - - 208.06930894957083
+      - 276.11943007526065
+    - - 220.02876232788142
+      - 276.2997564361816
+    - - 219.87214823012135
+      - 264.0420671100061
+    - - 208.04799086871742
+      - 263.90717662577816
   id: lower_vs_zone_mixed_north_house_46
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 283.4929976380494
-      - 269.511568040139
-    - - 293.9427402801978
-      - 269.50536276281815
-    - - 294.0802361651656
-      - 262.44079504797463
-    - - 283.4339382792396
-      - 262.583040892655
+    - - 210.99299763804942
+      - 273.011568040139
+    - - 219.94274028019782
+      - 273.00536276281815
+    - - 220.08023616516564
+      - 266.94079504797463
+    - - 210.9339382792396
+      - 267.083040892655
   id: lower_vs_zone_mixed_north_house_47
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 313.99662630140625
-      - 273.15360933625294
-    - - 328.09363480666707
-      - 273.2966731091172
-    - - 328.1505786859711
-      - 258.8379722868556
-    - - 313.76395237793815
-      - 259.04491228363435
+    - - 222.09831230178298
+      - 275.9284435167826
+    - - 233.75603232004534
+      - 275.72880020252853
+    - - 233.84092115911602
+      - 264.11374832142303
+    - - 222.18393773674575
+      - 264.21158762265253
+  id: lower_vs_zone_mixed_north_house_48
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 224.90924274361856
+      - 272.9032127954436
+    - - 231.02225479461214
+      - 272.94630213219995
+    - - 230.99108323367602
+      - 266.9227726181898
+    - - 225.01513417988187
+      - 266.9563308169002
+  id: lower_vs_zone_mixed_north_house_49
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 235.99662630140625
+      - 276.15360933625294
+    - - 248.09363480666707
+      - 276.2966731091172
+    - - 248.15057868597108
+      - 263.8379722868556
+    - - 235.76395237793812
+      - 264.04491228363435
   id: lower_vs_zone_mixed_north_house_50
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 313.9351773363413
-      - 269.4084067915441
-    - - 324.50359155008874
-      - 269.5899563229719
-    - - 324.449839655932
-      - 262.43033273052964
-    - - 313.99129236509407
-      - 262.43971667965553
+    - - 235.93517733634133
+      - 272.9084067915441
+    - - 245.00359155008874
+      - 273.0899563229719
+    - - 244.94983965593198
+      - 266.93033273052964
+    - - 235.99129236509404
+      - 266.93971667965553
   id: lower_vs_zone_mixed_north_house_51
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 110.29273547183986
-      - 255.94272860891834
-    - - 124.2700237650659
-      - 255.76514444451374
-    - - 124.06759139365705
-      - 241.8684356232344
-    - - 110.00286689889464
-      - 241.80165849816714
+    - - 250.29273547183988
+      - 275.94272860891834
+    - - 262.2700237650659
+      - 275.76514444451374
+    - - 262.06759139365704
+      - 263.8684356232344
+    - - 250.00286689889464
+      - 263.80165849816717
   id: lower_vs_zone_mixed_north_house_52
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 113.50957439012217
-      - 252.42055837935334
-    - - 120.54873108843192
-      - 252.5050651126354
-    - - 120.451838309693
-      - 245.55055205249806
-    - - 113.52753228735523
-      - 245.44683726314057
+    - - 253.00957439012217
+      - 272.92055837935334
+    - - 259.0487310884319
+      - 273.0050651126354
+    - - 258.951838309693
+      - 267.05055205249806
+    - - 253.02753228735523
+      - 266.94683726314054
   id: lower_vs_zone_mixed_north_house_53
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 126.99075821024216
-      - 256.1564524817112
-    - - 140.96392355595896
-      - 255.87187308243335
-    - - 140.8406961468088
-      - 242.0984914780272
-    - - 127.2358160996742
-      - 242.2516534054054
+    - - 263.9907582102421
+      - 276.1564524817112
+    - - 275.9639235559589
+      - 275.87187308243335
+    - - 275.8406961468088
+      - 264.0984914780272
+    - - 264.2358160996742
+      - 264.2516534054054
   id: lower_vs_zone_mixed_north_house_54
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 130.43016613160262
-      - 252.52339294151375
-    - - 137.43056105331544
-      - 252.5572094245788
-    - - 137.48297357917966
-      - 245.53382372179237
-    - - 130.49318486067023
-      - 245.5875468578833
+    - - 266.9301661316026
+      - 273.02339294151375
+    - - 272.93056105331544
+      - 273.0572094245788
+    - - 272.98297357917966
+      - 267.0338237217924
+    - - 266.9931848606702
+      - 267.0875468578833
   id: lower_vs_zone_mixed_north_house_55
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 143.93368608760017
-      - 255.8381225366112
-    - - 158.26763722015406
-      - 256.2882808259574
-    - - 158.2283940036547
-      - 241.95458579191396
-    - - 143.9861878395344
-      - 241.73435500553956
+    - - 277.93368608760017
+      - 275.8381225366112
+    - - 290.26763722015403
+      - 276.2882808259574
+    - - 290.22839400365467
+      - 263.9545857919139
+    - - 277.9861878395344
+      - 263.73435500553956
   id: lower_vs_zone_mixed_north_house_56
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 143.9597225304745
-      - 252.52200267038725
-    - - 154.5783283083937
-      - 252.43285426584032
-    - - 154.50764411352205
-      - 245.45307318784873
-    - - 144.05997363418825
-      - 245.42043773052018
+    - - 277.95972253047444
+      - 273.0220026703873
+    - - 287.0783283083937
+      - 272.9328542658403
+    - - 287.007644113522
+      - 266.95307318784876
+    - - 278.0599736341883
+      - 266.9204377305202
   id: lower_vs_zone_mixed_north_house_57
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 160.83165298077284
-      - 256.03849841437204
-    - - 174.71741489196802
-      - 256.098322273781
-    - - 175.10748513101703
-      - 242.05740999851741
-    - - 160.7990268387221
-      - 242.0195659104606
-  id: lower_vs_zone_mixed_north_house_58
-  parent_id: lower_vs_zone_mixed_north
-  shape: POLYGON
-- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
-  geometry:
-    points:
-    - - 160.92552555945622
-      - 252.4755486078052
-    - - 171.40539329038103
-      - 252.52119594873204
-    - - 171.51287839660495
-      - 245.59457959073194
-    - - 161.02854992960187
-      - 245.57286010255388
-  id: lower_vs_zone_mixed_north_house_59
-  parent_id: lower_vs_zone_mixed_north
-  shape: POLYGON
-- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
-  geometry:
-    points:
-    - - 177.80903741590805
-      - 256.1439062116484
-    - - 191.89641160016504
-      - 256.02718040499013
-    - - 191.90250032884433
-      - 241.77221600839886
-    - - 177.8669539693833
-      - 241.72927752808366
+    - - 305.80903741590805
+      - 276.1439062116484
+    - - 317.89641160016504
+      - 276.02718040499013
+    - - 317.9025003288443
+      - 263.77221600839886
+    - - 305.8669539693833
+      - 263.7292775280837
   id: lower_vs_zone_mixed_north_house_60
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 177.98431296535176
-      - 252.43301781701757
-    - - 188.4940613672426
-      - 252.45019514778343
-    - - 188.41041712164866
-      - 245.40961606152362
-    - - 177.94484443314394
-      - 245.58627632590944
+    - - 305.9843129653517
+      - 272.93301781701757
+    - - 314.9940613672426
+      - 272.9501951477834
+    - - 314.91041712164866
+      - 266.9096160615236
+    - - 305.94484443314394
+      - 267.08627632590947
   id: lower_vs_zone_mixed_north_house_61
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 195.15253992243572
-      - 255.73023296037042
-    - - 208.8196164094175
-      - 256.2877719896078
-    - - 208.79142940747087
-      - 242.22426741507547
-    - - 195.10167530677194
-      - 241.96161825084198
+    - - 320.1525399224357
+      - 275.7302329603704
+    - - 331.8196164094175
+      - 276.2877719896078
+    - - 331.7914294074709
+      - 264.2242674150755
+    - - 320.10167530677194
+      - 263.961618250842
   id: lower_vs_zone_mixed_north_house_62
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 198.4435929081813
-      - 255.96010700575079
-    - - 205.55337961967126
-      - 256.06644217132646
-    - - 205.52144949877817
-      - 245.45041486960895
-    - - 198.42290657427577
-      - 245.4361397651378
+    - - 322.9435929081813
+      - 275.9601070057508
+    - - 329.05337961967126
+      - 276.06644217132646
+    - - 329.0214494987782
+      - 266.95041486960895
+    - - 322.92290657427577
+      - 266.9361397651378
   id: lower_vs_zone_mixed_north_house_63
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 211.76485924979457
-      - 256.2845929447015
-    - - 225.8871743466368
-      - 255.89359162788975
-    - - 226.27490370292355
-      - 242.06200733509002
-    - - 212.12900882302966
-      - 242.25440211329416
+    - - 109.76485924979457
+      - 262.2845929447015
+    - - 121.88717434663681
+      - 261.89359162788975
+    - - 122.27490370292354
+      - 250.06200733509002
+    - - 110.12900882302968
+      - 250.25440211329416
   id: lower_vs_zone_mixed_north_house_64
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 215.5381228831866
-      - 252.4745515208798
-    - - 222.42038026108918
-      - 252.44550382300974
-    - - 222.57005864781775
-      - 241.97991767703664
-    - - 215.42421101301346
-      - 241.90323112969708
+    - - 113.0381228831866
+      - 258.9745515208798
+    - - 118.92038026108919
+      - 258.94550382300974
+    - - 119.07005864781776
+      - 249.97991767703664
+    - - 112.92421101301346
+      - 249.90323112969708
   id: lower_vs_zone_mixed_north_house_65
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 228.90832225918507
-      - 256.04297319205915
-    - - 242.92234252573084
-      - 255.99642352619375
-    - - 242.90473870491678
-      - 241.79025462380025
-    - - 229.19339855085406
-      - 242.23667667761362
+    - - 123.90832225918507
+      - 262.04297319205915
+    - - 135.92234252573084
+      - 261.9964235261938
+    - - 135.90473870491678
+      - 249.79025462380025
+    - - 124.19339855085403
+      - 250.23667667761362
   id: lower_vs_zone_mixed_north_house_66
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 232.5921575134429
-      - 255.9728829787797
-    - - 239.5657414622005
-      - 255.9585382712588
-    - - 239.48709742900152
-      - 245.45324093919731
-    - - 232.59309474624763
-      - 245.54598352072253
+    - - 127.09215751344291
+      - 261.9728829787797
+    - - 133.0657414622005
+      - 261.95853827125876
+    - - 132.98709742900155
+      - 252.95324093919731
+    - - 127.09309474624762
+      - 253.04598352072253
   id: lower_vs_zone_mixed_north_house_67
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 246.16478487022295
-      - 256.0210757370193
-    - - 260.1954407590524
-      - 255.94451522856178
-    - - 259.89338274978866
-      - 242.1527028985438
-    - - 246.2607731271684
-      - 242.13264305048452
+    - - 138.16478487022295
+      - 262.0210757370193
+    - - 150.19544075905245
+      - 261.9445152285618
+    - - 149.89338274978866
+      - 250.1527028985438
+    - - 138.2607731271684
+      - 250.13264305048452
   id: lower_vs_zone_mixed_north_house_68
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 249.49016040003875
-      - 252.4499047436346
-    - - 256.5139699289357
-      - 252.4663623059109
-    - - 256.4672793239783
-      - 245.50113869927682
-    - - 249.46500283357776
-      - 245.50249001352174
+    - - 140.99016040003875
+      - 258.9499047436346
+    - - 147.01396992893567
+      - 258.9663623059109
+    - - 146.9672793239783
+      - 253.00113869927682
+    - - 140.96500283357776
+      - 253.00249001352174
   id: lower_vs_zone_mixed_north_house_69
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 263.17869941409685
-      - 256.0957966941014
-    - - 277.2281919878549
-      - 255.87928974980068
-    - - 276.8657611454537
-      - 242.2939093313368
-    - - 263.2688375466662
-      - 242.2486322228252
+    - - 152.17869941409685
+      - 262.0957966941014
+    - - 164.22819198785493
+      - 261.8792897498007
+    - - 163.86576114545372
+      - 250.2939093313368
+    - - 152.26883754666622
+      - 250.2486322228252
   id: lower_vs_zone_mixed_north_house_70
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 266.5440149328208
-      - 252.50228443063025
-    - - 273.5516329306965
-      - 252.4618781321107
-    - - 273.52918057994816
-      - 242.0018357329843
-    - - 266.5585865736265
-      - 242.08138932988908
+    - - 155.04401493282083
+      - 259.00228443063025
+    - - 161.05163293069648
+      - 258.9618781321107
+    - - 161.0291805799482
+      - 250.0018357329843
+    - - 155.05858657362646
+      - 250.08138932988908
   id: lower_vs_zone_mixed_north_house_71
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 279.9426406772068
-      - 256.15401690167397
-    - - 294.09837601295806
-      - 256.0785877296034
-    - - 294.03208377300615
-      - 242.09374556351227
-    - - 280.2979788783756
-      - 241.969766916346
+    - - 165.94264067720675
+      - 262.15401690167397
+    - - 178.09837601295808
+      - 262.0785877296034
+    - - 178.03208377300615
+      - 250.09374556351227
+    - - 166.2979788783756
+      - 249.969766916346
   id: lower_vs_zone_mixed_north_house_72
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 283.47036210552284
-      - 252.50925094742936
-    - - 293.96132459826975
-      - 252.5538923917403
-    - - 294.0442568662652
-      - 245.5368904111988
-    - - 283.5485762127278
-      - 245.4098244879213
+    - - 168.97036210552284
+      - 259.00925094742934
+    - - 177.96132459826975
+      - 259.0538923917403
+    - - 178.04425686626521
+      - 253.0368904111988
+    - - 169.04857621272782
+      - 252.9098244879213
   id: lower_vs_zone_mixed_north_house_73
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 314.08272179306357
-      - 255.84832469452525
-    - - 327.7615525880726
-      - 256.2926407579747
-    - - 327.8706035962823
-      - 242.01277147483617
-    - - 313.9044235595362
-      - 241.72070141411703
+    - - 179.81492458380632
+      - 261.8568372078946
+    - - 191.8658997761812
+      - 261.9462478564235
+    - - 192.15612473722385
+      - 249.94192555569262
+    - - 180.28830637827753
+      - 249.80042298200377
+  id: lower_vs_zone_mixed_north_house_74
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 182.95924929265303
+      - 259.02782378617013
+    - - 191.9604535177561
+      - 258.9583963028578
+    - - 191.9253165919696
+      - 253.09089685980337
+    - - 182.9109052040478
+      - 253.04157267108945
+  id: lower_vs_zone_mixed_north_house_75
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 194.08272179306357
+      - 261.8483246945252
+    - - 205.76155258807268
+      - 262.2926407579747
+    - - 205.8706035962823
+      - 250.01277147483617
+    - - 193.90442355953616
+      - 249.72070141411703
   id: lower_vs_zone_mixed_north_house_76
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 317.4504956780986
-      - 252.4276554070745
-    - - 327.922817428145
-      - 252.5869313129772
-    - - 327.9983493120582
-      - 245.48459576870584
-    - - 317.5372902036512
-      - 245.56965459860982
+    - - 196.9504956780986
+      - 258.9276554070745
+    - - 205.92281742814498
+      - 259.0869313129772
+    - - 205.99834931205822
+      - 252.98459576870584
+    - - 197.0372902036512
+      - 253.06965459860982
   id: lower_vs_zone_mixed_north_house_77
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 110.26947538541482
-      - 239.24889145496226
-    - - 123.84891457312607
-      - 238.96515617922944
-    - - 123.9497044128462
-      - 224.942323892754
-    - - 110.07105101149837
-      - 224.83458387618106
+    - - 208.2694753854148
+      - 262.2488914549623
+    - - 219.84891457312608
+      - 261.96515617922944
+    - - 219.9497044128462
+      - 249.942323892754
+    - - 208.07105101149835
+      - 249.83458387618106
   id: lower_vs_zone_mixed_north_house_78
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 113.47607560522931
-      - 235.41829912447525
-    - - 120.45947062650347
-      - 235.48229497225577
-    - - 120.48576596722809
-      - 228.48627410587517
-    - - 113.4120460608745
-      - 228.40797824451315
+    - - 210.9760756052293
+      - 258.91829912447525
+    - - 216.95947062650347
+      - 258.9822949722558
+    - - 216.98576596722808
+      - 252.98627410587517
+    - - 210.9120460608745
+      - 252.90797824451315
   id: lower_vs_zone_mixed_north_house_79
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 127.26855412019523
-      - 239.17532725650585
-    - - 140.82661511718322
-      - 238.90374311768477
-    - - 140.79423425602852
-      - 225.19571187100414
-    - - 126.7450389213407
-      - 225.29839456643828
+    - - 222.26855412019523
+      - 262.17532725650585
+    - - 233.82661511718322
+      - 261.90374311768477
+    - - 233.79423425602852
+      - 250.19571187100414
+    - - 221.74503892134072
+      - 250.29839456643828
   id: lower_vs_zone_mixed_north_house_80
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 130.49010074092354
-      - 238.9812377609761
-    - - 137.4582518578062
-      - 239.0537047530888
-    - - 137.5413911659758
-      - 228.45940248838127
-    - - 130.4908062652814
-      - 228.46252301598577
+    - - 224.99010074092354
+      - 261.9812377609761
+    - - 230.9582518578062
+      - 262.0537047530888
+    - - 231.04139116597582
+      - 252.95940248838127
+    - - 224.9908062652814
+      - 252.96252301598577
   id: lower_vs_zone_mixed_north_house_81
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 144.17269681598805
-      - 238.92496519570147
-    - - 158.09670982571203
-      - 238.7397989249327
-    - - 157.95508337966254
-      - 224.97326257277365
-    - - 144.0885808340415
-      - 224.75495313287243
+    - - 236.17269681598805
+      - 261.9249651957015
+    - - 248.09670982571203
+      - 261.7397989249327
+    - - 247.95508337966254
+      - 249.97326257277365
+    - - 236.0885808340415
+      - 249.75495313287243
   id: lower_vs_zone_mixed_north_house_82
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 147.56532623193002
-      - 235.58571803262885
-    - - 154.43318455784413
-      - 235.53847763747714
-    - - 154.54979154441392
-      - 224.9861585901362
-    - - 147.45772211766118
-      - 225.07512926836506
+    - - 239.06532623193002
+      - 259.08571803262885
+    - - 244.93318455784416
+      - 259.0384776374772
+    - - 245.04979154441392
+      - 249.9861585901362
+    - - 238.95772211766118
+      - 250.07512926836506
   id: lower_vs_zone_mixed_north_house_83
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 161.11984021098544
-      - 238.73439425555358
-    - - 175.00028330627077
-      - 239.00372286839294
-    - - 174.74826511113957
-      - 225.27608352948982
-    - - 160.95921719849645
-      - 225.10660704998503
+    - - 250.11984021098544
+      - 261.7343942555536
+    - - 262.0002833062707
+      - 262.00372286839297
+    - - 261.7482651111396
+      - 250.27608352948982
+    - - 249.95921719849648
+      - 250.10660704998503
   id: lower_vs_zone_mixed_north_house_84
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 164.4500735804824
-      - 235.5817346226738
-    - - 171.59238222043857
-      - 235.43280827721875
-    - - 171.51503982184397
-      - 224.90984274443872
-    - - 164.5999144833755
-      - 224.96554368313934
+    - - 252.9500735804824
+      - 259.0817346226738
+    - - 259.0923822204386
+      - 258.9328082772188
+    - - 259.01503982184397
+      - 249.90984274443872
+    - - 253.0999144833755
+      - 249.96554368313934
   id: lower_vs_zone_mixed_north_house_85
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 178.04574819076163
-      - 238.84213459749697
-    - - 191.80511443676278
-      - 238.98862169540743
-    - - 191.96533764265212
-      - 225.13310605653453
-    - - 178.29816728495953
-      - 225.0384690077538
+    - - 264.0457481907616
+      - 261.84213459749697
+    - - 275.8051144367628
+      - 261.98862169540746
+    - - 275.9653376426521
+      - 250.13310605653456
+    - - 264.2981672849595
+      - 250.0384690077538
   id: lower_vs_zone_mixed_north_house_86
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 181.56284898890812
-      - 235.40618895278686
-    - - 188.49400207899208
-      - 235.518330381314
-    - - 188.4642116511913
-      - 225.0790800230835
-    - - 181.43216497053177
-      - 225.01767098204243
+    - - 267.0628489889081
+      - 258.90618895278686
+    - - 272.9940020789921
+      - 259.018330381314
+    - - 272.9642116511913
+      - 250.0790800230835
+    - - 266.93216497053174
+      - 250.01767098204243
   id: lower_vs_zone_mixed_north_house_87
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 194.87293067721686
-      - 238.73288387626206
-    - - 209.18813962084278
-      - 238.96994203461693
-    - - 208.97289554516104
-      - 225.1112897056979
-    - - 194.89396427176558
-      - 224.71788916391483
+    - - 277.8729306772169
+      - 261.73288387626206
+    - - 290.1881396208428
+      - 261.9699420346169
+    - - 289.972895545161
+      - 250.1112897056979
+    - - 277.8939642717656
+      - 249.71788916391486
   id: lower_vs_zone_mixed_north_house_88
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 194.98083501140013
-      - 235.49708074953418
-    - - 205.59762384295635
-      - 235.46846792270338
-    - - 205.50851871887144
-      - 228.51735048584013
-    - - 194.93751650827892
-      - 228.52764412816967
+    - - 277.98083501140013
+      - 258.9970807495342
+    - - 287.09762384295635
+      - 258.9684679227034
+    - - 287.0085187188714
+      - 253.01735048584013
+    - - 277.9375165082789
+      - 253.02764412816967
   id: lower_vs_zone_mixed_north_house_89
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 212.07524524528702
-      - 238.84400567836337
-    - - 225.82213494301016
-      - 238.9704682165488
-    - - 226.25660365650668
-      - 225.03713034295657
-    - - 212.1189500174733
-      - 225.22714434998244
-  id: lower_vs_zone_mixed_north_house_90
-  parent_id: lower_vs_zone_mixed_north
-  shape: POLYGON
-- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
-  geometry:
-    points:
-    - - 212.09462936316436
-      - 235.4782256665836
-    - - 222.4478594924655
-      - 235.56832436723894
-    - - 222.51016780140054
-      - 228.48954971818927
-    - - 211.9186418402563
-      - 228.40154857212096
-  id: lower_vs_zone_mixed_north_house_91
-  parent_id: lower_vs_zone_mixed_north
-  shape: POLYGON
-- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
-  geometry:
-    points:
-    - - 228.97686873650727
-      - 239.22952031054626
-    - - 243.19928590426133
-      - 239.00097469717568
-    - - 243.12996199559507
-      - 224.9946767909583
-    - - 228.86405493802795
-      - 224.79916563265397
+    - - 305.9768687365073
+      - 262.22952031054626
+    - - 318.19928590426133
+      - 262.0009746971757
+    - - 318.12996199559507
+      - 249.9946767909583
+    - - 305.86405493802795
+      - 249.79916563265397
   id: lower_vs_zone_mixed_north_house_92
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 232.59604892652067
-      - 239.05125381878497
-    - - 239.5102530153761
-      - 239.02328279735056
-    - - 239.58437362998632
-      - 228.4983518216814
-    - - 232.5758652510293
-      - 228.4271946131143
+    - - 309.09604892652067
+      - 262.05125381878497
+    - - 315.01025301537607
+      - 262.0232827973506
+    - - 315.0843736299863
+      - 252.9983518216814
+    - - 309.0758652510293
+      - 252.9271946131143
   id: lower_vs_zone_mixed_north_house_93
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 246.1636050796062
-      - 238.7873525720167
-    - - 259.9039251458686
-      - 238.8273695565414
-    - - 259.86030359784013
-      - 225.29846084438486
-    - - 246.1356305895681
-      - 224.79751444643614
+    - - 320.1636050796062
+      - 261.7873525720167
+    - - 331.9039251458686
+      - 261.82736955654144
+    - - 331.86030359784013
+      - 250.29846084438486
+    - - 320.1356305895681
+      - 249.79751444643614
   id: lower_vs_zone_mixed_north_house_94
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 249.51598467677667
-      - 235.46801184938903
-    - - 256.57305211894004
-      - 235.51069052139135
-    - - 256.49686827711037
-      - 225.03351200885785
-    - - 249.552574535524
-      - 225.02455798915722
+    - - 323.01598467677667
+      - 258.96801184938903
+    - - 329.07305211894004
+      - 259.0106905213914
+    - - 328.99686827711037
+      - 250.03351200885785
+    - - 323.052574535524
+      - 250.02455798915722
   id: lower_vs_zone_mixed_north_house_95
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 263.22176100994045
-      - 238.71153522120045
-    - - 276.8432833264998
-      - 239.07021749064222
-    - - 277.21360778559244
-      - 225.05353494267024
-    - - 262.8909057963403
-      - 225.01621424985575
+    - - 110.22176100994044
+      - 247.71153522120045
+    - - 121.84328332649974
+      - 248.07021749064222
+    - - 122.21360778559243
+      - 236.05353494267024
+    - - 109.89090579634028
+      - 236.01621424985575
   id: lower_vs_zone_mixed_north_house_96
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 266.58268603356396
-      - 235.52375377061057
-    - - 273.5976828003879
-      - 235.44152126786003
-    - - 273.5304038002801
-      - 225.06957893595796
-    - - 266.59296488767416
-      - 225.07475074603812
+    - - 113.08268603356393
+      - 245.02375377061057
+    - - 119.09768280038787
+      - 244.94152126786003
+    - - 119.03040380028013
+      - 236.06957893595796
+    - - 113.09296488767419
+      - 236.07475074603812
   id: lower_vs_zone_mixed_north_house_97
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 279.8991968223588
-      - 239.23978123870108
-    - - 294.20702365386626
-      - 239.24017298135482
-    - - 294.2462650066179
-      - 225.29079144125086
-    - - 279.7864932495802
-      - 224.77744021719047
+    - - 123.89919682235882
+      - 248.23978123870108
+    - - 136.20702365386623
+      - 248.24017298135482
+    - - 136.24626500661788
+      - 236.29079144125086
+    - - 123.78649324958016
+      - 235.77744021719047
   id: lower_vs_zone_mixed_north_house_98
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 283.59399135880824
-      - 235.58503435035126
-    - - 290.55630505825457
-      - 235.54699544409132
-    - - 290.5246518801044
-      - 228.52050333522286
-    - - 283.41606306411586
-      - 228.5342868822033
+    - - 127.09399135880822
+      - 245.08503435035126
+    - - 133.0563050582546
+      - 245.04699544409132
+    - - 133.0246518801044
+      - 239.02050333522286
+    - - 126.91606306411589
+      - 239.0342868822033
   id: lower_vs_zone_mixed_north_house_99
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 314.2420544372303
-      - 239.27240541879368
-    - - 328.1776860790973
-      - 239.12397933442088
-    - - 327.92490465386516
-      - 225.21265812258036
-    - - 314.0186997908893
-      - 224.96044316285042
+    - - 137.92800563851358
+      - 248.11000330763994
+    - - 150.1312304551338
+      - 247.84435891439938
+    - - 150.22342981043911
+      - 236.2784605400974
+    - - 137.74105244830892
+      - 235.9213033898872
+  id: lower_vs_zone_mixed_north_house_100
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 141.08418581975604
+      - 244.90051481540877
+    - - 147.04935327334758
+      - 245.01320570561538
+    - - 146.91968862527665
+      - 238.97325043424385
+    - - 141.07451584652142
+      - 239.01126428966765
+  id: lower_vs_zone_mixed_north_house_101
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 152.2420544372303
+      - 248.27240541879368
+    - - 164.17768607909733
+      - 248.12397933442088
+    - - 163.92490465386518
+      - 236.21265812258036
+    - - 152.01869979088926
+      - 235.96044316285042
   id: lower_vs_zone_mixed_north_house_102
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 317.5585038947762
-      - 235.56600327018637
-    - - 324.41579367013196
-      - 235.42583208027102
-    - - 324.5239420737075
-      - 225.05183404162875
-    - - 317.5825658032047
-      - 225.0713764559743
+    - - 155.05850389477618
+      - 245.06600327018637
+    - - 160.915793670132
+      - 244.92583208027102
+    - - 161.02394207370747
+      - 236.05183404162875
+    - - 155.08256580320472
+      - 236.0713764559743
   id: lower_vs_zone_mixed_north_house_103
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 110.08274277860214
-      - 222.02425770049396
-    - - 124.10010443035989
-      - 221.7606548809798
-    - - 123.97915195331518
-      - 208.12742100055095
-    - - 110.02795888256122
-      - 208.25568285983027
+    - - 166.08274277860215
+      - 248.02425770049396
+    - - 178.1001044303599
+      - 247.7606548809798
+    - - 177.97915195331518
+      - 236.12742100055095
+    - - 166.02795888256122
+      - 236.25568285983027
   id: lower_vs_zone_mixed_north_house_104
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 110.08904712698693
-      - 218.40246966095629
-    - - 120.45983084982475
-      - 218.4075941854353
-    - - 120.53806270249203
-      - 211.50863283746645
-    - - 109.96042433410766
-      - 211.40012528689996
+    - - 166.08904712698694
+      - 244.9024696609563
+    - - 174.95983084982475
+      - 244.9075941854353
+    - - 175.03806270249203
+      - 239.00863283746645
+    - - 165.96042433410767
+      - 238.90012528689996
   id: lower_vs_zone_mixed_north_house_105
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 126.76399196045341
-      - 222.0711814214054
-    - - 140.91537549454634
-      - 222.12247656587053
-    - - 141.11956744773045
-      - 208.28683624128428
-    - - 127.1980225368957
-      - 208.0625165554532
+    - - 179.7639919604534
+      - 248.0711814214054
+    - - 191.91537549454637
+      - 248.12247656587053
+    - - 192.11956744773045
+      - 236.28683624128428
+    - - 180.1980225368957
+      - 236.0625165554532
   id: lower_vs_zone_mixed_north_house_106
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 126.9016195931523
-      - 218.42698652046056
-    - - 137.55566232315402
-      - 218.40527943663443
-    - - 137.58212339074373
-      - 211.4509655691732
-    - - 127.06656777993464
-      - 211.41941301631005
+    - - 179.9016195931523
+      - 244.92698652046056
+    - - 189.05566232315402
+      - 244.90527943663443
+    - - 189.08212339074373
+      - 238.9509655691732
+    - - 180.06656777993464
+      - 238.91941301631005
   id: lower_vs_zone_mixed_north_house_107
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 144.06423899889856
-      - 222.0886074264988
-    - - 158.08197072680355
-      - 221.92746530212182
-    - - 158.106658675174
-      - 207.86744297399758
-    - - 144.09550892419006
-      - 207.7969977298225
+    - - 194.06423899889856
+      - 248.0886074264988
+    - - 206.08197072680355
+      - 247.92746530212182
+    - - 206.106658675174
+      - 235.86744297399758
+    - - 194.09550892419006
+      - 235.7969977298225
   id: lower_vs_zone_mixed_north_house_108
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 147.5256496207374
-      - 218.4193192591854
-    - - 158.0292681217781
-      - 218.53821342320947
-    - - 157.98816463803257
-      - 211.48408523892633
-    - - 147.54647195358785
-      - 211.58197332485076
+    - - 197.0256496207374
+      - 244.91931925918541
+    - - 206.0292681217781
+      - 245.03821342320947
+    - - 205.98816463803257
+      - 238.98408523892633
+    - - 197.04647195358785
+      - 239.08197332485076
   id: lower_vs_zone_mixed_north_house_109
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 160.8960314754284
-      - 222.05069814394875
-    - - 174.82047687679005
-      - 221.82809231338172
-    - - 175.22587635802398
-      - 208.08048548163094
-    - - 161.0010768573589
-      - 208.13648358957258
+    - - 207.8960314754284
+      - 248.05069814394875
+    - - 219.82047687679005
+      - 247.8280923133817
+    - - 220.22587635802398
+      - 236.08048548163092
+    - - 208.0010768573589
+      - 236.13648358957258
   id: lower_vs_zone_mixed_north_house_110
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 164.43290888407375
-      - 218.41719020929236
-    - - 171.58883756321944
-      - 218.40652318476663
-    - - 171.4590282898345
-      - 207.925920608135
-    - - 164.5608465077209
-      - 208.00633372222944
+    - - 210.93290888407375
+      - 244.91719020929233
+    - - 217.08883756321944
+      - 244.90652318476663
+    - - 216.9590282898345
+      - 235.925920608135
+    - - 211.0608465077209
+      - 236.00633372222947
   id: lower_vs_zone_mixed_north_house_111
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 177.7844542090035
-      - 221.72009987432233
-    - - 192.2160843581393
-      - 221.86546997275468
-    - - 192.28796534566914
-      - 207.71963815161996
-    - - 178.18275258641233
-      - 208.08053497035667
+    - - 221.7844542090035
+      - 247.72009987432236
+    - - 234.2160843581393
+      - 247.86546997275468
+    - - 234.28796534566914
+      - 235.71963815162
+    - - 222.18275258641233
+      - 236.08053497035667
   id: lower_vs_zone_mixed_north_house_112
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 181.5581363937178
-      - 222.09721626897982
-    - - 188.5073144616538
-      - 222.00904279445322
-    - - 188.53456567637477
-      - 211.4655318405298
-    - - 181.51691201833043
-      - 211.43551653975464
+    - - 225.0581363937178
+      - 248.09721626897982
+    - - 231.0073144616538
+      - 248.00904279445322
+    - - 231.03456567637477
+      - 238.9655318405298
+    - - 225.01691201833043
+      - 238.93551653975464
   id: lower_vs_zone_mixed_north_house_113
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 194.76500766131954
-      - 222.15970685867305
-    - - 208.7150147897879
-      - 221.7694590928711
-    - - 209.0368444293499
-      - 207.7508464547541
-    - - 194.8328203200444
-      - 208.26206977530387
+    - - 235.76500766131954
+      - 248.15970685867305
+    - - 247.7150147897879
+      - 247.7694590928711
+    - - 248.03684442934994
+      - 235.7508464547541
+    - - 235.8328203200444
+      - 236.26206977530387
   id: lower_vs_zone_mixed_north_house_114
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 198.56477107027808
-      - 218.41812247231442
-    - - 205.46043803490585
-      - 218.5183408288409
-    - - 205.42795540250142
-      - 207.91074769342362
-    - - 198.4608729168712
-      - 208.00147507620437
+    - - 239.06477107027808
+      - 244.91812247231442
+    - - 244.96043803490585
+      - 245.0183408288409
+    - - 244.92795540250145
+      - 235.91074769342362
+    - - 238.9608729168712
+      - 236.00147507620437
   id: lower_vs_zone_mixed_north_house_115
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 211.84088001945878
-      - 221.9774720364705
-    - - 225.93318749869007
-      - 222.07739309070786
-    - - 226.26962846104715
-      - 207.88210960501743
-    - - 212.02411549725738
-      - 207.94759579267082
+    - - 249.8408800194588
+      - 247.9774720364705
+    - - 261.9331874986901
+      - 248.07739309070786
+    - - 262.26962846104715
+      - 235.88210960501743
+    - - 250.02411549725738
+      - 235.94759579267082
   id: lower_vs_zone_mixed_north_house_116
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 215.54531983011145
-      - 221.92291724322007
-    - - 222.5309843794987
-      - 221.93326138334072
-    - - 222.5231304428102
-      - 211.41218938685728
-    - - 215.45594802801716
-      - 211.46194386725048
+    - - 253.04531983011145
+      - 247.92291724322007
+    - - 259.0309843794987
+      - 247.93326138334072
+    - - 259.02313044281027
+      - 238.91218938685728
+    - - 252.95594802801716
+      - 238.96194386725048
   id: lower_vs_zone_mixed_north_house_117
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 228.96602985163642
-      - 221.72966689808914
-    - - 243.21327011598356
-      - 222.2403872252363
-    - - 243.11140815928877
-      - 207.9733204831107
-    - - 229.28670551767124
-      - 208.0847956952726
+    - - 263.96602985163645
+      - 247.72966689808914
+    - - 276.21327011598356
+      - 248.2403872252363
+    - - 276.11140815928877
+      - 235.9733204831107
+    - - 264.28670551767124
+      - 236.08479569527262
   id: lower_vs_zone_mixed_north_house_118
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 232.4796279285489
-      - 218.5620382875678
-    - - 242.92443194381744
-      - 218.43039336230726
-    - - 242.9909434737141
-      - 211.46744625238762
-    - - 232.52834089344663
-      - 211.4805708080961
+    - - 266.9796279285489
+      - 245.0620382875678
+    - - 275.92443194381747
+      - 244.93039336230726
+    - - 275.9909434737141
+      - 238.96744625238762
+    - - 267.0283408934466
+      - 238.9805708080961
   id: lower_vs_zone_mixed_north_house_119
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 245.73034710639772
-      - 222.0998945061405
-    - - 260.29329254236484
-      - 221.8278131400142
-    - - 259.8231233450857
-      - 207.80210929766972
-    - - 246.03252467307667
-      - 207.94817014985108
+    - - 277.73034710639774
+      - 248.0998945061405
+    - - 290.29329254236484
+      - 247.8278131400142
+    - - 289.8231233450857
+      - 235.80210929766972
+    - - 278.03252467307664
+      - 235.94817014985108
   id: lower_vs_zone_mixed_north_house_120
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 249.5626105962242
-      - 222.0534002641908
-    - - 256.554873715561
-      - 221.94227124914448
-    - - 256.5191963270349
-      - 211.54454503080487
-    - - 249.59680562636956
-      - 211.40249453912676
+    - - 281.0626105962242
+      - 248.0534002641908
+    - - 287.054873715561
+      - 247.94227124914448
+    - - 287.0191963270349
+      - 239.04454503080487
+    - - 281.0968056263696
+      - 238.90249453912676
   id: lower_vs_zone_mixed_north_house_121
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 262.85039251803687
-      - 222.19530172745917
-    - - 277.0966345855584
-      - 222.2845319101283
-    - - 276.70891619633846
-      - 207.82600920145916
-    - - 262.8427589636543
-      - 208.1057371228228
-  id: lower_vs_zone_mixed_north_house_122
-  parent_id: lower_vs_zone_mixed_north
-  shape: POLYGON
-- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
-  geometry:
-    points:
-    - - 266.4348492402812
-      - 218.58952019642777
-    - - 273.5483436113908
-      - 218.49478289468044
-    - - 273.5491330550068
-      - 211.50475080691535
-    - - 266.5556034078628
-      - 211.49735240847815
-  id: lower_vs_zone_mixed_north_house_123
-  parent_id: lower_vs_zone_mixed_north
-  shape: POLYGON
-- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
-  geometry:
-    points:
-    - - 279.9712032519452
-      - 222.16707014614903
-    - - 294.06906410177066
-      - 221.86365420170176
-    - - 294.2452510127439
-      - 207.90465815579242
-    - - 279.8809781974169
-      - 207.9139955894767
+    - - 305.9712032519452
+      - 248.16707014614903
+    - - 318.06906410177066
+      - 247.86365420170176
+    - - 318.2452510127439
+      - 235.90465815579242
+    - - 305.8809781974169
+      - 235.9139955894767
   id: lower_vs_zone_mixed_north_house_124
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 283.40623012790206
-      - 221.90028264898214
-    - - 290.5694597086334
-      - 222.014745276144
-    - - 290.42159236593585
-      - 211.45751973702056
-    - - 283.4887124658726
-      - 211.4201466469753
+    - - 308.90623012790206
+      - 247.90028264898214
+    - - 315.0694597086334
+      - 248.014745276144
+    - - 314.92159236593585
+      - 238.9575197370206
+    - - 308.9887124658726
+      - 238.9201466469753
   id: lower_vs_zone_mixed_north_house_125
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 313.95804196499984
-      - 221.7671453868069
-    - - 327.94828814270613
-      - 221.80354846513197
-    - - 327.9392381105542
-      - 207.86223249541928
-    - - 313.8875290099983
-      - 208.11248585731488
+    - - 320.06497845418005
+      - 248.26059066000795
+    - - 331.8650095997348
+      - 247.9201539654194
+    - - 332.029013860429
+      - 236.1048887340088
+    - - 320.29677665351653
+      - 235.9816658975412
+  id: lower_vs_zone_mixed_north_house_126
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 322.9907430835151
+      - 244.97891464169294
+    - - 328.9198356923358
+      - 244.9596441162908
+    - - 329.0705585474591
+      - 235.96981666702374
+    - - 323.053792546021
+      - 235.95583201666847
+  id: lower_vs_zone_mixed_north_house_127
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 109.95804196499984
+      - 233.7671453868069
+    - - 121.94828814270615
+      - 233.80354846513197
+    - - 121.93923811055417
+      - 221.86223249541928
+    - - 109.88752900999827
+      - 222.11248585731488
   id: lower_vs_zone_mixed_north_house_128
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 317.45097795929655
-      - 218.40928149647618
-    - - 328.0373642070934
-      - 218.50514642288218
-    - - 327.9182449576732
-      - 211.5829271285337
-    - - 317.48637530371036
-      - 211.45108220616163
+    - - 112.95097795929655
+      - 230.90928149647618
+    - - 122.03736420709339
+      - 231.00514642288218
+    - - 121.91824495767321
+      - 225.0829271285337
+    - - 112.98637530371035
+      - 224.95108220616163
   id: lower_vs_zone_mixed_north_house_129
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 110.18706157116644
-      - 204.9661775586308
-    - - 124.05187904964369
-      - 204.96304815160477
-    - - 123.89778758884972
-      - 191.22666122878726
-    - - 109.91215884778026
-      - 190.90079568799825
+    - - 124.18706157116644
+      - 233.9661775586308
+    - - 136.05187904964367
+      - 233.96304815160477
+    - - 135.89778758884972
+      - 222.22666122878726
+    - - 123.91215884778026
+      - 221.90079568799825
   id: lower_vs_zone_mixed_north_house_130
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 113.5500568500503
-      - 201.42638157022617
-    - - 120.54421213574923
-      - 201.40632027493768
-    - - 120.52008201824493
-      - 191.02967076286137
-    - - 113.51558370367798
-      - 191.0574522388656
+    - - 127.0500568500503
+      - 230.92638157022617
+    - - 133.04421213574923
+      - 230.9063202749377
+    - - 133.02008201824492
+      - 222.02967076286137
+    - - 127.01558370367798
+      - 222.0574522388656
   id: lower_vs_zone_mixed_north_house_131
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 126.83454692146454
-      - 205.23506897084366
-    - - 141.2072240511608
-      - 205.0794633696308
-    - - 141.1575633791621
-      - 190.9555399974011
-    - - 127.1843328226914
-      - 190.792906903203
+    - - 137.83454692146455
+      - 234.23506897084366
+    - - 150.2072240511608
+      - 234.0794633696308
+    - - 150.15756337916213
+      - 221.9555399974011
+    - - 138.1843328226914
+      - 221.792906903203
   id: lower_vs_zone_mixed_north_house_132
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 127.09490932042515
-      - 201.43631462809185
-    - - 137.5227146561071
-      - 201.47146016723403
-    - - 137.40525076629072
-      - 194.414183141801
-    - - 127.06589215799193
-      - 194.54651045496917
+    - - 138.09490932042513
+      - 230.93631462809185
+    - - 147.0227146561071
+      - 230.97146016723403
+    - - 146.90525076629072
+      - 224.914183141801
+    - - 138.06589215799193
+      - 225.04651045496917
   id: lower_vs_zone_mixed_north_house_133
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 143.86396223322762
-      - 204.84255428921142
-    - - 158.2529225126199
-      - 205.08938594755782
-    - - 157.80884333492753
-      - 191.2140491057948
-    - - 144.0944067809021
-      - 191.258248747251
+    - - 151.86396223322762
+      - 233.8425542892114
+    - - 164.2529225126199
+      - 234.08938594755782
+    - - 163.80884333492753
+      - 222.2140491057948
+    - - 152.0944067809021
+      - 222.258248747251
   id: lower_vs_zone_mixed_north_house_134
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 147.5481938118237
-      - 201.4056379362484
-    - - 157.91835153661088
-      - 201.4939034622682
-    - - 157.97523888114068
-      - 194.5092708418654
-    - - 147.431481855169
-      - 194.53767252605917
+    - - 155.0481938118237
+      - 230.9056379362484
+    - - 163.91835153661088
+      - 230.9939034622682
+    - - 163.97523888114068
+      - 225.0092708418654
+    - - 154.931481855169
+      - 225.03767252605917
   id: lower_vs_zone_mixed_north_house_135
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 161.16610137198006
-      - 204.95944386603136
-    - - 174.7509742239863
-      - 205.26843470414468
-    - - 174.7944459382643
-      - 190.9292970908444
-    - - 161.10438122636788
-      - 191.13673829387227
+    - - 166.16610137198006
+      - 233.95944386603136
+    - - 177.7509742239863
+      - 234.26843470414468
+    - - 177.7944459382643
+      - 221.9292970908444
+    - - 166.10438122636788
+      - 222.13673829387227
   id: lower_vs_zone_mixed_north_house_136
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 164.53238773856165
-      - 201.5028676590218
-    - - 171.48840883733956
-      - 201.54536663112705
-    - - 171.55098862873368
-      - 191.07723649837794
-    - - 164.4859827266796
-      - 191.04335070598393
+    - - 169.03238773856165
+      - 231.0028676590218
+    - - 174.98840883733956
+      - 231.04536663112705
+    - - 175.05098862873368
+      - 222.07723649837794
+    - - 168.9859827266796
+      - 222.04335070598393
   id: lower_vs_zone_mixed_north_house_137
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 177.99197965201856
-      - 204.8997204647582
+    - - 179.99197965201856
+      - 233.8997204647582
     - - 191.72725041756266
-      - 205.06284196234742
+      - 234.06284196234742
     - - 192.05959497416666
-      - 191.2953877484601
-    - - 177.88085161721108
-      - 191.1732596124678
+      - 222.2953877484601
+    - - 179.88085161721108
+      - 222.1732596124678
   id: lower_vs_zone_mixed_north_house_138
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 181.42744696105146
-      - 201.5488960991957
-    - - 188.46562447118757
-      - 201.59845401868614
-    - - 188.54940282468596
-      - 194.56486103962482
-    - - 181.47604148914303
-      - 194.45926574732346
+    - - 182.92744696105146
+      - 231.0488960991957
+    - - 188.96562447118757
+      - 231.09845401868614
+    - - 189.04940282468596
+      - 225.06486103962482
+    - - 182.97604148914303
+      - 224.95926574732346
   id: lower_vs_zone_mixed_north_house_139
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 195.0352341406048
-      - 204.89917109695284
-    - - 208.91250030281577
-      - 205.06175729545163
-    - - 209.14522479642466
-      - 191.0382682426926
-    - - 194.97585255021374
-      - 191.25328243287453
+    - - 194.0352341406048
+      - 233.89917109695284
+    - - 205.91250030281577
+      - 234.06175729545163
+    - - 206.14522479642466
+      - 222.0382682426926
+    - - 193.97585255021374
+      - 222.25328243287453
   id: lower_vs_zone_mixed_north_house_140
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 198.46261212613547
-      - 201.51414314273984
-    - - 205.48088457690105
-      - 201.47197166619048
-    - - 205.45790304111716
-      - 194.518993538587
-    - - 198.59323993820664
-      - 194.56562536388438
+    - - 196.96261212613547
+      - 231.01414314273984
+    - - 202.98088457690105
+      - 230.97197166619048
+    - - 202.95790304111716
+      - 225.018993538587
+    - - 197.09323993820664
+      - 225.06562536388438
   id: lower_vs_zone_mixed_north_house_141
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 211.9760581411363
-      - 204.8862339753519
-    - - 225.91711161474046
-      - 205.03797293225907
-    - - 225.76351788003734
-      - 191.03859408383576
-    - - 211.94026988978965
-      - 191.2528117475103
+    - - 207.9760581411363
+      - 233.8862339753519
+    - - 219.91711161474046
+      - 234.03797293225907
+    - - 219.76351788003734
+      - 222.03859408383576
+    - - 207.94026988978965
+      - 222.2528117475103
   id: lower_vs_zone_mixed_north_house_142
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 215.5741048832391
-      - 201.4508390347071
-    - - 222.44431441177886
-      - 201.44417642627934
-    - - 222.41527587549461
-      - 194.47335506660636
-    - - 215.50612096415455
-      - 194.56121925874663
+    - - 211.0741048832391
+      - 230.9508390347071
+    - - 216.94431441177886
+      - 230.94417642627934
+    - - 216.91527587549461
+      - 224.97335506660636
+    - - 211.00612096415455
+      - 225.06121925874663
   id: lower_vs_zone_mixed_north_house_143
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 228.9106598409744
-      - 204.7250659906017
-    - - 243.08726578570173
-      - 205.21138609840153
-    - - 242.76168271666666
-      - 191.14641906679896
-    - - 228.80409941346525
-      - 191.20827812659644
+    - - 221.9106598409744
+      - 233.7250659906017
+    - - 234.08726578570173
+      - 234.21138609840153
+    - - 233.76168271666666
+      - 222.14641906679896
+    - - 221.80409941346525
+      - 222.20827812659644
   id: lower_vs_zone_mixed_north_house_144
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 232.55183047600912
-      - 201.5849293452842
-    - - 239.5902584281159
-      - 201.47441024557634
-    - - 239.4927906137026
-      - 190.98725290334244
-    - - 232.5158936179413
-      - 190.96377330433705
+    - - 225.05183047600912
+      - 231.0849293452842
+    - - 231.09025842811593
+      - 230.97441024557634
+    - - 230.9927906137026
+      - 221.98725290334244
+    - - 225.0158936179413
+      - 221.96377330433705
   id: lower_vs_zone_mixed_north_house_145
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 246.08579509840294
-      - 204.70808083135847
-    - - 259.893924944986
-      - 204.71741616147511
-    - - 259.88968333669436
-      - 191.03614231019486
-    - - 245.98135265011584
-      - 190.92116892798475
+    - - 236.08579509840294
+      - 233.70808083135847
+    - - 247.89392494498603
+      - 233.71741616147511
+    - - 247.88968333669436
+      - 222.03614231019486
+    - - 235.9813526501158
+      - 221.92116892798475
   id: lower_vs_zone_mixed_north_house_146
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 249.5592659358303
-      - 201.4817160486338
-    - - 256.470388444524
-      - 201.58516186876534
-    - - 256.4923484972893
-      - 194.5924785508858
-    - - 249.47374751989796
-      - 194.54258459347972
+    - - 239.0592659358303
+      - 230.98171604863379
+    - - 244.97038844452402
+      - 231.08516186876534
+    - - 244.9923484972893
+      - 225.0924785508858
+    - - 238.97374751989796
+      - 225.04258459347972
   id: lower_vs_zone_mixed_north_house_147
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 263.06900503304934
-      - 204.99575930959963
-    - - 276.97762699535633
-      - 204.96741017719702
-    - - 277.1750906783592
-      - 190.76247394066593
-    - - 262.96984022219056
-      - 190.81411044938122
+    - - 250.06900503304934
+      - 233.99575930959963
+    - - 261.97762699535633
+      - 233.96741017719702
+    - - 262.1750906783592
+      - 221.76247394066593
+    - - 249.96984022219056
+      - 221.81411044938122
   id: lower_vs_zone_mixed_north_house_148
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 266.53036749092973
-      - 205.0356946474239
-    - - 273.4951258055886
-      - 205.06982778466087
-    - - 273.41237474002025
-      - 194.5792996245459
-    - - 266.57982536679117
-      - 194.53131244483234
+    - - 253.03036749092973
+      - 234.03569464742392
+    - - 258.9951258055886
+      - 234.06982778466087
+    - - 258.91237474002025
+      - 225.0792996245459
+    - - 253.07982536679114
+      - 225.03131244483234
   id: lower_vs_zone_mixed_north_house_149
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 280.00272940090053
-      - 205.19646465313818
-    - - 293.848646234159
-      - 205.03734503541446
-    - - 293.96365307505755
-      - 190.98635117884066
-    - - 279.79524772478896
-      - 191.0762888107392
+    - - 264.00272940090053
+      - 234.19646465313818
+    - - 275.848646234159
+      - 234.03734503541446
+    - - 275.96365307505755
+      - 221.98635117884066
+    - - 263.79524772478896
+      - 222.0762888107392
   id: lower_vs_zone_mixed_north_house_150
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 283.4565787157229
-      - 205.01824612055054
-    - - 290.4676734293683
-      - 204.9804228275234
-    - - 290.5578453863127
-      - 194.47053892860612
-    - - 283.4131823708559
-      - 194.581098810497
+    - - 266.9565787157229
+      - 234.01824612055054
+    - - 272.9676734293683
+      - 233.9804228275234
+    - - 273.0578453863127
+      - 224.97053892860612
+    - - 266.9131823708559
+      - 225.081098810497
   id: lower_vs_zone_mixed_north_house_151
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 314.1879108702889
-      - 204.89793016000317
-    - - 328.1973753837367
-      - 204.8567351967223
-    - - 328.1112486641665
-      - 190.9841639961595
-    - - 314.0876148924401
-      - 191.04595618020676
-  id: lower_vs_zone_mixed_north_house_154
+    - - 277.87048818432686
+      - 233.86575980699854
+    - - 290.09393845184627
+      - 233.7561943817018
+    - - 290.22396779723636
+      - 222.09998277836365
+    - - 278.0496437087519
+      - 222.2151429716494
+  id: lower_vs_zone_mixed_north_house_152
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 317.47236561926934
-      - 201.5274804662036
-    - - 324.43605258457535
-      - 201.55716146775822
-    - - 324.58953365350686
-      - 191.00274581582545
-    - - 317.4453086093068
-      - 191.07248692936457
-  id: lower_vs_zone_mixed_north_house_155
+    - - 277.9699641575072
+      - 230.90646069846144
+    - - 287.0396959925624
+      - 231.02160840313292
+    - - 287.0190082456303
+      - 224.91239956008684
+    - - 277.9619163774832
+      - 225.02466413878875
+  id: lower_vs_zone_mixed_north_house_153
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 109.87747526099277
-      - 187.82712789579716
-    - - 124.00461382763478
-      - 187.9761375449518
-    - - 124.14318640180088
-      - 173.98408102227265
-    - - 110.09715754242285
-      - 173.77416433647437
+    - - 305.8774752609928
+      - 233.82712789579716
+    - - 318.0046138276348
+      - 233.9761375449518
+    - - 318.1431864018009
+      - 221.98408102227265
+    - - 306.09715754242285
+      - 221.77416433647437
   id: lower_vs_zone_mixed_north_house_156
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 113.52360629309871
-      - 187.98055071178567
-    - - 120.43085055226422
-      - 188.06383080656627
-    - - 120.53856912817224
-      - 177.4750519040092
-    - - 113.58053119654289
-      - 177.4557634004389
+    - - 309.02360629309874
+      - 233.98055071178567
+    - - 314.93085055226425
+      - 234.06383080656627
+    - - 315.03856912817224
+      - 224.9750519040092
+    - - 309.0805311965429
+      - 224.9557634004389
   id: lower_vs_zone_mixed_north_house_157
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 126.94651516689792
-      - 187.89418224668688
-    - - 140.84251812086816
-      - 188.03348077411684
-    - - 140.87095675953802
-      - 173.85087808914273
-    - - 126.96935677782
-      - 173.97959331018103
+    - - 319.94651516689794
+      - 233.89418224668688
+    - - 331.84251812086814
+      - 234.03348077411684
+    - - 331.870956759538
+      - 221.85087808914273
+    - - 319.96935677782
+      - 221.97959331018103
   id: lower_vs_zone_mixed_north_house_158
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 130.46189357931257
-      - 187.93827522578184
-    - - 137.49380312100647
-      - 187.93297732145487
-    - - 137.473568191645
-      - 177.4105739659512
-    - - 130.5968879587063
-      - 177.5076640043118
+    - - 322.9618935793126
+      - 233.93827522578184
+    - - 328.9938031210064
+      - 233.93297732145487
+    - - 328.973568191645
+      - 224.9105739659512
+    - - 323.0968879587063
+      - 225.0076640043118
   id: lower_vs_zone_mixed_north_house_159
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 144.16687442234996
-      - 187.99825598510745
-    - - 157.95119649603785
-      - 188.20276509605247
-    - - 157.81981863886682
-      - 173.93720193145396
-    - - 144.2238011520356
-      - 174.26869211804342
+    - - 110.16687442234995
+      - 219.99825598510745
+    - - 121.95119649603785
+      - 220.20276509605247
+    - - 121.8198186388668
+      - 207.93720193145396
+    - - 110.2238011520356
+      - 208.26869211804342
   id: lower_vs_zone_mixed_north_house_160
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 147.49611813109237
-      - 184.52575757867913
-    - - 154.5868587107995
-      - 184.4577198045762
-    - - 154.50318187751049
-      - 174.07506444560727
-    - - 147.41677502507434
-      - 174.06793753315094
+    - - 112.99611813109236
+      - 217.02575757867913
+    - - 119.0868587107995
+      - 216.9577198045762
+    - - 119.0031818775105
+      - 208.07506444560727
+    - - 112.91677502507436
+      - 208.06793753315094
   id: lower_vs_zone_mixed_north_house_161
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 161.24318372538693
-      - 188.21159080640504
-    - - 174.962483536117
-      - 187.73215204219295
-    - - 174.83322280414419
-      - 174.02932320586757
-    - - 160.90975104688317
-      - 174.28399788551823
+    - - 124.24318372538694
+      - 220.21159080640504
+    - - 135.962483536117
+      - 219.73215204219295
+    - - 135.83322280414419
+      - 208.02932320586757
+    - - 123.90975104688319
+      - 208.28399788551823
   id: lower_vs_zone_mixed_north_house_162
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 160.91065137743422
-      - 184.49959857706136
-    - - 171.4471556147727
-      - 184.40109492975233
-    - - 171.47498253468356
-      - 177.59436249089435
-    - - 161.08616518095
-      - 177.43216474247768
+    - - 123.91065137743422
+      - 216.99959857706136
+    - - 132.9471556147727
+      - 216.90109492975233
+    - - 132.97498253468356
+      - 211.09436249089435
+    - - 124.08616518094999
+      - 210.93216474247768
   id: lower_vs_zone_mixed_north_house_163
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 178.1748283824893
-      - 188.2174402473645
-    - - 191.87212763838795
-      - 187.80214305010833
-    - - 192.1176431931456
-      - 174.21672438490907
-    - - 178.12332170517345
-      - 174.03083911561066
+    - - 138.1748283824893
+      - 220.2174402473645
+    - - 149.87212763838795
+      - 219.80214305010833
+    - - 150.1176431931456
+      - 208.21672438490907
+    - - 138.12332170517345
+      - 208.03083911561066
   id: lower_vs_zone_mixed_north_house_164
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 181.40105023966112
-      - 184.58415484574584
-    - - 188.45118478568742
-      - 184.43300738014352
-    - - 188.50976084908876
-      - 173.954553042935
-    - - 181.50555430117734
-      - 174.07776262793516
+    - - 140.90105023966112
+      - 217.08415484574584
+    - - 146.95118478568742
+      - 216.93300738014352
+    - - 147.00976084908876
+      - 207.954553042935
+    - - 141.00555430117734
+      - 208.07776262793516
   id: lower_vs_zone_mixed_north_house_165
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 194.84258413598457
-      - 188.22689099290483
-    - - 208.84306370207588
-      - 187.9166289606963
-    - - 209.0736863410046
-      - 174.26231570939336
-    - - 195.20201263236322
-      - 174.00010246665744
+    - - 151.84258413598457
+      - 220.22689099290483
+    - - 163.84306370207588
+      - 219.9166289606963
+    - - 164.0736863410046
+      - 208.26231570939336
+    - - 152.2020126323632
+      - 208.00010246665744
   id: lower_vs_zone_mixed_north_house_166
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 198.50721075686283
-      - 184.47360901159738
-    - - 205.51500949150613
-      - 184.45629113444153
-    - - 205.45825439755504
-      - 174.0996871328133
-    - - 198.4705632079252
-      - 173.98586725679553
+    - - 155.0072107568628
+      - 216.97360901159738
+    - - 161.01500949150613
+      - 216.95629113444153
+    - - 160.95825439755504
+      - 208.0996871328133
+    - - 154.9705632079252
+      - 207.98586725679553
   id: lower_vs_zone_mixed_north_house_167
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 212.0986227810452
-      - 188.24863162700763
-    - - 226.28479269457134
-      - 188.25939240625468
-    - - 226.0156356671933
-      - 173.99560338205214
-    - - 212.29299889135788
-      - 173.9675088285491
+    - - 166.0986227810452
+      - 220.24863162700763
+    - - 178.28479269457134
+      - 220.25939240625468
+    - - 178.0156356671933
+      - 207.99560338205214
+    - - 166.29299889135788
+      - 207.9675088285491
   id: lower_vs_zone_mixed_north_house_168
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 215.478090746512
-      - 184.5059729843683
-    - - 226.02713415829373
-      - 184.4037921154897
-    - - 225.95073005221383
-      - 177.5967515537782
-    - - 215.5577040032559
-      - 177.53103950136733
+    - - 168.978090746512
+      - 217.0059729843683
+    - - 178.02713415829373
+      - 216.9037921154897
+    - - 177.95073005221383
+      - 211.0967515537782
+    - - 169.0577040032559
+      - 211.03103950136733
   id: lower_vs_zone_mixed_north_house_169
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 229.1629008244659
-      - 187.85888780911262
-    - - 242.8995111650232
-      - 188.27339858702288
-    - - 243.02760824712462
-      - 173.81189468066634
-    - - 228.80505347623102
-      - 173.83251444391303
+    - - 180.1629008244659
+      - 219.85888780911262
+    - - 191.89951116502317
+      - 220.27339858702288
+    - - 192.02760824712462
+      - 207.81189468066634
+    - - 179.80505347623102
+      - 207.83251444391303
   id: lower_vs_zone_mixed_north_house_170
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 232.4929245799494
-      - 187.96092214960078
-    - - 239.52634716955166
-      - 187.93770046363048
-    - - 239.41262010740644
-      - 177.4447619200593
-    - - 232.49153591548946
-      - 177.541311485765
+    - - 182.9929245799494
+      - 219.96092214960078
+    - - 189.02634716955168
+      - 219.93770046363048
+    - - 188.91262010740644
+      - 210.9447619200593
+    - - 182.99153591548946
+      - 211.041311485765
   id: lower_vs_zone_mixed_north_house_171
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 246.17466552793744
-      - 187.76852576862913
-    - - 259.88935749202983
-      - 188.11395447023787
-    - - 259.93893443341165
-      - 173.81075635160641
-    - - 245.98403986060612
-      - 174.27802753707786
+    - - 194.1746655279374
+      - 219.76852576862913
+    - - 205.88935749202983
+      - 220.11395447023787
+    - - 205.9389344334116
+      - 207.81075635160641
+    - - 193.98403986060612
+      - 208.27802753707786
   id: lower_vs_zone_mixed_north_house_172
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 249.52938009976015
-      - 188.04277782088968
-    - - 256.5724277060939
-      - 188.0904391931507
-    - - 256.5311462735115
-      - 177.54535667877724
-    - - 249.55986848230364
-      - 177.51260972337502
+    - - 197.02938009976015
+      - 220.04277782088968
+    - - 203.07242770609383
+      - 220.0904391931507
+    - - 203.03114627351152
+      - 211.04535667877724
+    - - 197.05986848230364
+      - 211.01260972337502
   id: lower_vs_zone_mixed_north_house_173
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 263.14598462331173
-      - 187.76321750302697
-    - - 276.9319868609564
-      - 187.71576584941081
-    - - 276.9977219359222
-      - 174.00148596450384
-    - - 263.25458627997614
-      - 173.98843448787903
+    - - 208.1459846233118
+      - 219.76321750302697
+    - - 219.9319868609564
+      - 219.71576584941081
+    - - 219.99772193592221
+      - 208.00148596450384
+    - - 208.2545862799762
+      - 207.98843448787903
   id: lower_vs_zone_mixed_north_house_174
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 263.06022961748033
-      - 184.45458373513148
-    - - 273.4157854012111
-      - 184.47950934023396
-    - - 273.56446825590797
-      - 177.49090512053107
-    - - 262.9642422856429
-      - 177.583986217785
+    - - 208.06022961748036
+      - 216.95458373513148
+    - - 216.9157854012111
+      - 216.97950934023396
+    - - 217.06446825590797
+      - 210.99090512053107
+    - - 207.9642422856429
+      - 211.083986217785
   id: lower_vs_zone_mixed_north_house_175
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 279.88389751365446
-      - 187.93842702336164
-    - - 293.95566964372983
-      - 187.8861411149327
-    - - 293.91092819026323
-      - 174.2745869022899
-    - - 280.2220223050339
-      - 174.0884644138149
+    - - 221.88389751365446
+      - 219.93842702336164
+    - - 233.95566964372983
+      - 219.8861411149327
+    - - 233.91092819026318
+      - 208.2745869022899
+    - - 222.22202230503382
+      - 208.0884644138149
   id: lower_vs_zone_mixed_north_house_176
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 283.5996301195546
-      - 184.54508892798503
-    - - 290.59600545583885
-      - 184.41041912427937
-    - - 290.4150082329976
-      - 173.97249749242334
-    - - 283.4726622261302
-      - 173.93978080488756
+    - - 225.0996301195546
+      - 217.04508892798503
+    - - 231.09600545583885
+      - 216.91041912427937
+    - - 230.91500823299765
+      - 207.97249749242334
+    - - 224.97266222613018
+      - 207.93978080488756
   id: lower_vs_zone_mixed_north_house_177
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
   geometry:
     points:
-    - - 313.92016996919233
-      - 188.11136873521107
-    - - 327.8672138597799
-      - 187.723687968641
-    - - 327.7155480045185
-      - 174.18837117031643
-    - - 314.01064716452504
-      - 173.75187449651207
+    - - 236.27167363776778
+      - 220.21433231898249
+    - - 248.0645437419925
+      - 219.83121281815392
+    - - 247.72087937947913
+      - 208.25965998216273
+    - - 236.16710922410414
+      - 208.0802029161357
+  id: lower_vs_zone_mixed_north_house_178
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 238.97657088033776
+      - 216.98655107165519
+    - - 248.02101896577096
+      - 216.96418758861734
+    - - 248.0897647058531
+      - 211.02559732430586
+    - - 239.05261689435972
+      - 210.9852156443332
+  id: lower_vs_zone_mixed_north_house_179
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 249.9201699691923
+      - 220.11136873521107
+    - - 261.8672138597799
+      - 219.723687968641
+    - - 261.7155480045185
+      - 208.18837117031643
+    - - 250.01064716452504
+      - 207.75187449651207
   id: lower_vs_zone_mixed_north_house_180
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
   geometry:
     points:
-    - - 317.42355219909814
-      - 184.4450071032937
-    - - 324.54080756224135
-      - 184.55708591491526
-    - - 324.5223754365527
-      - 177.46120387179184
-    - - 317.599725768702
-      - 177.55996433180178
+    - - 252.92355219909814
+      - 216.9450071032937
+    - - 259.04080756224135
+      - 217.05708591491526
+    - - 259.0223754365527
+      - 210.96120387179184
+    - - 253.09972576870203
+      - 211.05996433180178
   id: lower_vs_zone_mixed_north_house_181
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 264.21169577423063
+      - 220.02877438885275
+    - - 276.2392074184718
+      - 220.03293328435453
+    - - 275.75267444466283
+      - 207.89084244384964
+    - - 264.20731273138483
+      - 208.10824733674002
+  id: lower_vs_zone_mixed_north_house_182
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 266.9694850589477
+      - 217.0870121843368
+    - - 276.00843427224515
+      - 216.9217336635292
+    - - 276.07027241015066
+      - 210.95763817919857
+    - - 267.0854648913446
+      - 210.9724599954872
+  id: lower_vs_zone_mixed_north_house_183
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 278.00525344710456
+      - 220.22718252695293
+    - - 289.82058822270665
+      - 220.21667387677698
+    - - 290.17422383648466
+      - 208.28422958391502
+    - - 278.0324128623557
+      - 208.07865330069927
+  id: lower_vs_zone_mixed_north_house_184
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 281.06073234525775
+      - 216.9896706132147
+    - - 287.0223896725241
+      - 217.08275690366963
+    - - 286.96185814350565
+      - 207.90008099121312
+    - - 281.04377393197814
+      - 207.99486086903394
+  id: lower_vs_zone_mixed_north_house_185
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 305.88247472568446
+      - 220.20281982426644
+    - - 318.26084270198345
+      - 220.16471782917074
+    - - 318.26848988208576
+      - 207.98866132395747
+    - - 305.8704289861587
+      - 208.2526840571287
+  id: lower_vs_zone_mixed_north_house_188
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 308.9392603838966
+      - 216.90872967459137
+    - - 317.95489020664274
+      - 216.9749955277103
+    - - 318.02288565566164
+      - 211.0813143186233
+    - - 309.0281974854598
+      - 210.98163831093666
+  id: lower_vs_zone_mixed_north_house_189
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 319.79251656012775
+      - 219.90476027596975
+    - - 332.1323796610624
+      - 219.9369166552829
+    - - 332.205518002468
+      - 207.96182917934124
+    - - 320.195141760396
+      - 208.28297590726066
+  id: lower_vs_zone_mixed_north_house_190
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 322.9090923606583
+      - 216.97170925323513
+    - - 329.0153542462955
+      - 216.96977400450288
+    - - 329.05339180018325
+      - 211.01668264326736
+    - - 323.02779823844173
+      - 211.0003923879728
+  id: lower_vs_zone_mixed_north_house_191
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 109.87380299408096
+      - 205.72600989802737
+    - - 121.98976689090526
+      - 205.81718710747055
+    - - 122.11099450471741
+      - 194.12153967714215
+    - - 109.7437838153032
+      - 194.26405218023922
+  id: lower_vs_zone_mixed_north_house_192
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 112.98792109998408
+      - 203.00314977397852
+    - - 118.94080460271267
+      - 202.97866794743587
+    - - 118.96251649984939
+      - 196.9563274229775
+    - - 113.04683995096092
+      - 196.92784452684913
+  id: lower_vs_zone_mixed_north_house_193
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 123.77845969093143
+      - 206.07767588116982
+    - - 136.03699072944903
+      - 206.1085304681581
+    - - 135.9798835402244
+      - 194.13951699532748
+    - - 123.84875132951532
+      - 194.24191300846365
+  id: lower_vs_zone_mixed_north_house_194
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 123.95804240099397
+      - 203.02317003329966
+    - - 133.0230754888328
+      - 203.05034594392376
+    - - 133.07306150034415
+      - 197.06806006757398
+    - - 123.96548716416024
+      - 196.98446259242127
+  id: lower_vs_zone_mixed_north_house_195
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 137.813900460734
+      - 206.20439455286444
+    - - 150.29758164665725
+      - 206.0199109293576
+    - - 150.22744539816026
+      - 194.0015778361715
+    - - 137.75402945702626
+      - 194.06405468953204
+  id: lower_vs_zone_mixed_north_house_196
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 140.99144612843796
+      - 203.05185427186615
+    - - 147.01666882239715
+      - 203.09026837341406
+    - - 146.9562712676747
+      - 193.98049624579795
+    - - 141.0685699293826
+      - 193.96549587924693
+  id: lower_vs_zone_mixed_north_house_197
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 152.02201444957336
+      - 205.79169658076393
+    - - 163.95855666160853
+      - 205.77052656144883
+    - - 164.13650483801564
+      - 193.84168594150282
+    - - 151.91956241151053
+      - 194.05965102739114
+  id: lower_vs_zone_mixed_north_house_198
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 155.0140563287762
+      - 203.06106893962246
+    - - 161.01064458532423
+      - 203.08529365005143
+    - - 161.00085110582464
+      - 193.94711917705854
+    - - 154.9559441355248
+      - 193.90218185987584
+  id: lower_vs_zone_mixed_north_house_199
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 165.77128661183417
+      - 205.71495031075173
+    - - 177.93634222763717
+      - 205.82306166297144
+    - - 177.90345117997154
+      - 193.7366308598268
+    - - 166.15297910337569
+      - 194.18056527106853
+  id: lower_vs_zone_mixed_north_house_200
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 169.00182450324505
+      - 202.99998441928585
+    - - 174.90906067049343
+      - 203.07259272528648
+    - - 174.96660814107054
+      - 197.00525116992097
+    - - 168.99139771185656
+      - 196.97874789551923
+  id: lower_vs_zone_mixed_north_house_201
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 179.78386859146343
+      - 205.741178758682
+    - - 191.89111801905557
+      - 206.06422724728012
+    - - 192.0699002924829
+      - 193.79443884358153
+    - - 180.0562347933786
+      - 193.99561100827924
+  id: lower_vs_zone_mixed_north_house_202
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 183.00194282015016
+      - 203.00203066958676
+    - - 189.0125848521289
+      - 203.00502148000038
+    - - 188.90332739110045
+      - 197.0337520812842
+    - - 182.92192091789826
+      - 197.01669194611355
+  id: lower_vs_zone_mixed_north_house_203
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 194.17805288835808
+      - 205.8648054724689
+    - - 206.11282619072165
+      - 206.2840117070217
+    - - 205.98475412845102
+      - 193.71975758229678
+    - - 194.16974239485887
+      - 193.83430278489675
+  id: lower_vs_zone_mixed_north_house_204
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 197.01552687917285
+      - 202.95571997754075
+    - - 203.0167046554095
+      - 203.06589758765068
+    - - 203.02580504822907
+      - 193.97605283889976
+    - - 197.06823342499166
+      - 194.07044485833995
+  id: lower_vs_zone_mixed_north_house_205
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 207.71894230800524
+      - 205.73107689752942
+    - - 219.76593731280022
+      - 206.28863757949603
+    - - 219.88821549006752
+      - 194.2091412451284
+    - - 208.1143001565511
+      - 194.05377355440638
+  id: lower_vs_zone_mixed_north_house_206
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 211.0549944603614
+      - 202.91589581002057
+    - - 220.07456354178248
+      - 202.95283254574628
+    - - 219.9124562572029
+      - 197.07238350284297
+    - - 210.94146834099425
+      - 197.0349900931148
+  id: lower_vs_zone_mixed_north_house_207
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 222.01528629084004
+      - 206.1117484407573
+    - - 233.8039094543144
+      - 205.7527255034456
+    - - 233.90539621060913
+      - 194.0874278068131
+    - - 222.16319387048924
+      - 193.86744526320362
+  id: lower_vs_zone_mixed_north_house_208
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 222.0286618199999
+      - 202.96133733799405
+    - - 231.02201531601577
+      - 203.06154716617266
+    - - 230.94930382710547
+      - 196.98838266983853
+    - - 221.94497340759858
+      - 196.90541787448188
+  id: lower_vs_zone_mixed_north_house_209
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 236.16270456145259
+      - 205.87705943789805
+    - - 248.11414394693816
+      - 206.00659815229307
+    - - 247.98788205392123
+      - 193.96370744585826
+    - - 236.2606912335548
+      - 193.86700137284342
+  id: lower_vs_zone_mixed_north_house_210
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 238.95755787509958
+      - 202.98530463922526
+    - - 245.00863817539766
+      - 202.92084790769195
+    - - 244.97890649112819
+      - 194.0309730649671
+    - - 239.0546128657529
+      - 194.07070477561587
+  id: lower_vs_zone_mixed_north_house_211
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 249.87257820496848
+      - 205.87151522750096
+    - - 261.9078181084574
+      - 206.0345743328811
+    - - 261.85386638528405
+      - 194.0125524421901
+    - - 249.82124080432035
+      - 193.9768532457748
+  id: lower_vs_zone_mixed_north_house_212
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 253.08660478675665
+      - 205.96076573987062
+    - - 258.9274545909602
+      - 205.9768645931171
+    - - 259.0173660997142
+      - 197.05150839231794
+    - - 253.03396679297862
+      - 196.99379170205344
+  id: lower_vs_zone_mixed_north_house_213
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 263.7314946641037
+      - 206.05201918037105
+    - - 276.13041483375014
+      - 206.2396730571336
+    - - 276.162459634859
+      - 194.29689113215574
+    - - 264.03021153946776
+      - 193.742540191898
+  id: lower_vs_zone_mixed_north_house_214
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 266.9813814903094
+      - 202.91299358028078
+    - - 276.07567992430285
+      - 203.0045102959118
+    - - 275.9398911949335
+      - 196.90721719222182
+    - - 266.96423354042383
+      - 196.97082041642193
+  id: lower_vs_zone_mixed_north_house_215
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 278.0913792382514
+      - 206.16066788046737
+    - - 290.14321191336114
+      - 205.78980013905465
+    - - 289.72237894794296
+      - 193.74711747091234
+    - - 277.950730989347
+      - 193.79743706654403
+  id: lower_vs_zone_mixed_north_house_216
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 281.08678452211564
+      - 206.0927320301575
+    - - 287.06724063962247
+      - 205.94240787402484
+    - - 286.9372623263845
+      - 196.9501993597118
+    - - 281.07445813704436
+      - 197.0421066047598
+  id: lower_vs_zone_mixed_north_house_217
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 305.7084505173711
+      - 206.09773269240213
+    - - 317.877014554595
+      - 205.89535931606315
+    - - 317.81589677263275
+      - 193.9334273002022
+    - - 306.0832354764508
+      - 194.05670577514027
+  id: lower_vs_zone_mixed_north_house_220
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 308.9855406500627
+      - 203.03441466825197
+    - - 317.9801666493256
+      - 203.0809229788411
+    - - 318.0963370384881
+      - 197.00450918030202
+    - - 309.0871650774003
+      - 197.09863397589208
+  id: lower_vs_zone_mixed_north_house_221
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 319.8413127516809
+      - 205.84774600893113
+    - - 332.27242089359294
+      - 206.11883249618504
+    - - 332.1337295170406
+      - 194.2931385594835
+    - - 320.0922100202421
+      - 193.88433884574636
+  id: lower_vs_zone_mixed_north_house_222
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 319.9124248663601
+      - 203.0763550304392
+    - - 328.96136126840076
+      - 203.0189166774063
+    - - 329.0005040942477
+      - 196.92097632603674
+    - - 320.04071140702047
+      - 197.03780441032308
+  id: lower_vs_zone_mixed_north_house_223
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 110.08322679511963
+      - 191.73561862575247
+    - - 121.9205263418613
+      - 192.16749045601875
+    - - 122.27441632211314
+      - 180.01309086015885
+    - - 109.9729872036624
+      - 179.70669722286283
+  id: lower_vs_zone_mixed_north_house_224
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 112.97472496839738
+      - 191.95961185462886
+    - - 119.08255937765662
+      - 191.94852989533914
+    - - 119.060398998356
+      - 182.9348792981827
+    - - 113.05237192399422
+      - 182.9639316160161
+  id: lower_vs_zone_mixed_north_house_225
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 124.22388103509265
+      - 192.25087781611603
+    - - 135.9680487864979
+      - 191.87774032490648
+    - - 135.74686163328846
+      - 179.9614987666359
+    - - 123.73705482853401
+      - 179.97141045077345
+  id: lower_vs_zone_mixed_north_house_226
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 127.00109741121852
+      - 188.98545966515442
+    - - 132.92997047627648
+      - 189.03437647245156
+    - - 133.00406830823695
+      - 183.0767519955631
+    - - 126.94108029710787
+      - 182.9833704643118
+  id: lower_vs_zone_mixed_north_house_227
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 138.2393336110281
+      - 192.03271038468768
+    - - 149.7333814834957
+      - 192.22083339610734
+    - - 149.9492547443068
+      - 179.96165328894077
+    - - 138.03527831939925
+      - 179.8963393726636
+  id: lower_vs_zone_mixed_north_house_228
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 140.96163391280663
+      - 192.09564590842137
+    - - 146.95089144381353
+      - 192.09939690568177
+    - - 146.94358026173458
+      - 183.0853940948169
+    - - 140.98473947695572
+      - 182.95992302438054
+  id: lower_vs_zone_mixed_north_house_229
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 152.29647419628617
+      - 191.73925032066904
+    - - 163.74141148769618
+      - 191.73973466244905
+    - - 163.71904092261386
+      - 180.05467983850843
+    - - 152.1613832375501
+      - 179.84050339024577
+  id: lower_vs_zone_mixed_north_house_230
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 155.0956666569848
+      - 188.97082383638056
+    - - 160.98407238777645
+      - 188.90142868028383
+    - - 160.97649592377027
+      - 182.92607594293787
+    - - 155.08135346230492
+      - 183.0248708932396
+  id: lower_vs_zone_mixed_north_house_231
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 165.7797938838014
+      - 191.78382805132372
+    - - 177.77117990037118
+      - 191.70429193435345
+    - - 177.9358351790704
+      - 180.22359174760643
+    - - 166.2872346262158
+      - 179.7991070329988
+  id: lower_vs_zone_mixed_north_house_232
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 169.05123588297178
+      - 188.90430186346418
+    - - 174.99260078023894
+      - 188.95618120499785
+    - - 174.9848256059467
+      - 183.02414470639326
+    - - 168.9459328133576
+      - 183.00787494429028
+  id: lower_vs_zone_mixed_north_house_233
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 179.86538983667708
+      - 191.73755378331896
+    - - 192.13501436754535
+      - 192.23229321674012
+    - - 192.18568691012354
+      - 180.04845564090493
+    - - 180.15963208050835
+      - 179.7697460268928
+  id: lower_vs_zone_mixed_north_house_234
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 182.9031291592727
+      - 189.05878367562997
+    - - 191.9201793426185
+      - 189.09328474484914
+    - - 192.0195569793463
+      - 182.95934274662702
+    - - 182.90973526424875
+      - 182.95189178430402
+  id: lower_vs_zone_mixed_north_house_235
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 193.96337768689247
+      - 191.97614411465554
+    - - 206.1526314252484
+      - 191.8343618271212
+    - - 205.78408134506896
+      - 179.70390993525416
+    - - 193.840496910285
+      - 179.75016178012706
+  id: lower_vs_zone_mixed_north_house_236
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 194.01522206711604
+      - 188.98450503707244
+    - - 203.05450764249642
+      - 188.93632350218195
+    - - 202.94738080695532
+      - 182.92474833556525
+    - - 194.09713911214504
+      - 182.995749789147
+  id: lower_vs_zone_mixed_north_house_237
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 207.88030057225444
+      - 192.26342541773596
+    - - 220.26911215301604
+      - 191.77217166542167
+    - - 220.24694659937234
+      - 179.924404117411
+    - - 207.9563203493767
+      - 180.0026275275042
+  id: lower_vs_zone_mixed_north_house_238
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 208.09445804706874
+      - 188.9116827180336
+    - - 217.03426850494913
+      - 188.94283908080388
+    - - 216.96374689146324
+      - 183.01673507331571
+    - - 207.92984352156503
+      - 183.02470796229858
+  id: lower_vs_zone_mixed_north_house_239
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 221.98411129224735
+      - 191.79039544064398
+    - - 233.88044185127708
+      - 191.87545392150722
+    - - 234.18346569596093
+      - 179.75115529571048
+    - - 222.03743156975213
+      - 179.71932828687204
+  id: lower_vs_zone_mixed_north_house_240
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 225.01145735163985
+      - 189.0731814497882
+    - - 230.9485717032179
+      - 189.05933265338797
+    - - 231.02934117030958
+      - 182.91555477909776
+    - - 225.0694266771839
+      - 183.08150720069463
+  id: lower_vs_zone_mixed_north_house_241
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 235.73092197746843
+      - 192.0736992150232
+    - - 248.0629816678297
+      - 192.2762714674758
+    - - 247.7436705970235
+      - 179.81720962928966
+    - - 236.05255021329657
+      - 179.89712968665876
+  id: lower_vs_zone_mixed_north_house_242
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 238.94340330433755
+      - 189.05822218228957
+    - - 248.0814065655067
+      - 189.03936239487376
+    - - 248.08179883214137
+      - 183.05763844559021
+    - - 238.93800473952604
+      - 182.95170495939655
+  id: lower_vs_zone_mixed_north_house_243
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 250.24866477806535
+      - 191.88262422857701
+    - - 262.12226114960544
+      - 192.06202076413427
+    - - 261.8435985753778
+      - 180.10703099470356
+    - - 249.8698355185121
+      - 180.02024972349264
+  id: lower_vs_zone_mixed_north_house_244
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 250.02974426799904
+      - 189.03831554314263
+    - - 258.9719289235962
+      - 188.92343760952758
+    - - 258.9932008133808
+      - 182.939436675636
+    - - 250.04448271463735
+      - 182.94767420613806
+  id: lower_vs_zone_mixed_north_house_245
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 264.2485982993385
+      - 192.07757704714123
+    - - 275.9483581023472
+      - 191.9624851635214
+    - - 275.83276445898974
+      - 180.21244637213846
+    - - 263.85646446594586
+      - 179.73914504982218
+  id: lower_vs_zone_mixed_north_house_246
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 267.0158285852075
+      - 189.01648438528895
+    - - 272.9304822820368
+      - 189.03402694280442
+    - - 272.97596795494826
+      - 179.9333274569426
+    - - 266.99986029647386
+      - 179.9690784067758
+  id: lower_vs_zone_mixed_north_house_247
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 277.8543960545809
+      - 191.8070448361846
+    - - 290.2799049603502
+      - 191.91498332736077
+    - - 289.99435734954847
+      - 180.19905981242908
+    - - 278.1769853086122
+      - 180.19844057348388
+  id: lower_vs_zone_mixed_north_house_248
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 281.04406270615243
+      - 189.00233673574917
+    - - 287.0833798779389
+      - 188.99157262892973
+    - - 287.02836189263644
+      - 180.08825358968386
+    - - 280.90676475143295
+      - 179.93066052336346
+  id: lower_vs_zone_mixed_north_house_249
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 306.13331563297544
+      - 191.97855713824566
+    - - 317.87201312191996
+      - 191.99867038065275
+    - - 318.11871544573023
+      - 180.0416560747944
+    - - 306.2638271476765
+      - 180.1924398953899
+  id: lower_vs_zone_mixed_north_house_252
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 309.0836097688918
+      - 188.99512291975483
+    - - 314.94819376646274
+      - 188.97604383151761
+    - - 314.9504836392629
+      - 183.02911177982787
+    - - 309.0589872664167
+      - 183.0841961512371
+  id: lower_vs_zone_mixed_north_house_253
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 319.97539864733074
+      - 192.1540752634843
+    - - 332.1183417896592
+      - 192.12001521579606
+    - - 332.196837247228
+      - 180.25162984883605
+    - - 320.2950048231701
+      - 179.91006332892363
+  id: lower_vs_zone_mixed_north_house_254
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 319.90633690073116
+      - 189.01894434037914
+    - - 328.97543391369686
+      - 189.00479897997363
+    - - 329.0273496151111
+      - 182.95943096999616
+    - - 319.91653722450116
+      - 182.93093404109192
+  id: lower_vs_zone_mixed_north_house_255
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 110.03951397677062
+      - 177.78522381198178
+    - - 121.75721710128244
+      - 177.98310448861503
+    - - 121.72553105457023
+      - 166.17314976646927
+    - - 110.22087013434896
+      - 165.76746741577932
+  id: lower_vs_zone_mixed_north_house_256
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 112.99510005752906
+      - 175.09068760585166
+    - - 118.91486961198513
+      - 174.91488303798383
+    - - 119.079862330173
+      - 165.9872980271904
+    - - 112.90658035603069
+      - 165.91424672774906
+  id: lower_vs_zone_mixed_north_house_257
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 123.70939485711516
+      - 178.17570513075424
+    - - 135.78651493677015
+      - 177.8075855551092
+    - - 136.19254143267108
+      - 165.742675035848
+    - - 123.87956613374851
+      - 165.96162508022576
+  id: lower_vs_zone_mixed_north_house_258
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 127.01333918397822
+      - 174.9301115149421
+    - - 133.03540699317534
+      - 174.99188751379887
+    - - 132.97676924281657
+      - 165.95205096581586
+    - - 127.05809961704682
+      - 165.9621378917632
+  id: lower_vs_zone_mixed_north_house_259
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 138.00047571098264
+      - 177.71540600353842
+    - - 149.73221785916843
+      - 178.0377470482939
+    - - 150.2032047945679
+      - 166.09564435211493
+    - - 138.16140339201928
+      - 165.7270849618512
+  id: lower_vs_zone_mixed_north_house_260
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 140.9793406098618
+      - 177.94528901677376
+    - - 146.90592513178905
+      - 178.04533459427424
+    - - 147.09851717569018
+      - 169.00187930877786
+    - - 140.97116223954117
+      - 168.91177143100586
+  id: lower_vs_zone_mixed_north_house_261
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 151.81144270753725
+      - 177.94847492727337
+    - - 163.92804362812203
+      - 177.83669955751918
+    - - 163.87722768842303
+      - 166.15213013121587
+    - - 151.74410401023346
+      - 166.13921678146323
+  id: lower_vs_zone_mixed_north_house_262
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 151.9759999986167
+      - 174.94322194362596
+    - - 160.9308553781206
+      - 175.0220756049206
+    - - 160.9721400456228
+      - 169.08169591426076
+    - - 152.0885920454685
+      - 169.01105282700075
+  id: lower_vs_zone_mixed_north_house_263
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 165.76133884846794
+      - 178.24762166058693
+    - - 177.95858770958563
+      - 177.96580898066725
+    - - 178.00746450904626
+      - 166.23802424359502
+    - - 165.75377130517623
+      - 165.96746811676144
+  id: lower_vs_zone_mixed_north_house_264
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 169.01938491105741
+      - 174.94311225514946
+    - - 175.07274363545363
+      - 175.09753187702321
+    - - 174.98276201395362
+      - 165.94416617887512
+    - - 169.04496876880697
+      - 165.9880926908475
+  id: lower_vs_zone_mixed_north_house_265
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 180.0431762584497
+      - 178.1982502459646
+    - - 191.92843921409326
+      - 178.21669596462436
+    - - 191.88067875922502
+      - 166.00412563467353
+    - - 179.73796029016617
+      - 166.03919423844235
+  id: lower_vs_zone_mixed_north_house_266
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 182.98422046795451
+      - 175.0031537372132
+    - - 191.91538427227903
+      - 175.04966005244222
+    - - 191.9493180136694
+      - 168.97499326244622
+    - - 183.01876127960782
+      - 169.06089035502396
+  id: lower_vs_zone_mixed_north_house_267
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 193.78129371540842
+      - 178.2959395783447
+    - - 205.93741518705585
+      - 177.7950319679669
+    - - 205.92793397368823
+      - 165.7826810136607
+    - - 193.96413375288876
+      - 166.04163026743169
+  id: lower_vs_zone_mixed_north_house_268
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 197.06470704802797
+      - 177.96979262832667
+    - - 203.0188785838129
+      - 178.03991294306417
+    - - 203.02064225367798
+      - 168.96094154089562
+    - - 196.99580194847908
+      - 169.06447254573618
+  id: lower_vs_zone_mixed_north_house_269
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 208.28123513304803
+      - 178.12513110905195
+    - - 220.11697466060326
+      - 178.00539561226475
+    - - 220.045527568975
+      - 166.15454542193166
+    - - 207.9256331813945
+      - 165.81010329074024
+  id: lower_vs_zone_mixed_north_house_270
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 207.9785870259479
+      - 175.0772224352776
+    - - 217.01277010172578
+      - 174.98155459314992
+    - - 217.00912581709017
+      - 168.96365747337398
+    - - 208.0100198313995
+      - 168.90939907770274
+  id: lower_vs_zone_mixed_north_house_271
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 222.26578494925067
+      - 178.17421096218322
+    - - 234.17861131261884
+      - 177.80123091477378
+    - - 233.74149520316257
+      - 165.7913272419766
+    - - 222.1770273748449
+      - 165.8962134085627
+  id: lower_vs_zone_mixed_north_house_272
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 221.92783582453927
+      - 175.03943347149786
+    - - 230.9505363369862
+      - 175.06917135310883
+    - - 230.98462559102336
+      - 169.02460183639232
+    - - 221.98981334416672
+      - 168.9804132290494
+  id: lower_vs_zone_mixed_north_house_273
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 235.9404830583976
+      - 177.9960324141823
+    - - 248.25223531068698
+      - 177.88497468046114
+    - - 248.0261871220325
+      - 165.82556744977046
+    - - 235.91571769580975
+      - 165.76269909078346
+  id: lower_vs_zone_mixed_north_house_274
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 239.00738119720492
+      - 174.97236392659784
+    - - 244.9169963868102
+      - 174.94620919041597
+    - - 245.03152032891614
+      - 169.02899823611028
+    - - 239.02939996959668
+      - 169.09114066129445
+  id: lower_vs_zone_mixed_north_house_275
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 250.28008668014115
+      - 178.1010419787509
+    - - 262.17773863865636
+      - 178.23643326903635
+    - - 261.75916393514905
+      - 166.16679935227032
+    - - 250.1481118165797
+      - 165.9652039501942
+  id: lower_vs_zone_mixed_north_house_276
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 250.03753288175946
+      - 175.0557936527643
+    - - 258.974823913561
+      - 175.00738735828946
+    - - 259.03591109750954
+      - 168.9619125388556
+    - - 249.930148986496
+      - 168.90045945491707
+  id: lower_vs_zone_mixed_north_house_277
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 263.7627296148037
+      - 178.05041474288458
+    - - 276.277036719408
+      - 178.23035839722462
+    - - 276.2644056948877
+      - 166.21499489390106
+    - - 263.8871342063385
+      - 166.02680041886447
+  id: lower_vs_zone_mixed_north_house_278
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 263.94137346524167
+      - 175.00341480024412
+    - - 272.9952325062418
+      - 175.0123668123454
+    - - 273.03935265310474
+      - 169.03621810515648
+    - - 263.9600528166364
+      - 168.93796281261626
+  id: lower_vs_zone_mixed_north_house_279
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 277.7135510691219
+      - 178.09415323146595
+    - - 289.7656176090709
+      - 177.81996992454967
+    - - 290.2579534678931
+      - 165.85570630918184
+    - - 278.00959634113815
+      - 165.96885382610498
+  id: lower_vs_zone_mixed_north_house_280
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 280.9661979311106
+      - 178.01472612327566
+    - - 286.9924108314989
+      - 177.94044884233915
+    - - 287.0259520637758
+      - 169.06272261494325
+    - - 281.0314615822317
+      - 169.02088352437437
+  id: lower_vs_zone_mixed_north_house_281
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 306.05818249756976
+      - 177.9332149473166
+    - - 318.05220282873915
+      - 178.09124521753796
+    - - 318.2073106816017
+      - 165.92958239239815
+    - - 306.18824295255655
+      - 165.87640698343242
+  id: lower_vs_zone_mixed_north_house_284
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 308.95948896693983
+      - 174.97710309685743
+    - - 314.9169503937246
+      - 175.07321044606985
+    - - 314.92357233053235
+      - 166.0389239994929
+    - - 308.9366089036663
+      - 165.9613126916567
+  id: lower_vs_zone_mixed_north_house_285
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (RICH_WALL)
+  geometry:
+    points:
+    - - 319.93307796158604
+      - 177.94214450953365
+    - - 332.0448836269246
+      - 178.0461767307561
+    - - 331.9920021294154
+      - 165.97757243800118
+    - - 320.2514965980288
+      - 165.74158303737687
+  id: lower_vs_zone_mixed_north_house_286
+  parent_id: lower_vs_zone_mixed_north
+  shape: POLYGON
+- description: Procedural House in VS Block 1 (Mixed/Rich North) (COURTYARD)
+  geometry:
+    points:
+    - - 322.93464696042975
+      - 175.06662689523452
+    - - 328.95776695480987
+      - 175.06258028400754
+    - - 329.0683970428273
+      - 168.97611800424215
+    - - 323.07310444617127
+      - 168.90963160990242
+  id: lower_vs_zone_mixed_north_house_287
   parent_id: lower_vs_zone_mixed_north
   shape: POLYGON
 - description: Procedural House in VS Block 2 (Residential South) (POOR)

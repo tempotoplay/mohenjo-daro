@@ -182,10 +182,10 @@ def generate_vs_area_print():
         # 2. Generate Houses
         houses = []
         if "mixed_north" in zone.id:
-            # Fit one more row: Balanced approach.
-            # House 14m, Gap 3m = Stride 17m.
-            # 230 / 17 = 13.5 columns. Fits 13 cols comfortably.
-            houses = generate_rich_zone(zone.dimensions.width, zone.dimensions.length, house_size=14.0, gap=3.0)
+            # Fit one more row: Aggressive density.
+            # House 12m, Gap 2m = Stride 14m.
+            # This should guarantee clearance and pack more rows.
+            houses = generate_rich_zone(zone.dimensions.width, zone.dimensions.length, house_size=12.0, gap=2.0)
         elif "residential_south" in zone.id:
             houses = generate_poor_zone(zone.dimensions.width, zone.dimensions.length)
             

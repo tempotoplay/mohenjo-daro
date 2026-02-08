@@ -86,6 +86,7 @@ class LandmarkRenderer:
         to_render.sort(key=lambda x: x.dimensions.width * x.dimensions.length if x.shape != 'CIRCLE' else 3.14 * (x.dimensions.diameter/2)**2, reverse=True)
         
         labels = []
+        debug_labels = []
 
         for lm in to_render:
             cx, cy = world_to_svg(lm.abs_x, lm.abs_y)
@@ -234,6 +235,11 @@ class LandmarkRenderer:
             placed_labels.append({'x': lx, 'y': ly, 'w': lw, 'h': lh})
             svg_lines.append(f'<text x="{lx}" y="{ly}" font-family="Arial" font-size="12" text-anchor="middle" fill="black" stroke="white" stroke-width="0.5" paint-order="stroke">{label["text"]}</text>')
 
+        # [Helper for Debug Labels]
+        def draw_debug_label(cx, cy, text):
+            # Small font, red, centered
+            debug_labels.append(f'<text x="{cx}" y="{cy}" font-family="Arial" font-size="6" fill="red" text-anchor="middle" dominant-baseline="middle">{text}</text>')
+
         # Render Procedural Features (Bastions etc)
         # Assuming we filter these by region/parent if needed, but for now allow all if parent is rendered?
         # Or just render all loaded features if we are in relevant region.
@@ -273,6 +279,76 @@ class LandmarkRenderer:
                 
                 svg_lines.append(f'<rect x="{px - pw/2}" y="{py - pl/2}" width="{pw}" height="{pl}" fill="{fill_color}" stroke="{stroke_color}" stroke-width="{stroke_width}" opacity="{opacity}" />')
 
+            elif pf.shape == 'POLYGON':
+                 points = pf.geometry['points']
+                 poly_points = []
+                 for (wx, wy) in points:
+                     sx, sy = world_to_svg(wx, wy)
+                     poly_points.append(f"{sx},{sy}")
+                 
+                 points_str = " ".join(poly_points)
+                 
+                 # Styling
+                 fill = "#BCAAA4" # Default Light Brown
+                 stroke = "none"
+                 stroke_width = "1"
+                 opacity = "1.0"
+                 
+                 if "RICH_WALL" in pf.description:
+                     fill = "#8D6E63"
+                 elif "COURTYARD" in pf.description:
+                     fill = "#F5F5F5" # Same as ground (Matches HR style)
+                     stroke = "#5D4037"
+                     stroke_width = "0.5"
+                 elif "POOR" in pf.description:
+                     fill = "#A1887F"
+                     stroke = "black"
+                     stroke_width = "0.5"
+                 elif "Tertiary Street" in pf.description:
+                     fill = "#BDBDBD" 
+                     stroke = "none"
+                     opacity = "0.8"
+                     
+                 svg_lines.append(f'<polygon points="{points_str}" fill="{fill}" stroke="{stroke}" stroke-width="{stroke_width}" opacity="{opacity}" />')
+                 
+                 # Debug Label (Index)
+                 try:
+                     parts = pf.id.split('_')
+                     if parts[-1].isdigit():
+                         idx = parts[-1]
+                         # Calculate centroid
+                         xs = [p[0] for p in points]
+                         ys = [p[1] for p in points]
+                         cx = sum(xs) / len(xs)
+                         cy = sum(ys) / len(ys)
+                         scx, scy = world_to_svg(cx, cy)
+                         
+                         prefix = "VS"
+                         if "bastion" in pf.id: prefix = "CIT"
+                         
+                         draw_debug_label(scx, scy, f"{prefix}_{idx}")
+                 except:
+                     pass
+                 
+                 # Debug Label (Index)
+                 # Extract index from ID (e.g. zone_id_house_12 -> 12)
+                 try:
+                     parts = pf.id.split('_')
+                     # Assume last part is index if numeric
+                     if parts[-1].isdigit():
+                         idx = parts[-1]
+                         # Calculate centroid for label
+                         xs = [p[0] for p in points]
+                         ys = [p[1] for p in points]
+                         cx = sum(xs) / len(xs)
+                         cy = sum(ys) / len(ys)
+                         scx, scy = world_to_svg(cx, cy)
+                         
+                         # Small red text
+                         # svg_lines.append(f'<text x="{scx}" y="{scy}" font-family="Arial" font-size="6" fill="red" text-anchor="middle">{idx}</text>')
+                 except:
+                     pass
+
         # [Collision Detection Preparation]
         # Identify Obstacles (Streets, specific landmarks)
         obstacles = []
@@ -304,6 +380,11 @@ class LandmarkRenderer:
         # Identify rendered zones
         for lm in to_render:
              if "zone" in lm.shape.lower():
+                 
+                 # SKIP VS ZONES (Persisted)
+                 if "vs_zone" in lm.id:
+                     continue
+
                  # Generate houses
                  houses = []
                  if "rich" in lm.id:
@@ -318,41 +399,93 @@ class LandmarkRenderer:
                  world_tl_x = lm.abs_x - zone_w_m / 2
                  world_tl_y = lm.abs_y + zone_l_m / 2 # Max Y
                  
-                 # Iterate houses
-                 for h in houses:
-                     # Calculate Global Points in Meters
-                     global_points = []
-                     for (hx, hy) in h.points:
-                         wx = world_tl_x + hx
-                         wy = world_tl_y - hy
-                         global_points.append((wx, wy))
+                 # [Collision and Rendering Logic]
+                 
+                 # Helper to render a single house object
+                 def render_house_obj(h_idx, h_obj):
+                     # Calculate Global Points
+                     g_points = []
+                     for (hx, hy) in h_obj.points:
+                         g_points.append((world_tl_x + hx, world_tl_y - hy))
                      
                      # Collision Check
-                     if check_collision(global_points, obstacles):
-                         continue
-
+                     if check_collision(g_points, obstacles):
+                         return False
+                         
+                     # Render
                      poly_points = []
-                     for (wx, wy) in global_points:
+                     xs, ys = [], []
+                     for (wx, wy) in g_points:
                          sx, sy = world_to_svg(wx, wy)
                          poly_points.append(f"{sx},{sy}")
+                         xs.append(sx); ys.append(sy)
                      
                      points_str = " ".join(poly_points)
                      
-                     # Styling
-                     fill = "#BCAAA4" # Light Brown
+                     fill = "#BCAAA4"
                      stroke = "none"
-                     if h.category == "RICH_WALL":
+                     if h_obj.category == "RICH_WALL":
                          fill = "#8D6E63"
-                     elif h.category == "COURTYARD":
-                         fill = "#F5F5F5" # Same as ground
+                     elif h_obj.category == "COURTYARD":
+                         fill = "#F5F5F5"
                          stroke = "#5D4037"
                          stroke_width = "0.5"
-                     elif h.category == "POOR":
+                     elif h_obj.category == "POOR":
                          fill = "#A1887F"
                          stroke = "black"
                          stroke_width = "0.5"
                          
                      svg_lines.append(f'<polygon points="{points_str}" fill="{fill}" stroke="{stroke}" />')
+                     
+                     # Debug Label
+                     # try:
+                     # Debug Label
+                     # try:
+                     prefix = "HR" if "hr" in lm.id else ("DK" if "dk" in lm.id else "Z")
+                     scx = sum(xs) / len(xs) # Already SVG coords
+                     scy = sum(ys) / len(ys) # Already SVG coords
+                     
+                     # print(f"DEBUG: Adding label {prefix}_{h_idx} at {scx},{scy}")
+                     draw_debug_label(scx, scy, f"{prefix}_{h_idx}")
+                     # except Exception as e:
+                     #    print(f"Error adding label: {e}")
+                     return True
+
+                 if "rich" in lm.id:
+                     # Rich Zone: Process in Pairs (Wall + Courtyard)
+                     # Assumption: generate_rich_zone returns [Wall, Court, Wall, Court...]
+                     num_houses = len(houses)
+                     for i in range(0, num_houses, 2):
+                         if i+1 >= num_houses: break
+                         
+                         wall = houses[i]
+                         court = houses[i+1]
+                         
+                         # Check Wall Collision ONLY (or both?)
+                         # If Wall fails, skip both.
+                         # We need to simulate the check without rendering first.
+                         
+                         wall_g_points = []
+                         for (hx, hy) in wall.points:
+                             wall_g_points.append((world_tl_x + hx, world_tl_y - hy))
+                             
+                         if check_collision(wall_g_points, obstacles):
+                             continue # Skip pair
+                             
+                         # Render Both
+                         render_house_obj(i, wall)
+                         render_house_obj(i+1, court)
+                         
+                 else:
+                     # Poor Zone/Other: Process Individually
+                     for i, h in enumerate(houses):
+                        render_house_obj(i, h)
+
+        if debug_labels:
+            print(f"DEBUG: writing {len(debug_labels)} debug labels.")
+            svg_lines.append('<g id="debug_labels">')
+            svg_lines.extend(debug_labels)
+            svg_lines.append('</g>')
 
         svg_lines.append('</svg>')
         

@@ -376,6 +376,44 @@ landmarks:
       grid_x: 225
       grid_y: 150
 
+  - id: lower_vs_zone_mixed_north
+    name: "VS Block 1 (Mixed/Rich North)"
+    region: "Lower City"
+    description: "Industrial and mixed-use zone with larger structures."
+    dimensions_m:
+      width: 230
+      length: 130
+    height_m: 0
+    shape: "RECT_ZONE"
+    location:
+      grid_x: 225
+      grid_y: 225 # North half of VS Area (Center 150 + 75)
+
+  - id: lower_vs_zone_residential_south
+    name: "VS Block 2 (Residential South)"
+    region: "Lower City"
+    description: "Denser residential zone in the southern part of VS area."
+    dimensions_m:
+      width: 230
+      length: 130
+    height_m: 0
+    shape: "RECT_ZONE"
+    location:
+      grid_x: 225
+      grid_y: 75 # South half of VS Area (Center 150 - 75)
+
+  - id: lower_vs_central_street
+    name: "VS Central Street"
+    region: "Lower City"
+    description: "East-West street separating the industrial north from the residential south in VS Area."
+    dimensions_m:
+      width: 250
+      length: 5
+    shape: "LINE"
+    location:
+      grid_x: 225
+      grid_y: 150
+
   - id: lower_dk_area
     name: "DK Area (North/East)"
     region: "Lower City"

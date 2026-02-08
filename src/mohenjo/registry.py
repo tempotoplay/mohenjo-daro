@@ -114,11 +114,23 @@ class LandmarkRegistry:
     def save_procedural(self, path: str, features: List[ProceduralFeature]):
         data = {'features': []}
         for f in features:
+            # Convert geometry tuples to lists (safe_yaml compatibility)
+            def convert_tuples(obj):
+                if isinstance(obj, tuple):
+                    return list(obj)
+                if isinstance(obj, list):
+                    return [convert_tuples(i) for i in obj]
+                if isinstance(obj, dict):
+                    return {k: convert_tuples(v) for k, v in obj.items()}
+                return obj
+
+            safe_geometry = convert_tuples(f.geometry)
+
             data['features'].append({
                 'id': f.id,
                 'parent_id': f.parent_id,
                 'shape': f.shape,
-                'geometry': f.geometry,
+                'geometry': safe_geometry,
                 'description': f.description
             })
             

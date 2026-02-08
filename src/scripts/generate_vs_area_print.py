@@ -348,31 +348,77 @@ def generate_vs_area_print():
     min_y = vs_center_global_y - half_l
     max_y = vs_center_global_y + half_l
 
+    # Sort landmarks to draw STREETS first, then BUILDINGS (so buildings sit on top of streets)
+    sorted_landmarks = []
     for lm_id, lm in registry.landmarks.items():
-        if lm.id == vs_area_id or "zone" in lm.shape.lower(): 
+        if (lm.id == vs_area_id or 
+            "zone" in lm.shape.lower() or 
+            "boundary" in lm.id or 
+            lm.shape == "RECT_BORDER"): 
             continue 
         
         if (lm.abs_x >= min_x and lm.abs_x <= max_x and 
             lm.abs_y >= min_y and lm.abs_y <= max_y):
+            sorted_landmarks.append(lm)
+
+    # Sort key: Streets (True/1) -> 0. Buildings (False/0) -> 1.
+    # We want Streets (0) first.
+    sorted_landmarks.sort(key=lambda x: 0 if ("street" in x.id or "lane" in x.id) else 1)
+
+    for lm in sorted_landmarks:
+        w = lm.dimensions.width
+        l = lm.dimensions.length
             
-            print(f"  - Drawing {lm.name}")
+        # Check type
+        is_street = "street" in lm.id or "lane" in lm.id
             
-            w = lm.dimensions.width
-            l = lm.dimensions.length
-            
-            # Always clear ground first
-            draw_rect(draw, w+2, l+2, lm.abs_x, lm.abs_y, center_x_px, center_y_px, vs_center_global_x, vs_center_global_y, LEVEL_GROUND) 
-            
-            if "street" in lm.id or "lane" in lm.id:
-                 pass # Just cleared path
-            else:
-                 draw_rect(draw, w, l, lm.abs_x, lm.abs_y, center_x_px, center_y_px, vs_center_global_x, vs_center_global_y, LEVEL_BUILDING)
+        print(f"  - Drawing {lm.name} ({lm.id}) - {w}x{l}m - Street? {is_street}")
+
+        # Always clear the ground first (Essential for gaps/streets to ensure they cut through)
+        # For streets/lanes, this IS the drawing (creating a gap).
+        # For buildings, this creates a clean foundation.
+        draw_rect(draw, w+2, l+2, lm.abs_x, lm.abs_y, center_x_px, center_y_px, vs_center_global_x, vs_center_global_y, LEVEL_GROUND) 
+        
+        if is_street:
+            # Draw street as deep burn
+            draw_rect(draw, w, l, lm.abs_x, lm.abs_y, center_x_px, center_y_px, vs_center_global_x, vs_center_global_y, LEVEL_STREET)
+        else:
+            # It's a building/structure
+            draw_rect(draw, w, l, lm.abs_x, lm.abs_y, center_x_px, center_y_px, vs_center_global_x, vs_center_global_y, LEVEL_BUILDING)
             
     # Save Full Reference
     os.makedirs(output_dir, exist_ok=True)
     full_out = os.path.join(output_dir, "vs_area_print_full.png")
     img.save(full_out)
     print(f"Saved Full Reference: {full_out}")
+
+    # 3. Tiling Logic
+    overlap_cm = 0.5 
+    overlap_px = int(overlap_cm * CM_TO_INCH * DPI)
+    
+    # Calculate Split Y
+    # Identified Obstacle: lower_vs_workshop (140-160) sitting on Central Street (150).
+    # Previous split at 150 cut the workshop.
+    # Moving split to 140 (South edge of Workshop/Street area) to keep it in the North tile.
+    
+    split_world_y = 140
+    rel_split_y = split_world_y - vs_center_global_y
+    split_y_px = center_y_px - meters_to_pixels(rel_split_y)
+    
+    print(f"Splitting at Global Y={split_world_y} -> Pixel Y={split_y_px}")
+
+    # Horizontal Split
+    # Tile 1 (North / Top) -> From 0 to Split + Overlap
+    tile1 = img.crop((0, 0, img_w, split_y_px + overlap_px))
+    t1_out = os.path.join(output_dir, "vs_area_print_tile_1_top.png")
+    tile1.save(t1_out)
+    print(f"Saved Tile 1 (Top): {t1_out}")
+    
+    # Tile 2 (South / Bottom) -> From Split - Overlap to Bottom
+    tile2 = img.crop((0, split_y_px - overlap_px, img_w, img_h))
+    t2_out = os.path.join(output_dir, "vs_area_print_tile_2_bottom.png")
+    tile2.save(t2_out)
+    print(f"Saved Tile 2 (Bottom): {t2_out}")
 
 if __name__ == "__main__":
     generate_vs_area_print()

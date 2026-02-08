@@ -313,7 +313,7 @@ class LandmarkRenderer:
                      fill = "#A1887F"
                      stroke = "black"
                      stroke_width = "0.5"
-                 elif "Tertiary Street" in pf.description:
+                 elif "Street" in pf.description or "street" in pf.description:
                      fill = "#BDBDBD" 
                      stroke = "none"
                      opacity = "0.8"
@@ -326,6 +326,7 @@ class LandmarkRenderer:
                      prefix = "Z"
                      if "vs_" in pf.id or "VS" in pf.id: prefix = "VS"
                      elif "cit_" in pf.id or "bastion" in pf.id: prefix = "CIT"
+                     elif "dk_" in pf.id or "DK" in pf.id: prefix = "DK"
                      
                      # Only label relevant items (Polygons, not streets)
                      if prefix in ["VS", "CIT"] and "street" not in pf.id and "lane" not in pf.id:

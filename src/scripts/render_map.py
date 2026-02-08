@@ -240,6 +240,15 @@ class LandmarkRenderer:
             # Small font, red, centered
             debug_labels.append(f'<text x="{cx}" y="{cy}" font-family="Arial" font-size="6" fill="red" text-anchor="middle" dominant-baseline="middle">{text}</text>')
 
+        # Label Counters
+        label_counts = {
+            "VS": 0,
+            "HR": 0,
+            "CIT": 0,
+            "DK": 0,
+            "Z": 0
+        }
+
         # Render Procedural Features (Bastions etc)
         # Assuming we filter these by region/parent if needed, but for now allow all if parent is rendered?
         # Or just render all loaded features if we are in relevant region.
@@ -311,11 +320,18 @@ class LandmarkRenderer:
                      
                  svg_lines.append(f'<polygon points="{points_str}" fill="{fill}" stroke="{stroke}" stroke-width="{stroke_width}" opacity="{opacity}" />')
                  
-                 # Debug Label (Index)
+                 # Debug Label (Global Counter)
                  try:
-                     parts = pf.id.split('_')
-                     if parts[-1].isdigit():
-                         idx = parts[-1]
+                     # Determine prefix
+                     prefix = "Z"
+                     if "vs_" in pf.id or "VS" in pf.id: prefix = "VS"
+                     elif "cit_" in pf.id or "bastion" in pf.id: prefix = "CIT"
+                     
+                     # Only label relevant items (Polygons, not streets)
+                     if prefix in ["VS", "CIT"] and "street" not in pf.id and "lane" not in pf.id:
+                         label_counts[prefix] += 1
+                         idx = label_counts[prefix]
+                         
                          # Calculate centroid
                          xs = [p[0] for p in points]
                          ys = [p[1] for p in points]
@@ -323,30 +339,9 @@ class LandmarkRenderer:
                          cy = sum(ys) / len(ys)
                          scx, scy = world_to_svg(cx, cy)
                          
-                         prefix = "VS"
-                         if "bastion" in pf.id: prefix = "CIT"
-                         
                          draw_debug_label(scx, scy, f"{prefix}_{idx}")
-                 except:
-                     pass
-                 
-                 # Debug Label (Index)
-                 # Extract index from ID (e.g. zone_id_house_12 -> 12)
-                 try:
-                     parts = pf.id.split('_')
-                     # Assume last part is index if numeric
-                     if parts[-1].isdigit():
-                         idx = parts[-1]
-                         # Calculate centroid for label
-                         xs = [p[0] for p in points]
-                         ys = [p[1] for p in points]
-                         cx = sum(xs) / len(xs)
-                         cy = sum(ys) / len(ys)
-                         scx, scy = world_to_svg(cx, cy)
-                         
-                         # Small red text
-                         # svg_lines.append(f'<text x="{scx}" y="{scy}" font-family="Arial" font-size="6" fill="red" text-anchor="middle">{idx}</text>')
-                 except:
+                 except Exception as e:
+                     # print(f"Error labeling {pf.id}: {e}")
                      pass
 
         # [Collision Detection Preparation]
@@ -430,6 +425,8 @@ class LandmarkRenderer:
                          fill = "#F5F5F5"
                          stroke = "#5D4037"
                          stroke_width = "0.5"
+                     elif h_obj.category == "RICH_SOLID_FILLER":
+                         return # Skip rendering this dummy object
                      elif h_obj.category == "POOR":
                          fill = "#A1887F"
                          stroke = "black"
@@ -442,11 +439,17 @@ class LandmarkRenderer:
                      # Debug Label
                      # try:
                      prefix = "HR" if "hr" in lm.id else ("DK" if "dk" in lm.id else "Z")
+                     
+                     if prefix != "Z":
+                         label_counts[prefix] += 1
+                         idx = label_counts[prefix]
+                     else:
+                         idx = h_idx # Fallback
+
                      scx = sum(xs) / len(xs) # Already SVG coords
                      scy = sum(ys) / len(ys) # Already SVG coords
                      
-                     # print(f"DEBUG: Adding label {prefix}_{h_idx} at {scx},{scy}")
-                     draw_debug_label(scx, scy, f"{prefix}_{h_idx}")
+                     draw_debug_label(scx, scy, f"{prefix}_{idx}")
                      # except Exception as e:
                      #    print(f"Error adding label: {e}")
                      return True

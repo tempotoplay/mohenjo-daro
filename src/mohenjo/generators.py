@@ -33,35 +33,44 @@ def generate_rich_zone(width_m: float, length_m: float, seed: int = 42, house_si
             wall = house_size * 0.25
             # Rotation 0-3: U-shapes (Open on one side)
             # Rotation 4:   O-shape (Fully enclosed)
-            shape_type = random.choice([0, 1, 2, 3, 4]) 
+            # Rotation 5:   Solid Block (No Courtyard)
+            shape_type = random.choice([0, 1, 2, 3, 4, 4, 0, 1, 5, 5]) # Weighted: 20% Solid, 20% O-Shape, Rest U-Shape
             
             # 1. Main Block
             main_poly = get_wobbly_rect_points(x, y, house_size, house_size, wobble=0.3)
             houses.append(House(points=main_poly, category="RICH_WALL"))
             
-            # 2. Courtyard (Eraser)
-            cx, cy, cw, ch = 0, 0, 0, 0
-            
-            # Dimensions for Enclosed (O-Shape)
-            if shape_type == 4:
-                # Centered courtyard
-                cx = x + wall
-                cy = y + wall
-                cw = house_size - 2*wall
-                ch = house_size - 2*wall
-            
-            # Dimensions for Open (U-Shape)
-            elif shape_type == 0:   # Top Open
-                cx, cy, cw, ch = x+wall, y, house_size-2*wall, house_size-wall
-            elif shape_type == 1: # Right Open
-                cx, cy, cw, ch = x+wall, y+wall, house_size-wall, house_size-2*wall
-            elif shape_type == 2: # Bottom Open
-                cx, cy, cw, ch = x+wall, y+wall, house_size-2*wall, house_size-wall
-            elif shape_type == 3: # Left Open
-                cx, cy, cw, ch = x, y+wall, house_size-wall, house_size-2*wall
-            
-            court_poly = get_wobbly_rect_points(cx, cy, cw, ch, wobble=0.1)
-            houses.append(House(points=court_poly, category="COURTYARD"))
+            # 2. Courtyard (Eraser or Filler)
+            if shape_type == 5:
+                # Solid Block: Add a dummy filler to maintain Pair structure
+                # Tiny rect inside main block (safe)
+                dummy_poly = get_wobbly_rect_points(x + house_size/2, y + house_size/2, 0.1, 0.1, wobble=0.0)
+                houses.append(House(points=dummy_poly, category="RICH_SOLID_FILLER"))
+
+            else:
+                cx, cy, cw, ch = 0, 0, 0, 0
+                
+                # Dimensions for Enclosed (O-Shape)
+                if shape_type == 4:
+                    # Centered courtyard
+                    cx = x + wall
+                    cy = y + wall
+                    cw = house_size - 2*wall
+                    ch = house_size - 2*wall
+                
+                # Dimensions for Open (U-Shape)
+                elif shape_type == 0:   # Top Open
+                    cx, cy, cw, ch = x+wall, y, house_size-2*wall, house_size-wall
+                elif shape_type == 1: # Right Open
+                    cx, cy, cw, ch = x+wall, y+wall, house_size-wall, house_size-2*wall
+                elif shape_type == 2: # Bottom Open
+                    cx, cy, cw, ch = x+wall, y+wall, house_size-2*wall, house_size-wall
+                elif shape_type == 3: # Left Open
+                    cx, cy, cw, ch = x, y+wall, house_size-wall, house_size-2*wall
+                
+                court_poly = get_wobbly_rect_points(cx, cy, cw, ch, wobble=0.1)
+                houses.append(House(points=court_poly, category="COURTYARD"))
+             
             
     return houses
 
@@ -157,3 +166,40 @@ def generate_street_network(width_m: float, length_m: float, style: str, seed: i
                 streets.append(Street(points=poly, category="TERTIARY_STREET"))
                 
     return streets
+
+def generate_industrial_zone(width_m: float, length_m: float, seed: int = 42) -> List[House]:
+    """Generates large, spaced-out industrial buildings."""
+    random.seed(seed)
+    buildings = []
+    
+    # Large buildings, Big gaps
+    # Variable sizes
+    
+    # Try a simple packing or loose grid
+    x = 0
+    y = 0
+    row_height = 0
+    
+    gap = 8.0
+    
+    current_y = 5.0
+    while current_y < length_m - 10:
+        current_x = 5.0
+        row_h = 0
+        while current_x < width_m - 10:
+            
+            w = random.uniform(12.0, 20.0)
+            h = random.uniform(10.0, 18.0)
+            
+            if current_x + w > width_m:
+                 break
+                 
+            poly = get_wobbly_rect_points(current_x, current_y, w, h, wobble=0.2)
+            buildings.append(House(points=poly, category="INDUSTRIAL"))
+            
+            row_h = max(row_h, h)
+            current_x += w + gap
+            
+        current_y += row_h + gap
+        
+    return buildings

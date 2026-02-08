@@ -7,7 +7,7 @@ from PIL import Image, ImageDraw
 sys.path.append(os.path.join(os.path.dirname(__file__), "../..", "src"))
 
 from mohenjo.registry import LandmarkRegistry, ProceduralFeature
-from mohenjo.generators import generate_rich_zone, generate_poor_zone, generate_street_network
+from mohenjo.generators import generate_rich_zone, generate_poor_zone, generate_street_network, generate_industrial_zone
 
 # Constants
 SCALE_RATIO = 4000
@@ -184,9 +184,12 @@ def generate_vs_area_print():
         if "mixed_north" in zone.id:
             # Fit one more row: Aggressive density.
             # House 12m, Gap 2m = Stride 14m.
+            # House 12m, Gap 2m = Stride 14m.
             # This should guarantee clearance and pack more rows.
             houses = generate_rich_zone(zone.dimensions.width, zone.dimensions.length, house_size=12.0, gap=2.0)
+
         elif "residential_south" in zone.id:
+            # 2b. Poor Housing (Fills the rest)
             houses = generate_poor_zone(zone.dimensions.width, zone.dimensions.length)
             
         print(f"    - Generating {len(houses)} shapes (pre-collision)...")

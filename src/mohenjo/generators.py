@@ -17,12 +17,11 @@ def get_wobbly_rect_points(x, y, w, h, wobble=0.2):
     p4 = (x + random.uniform(-wobble, wobble), y + h + random.uniform(-wobble, wobble))
     return [p1, p2, p3, p4]
 
-def generate_rich_zone(width_m: float, length_m: float, seed: int = 42) -> List[House]:
+def generate_rich_zone(width_m: float, length_m: float, seed: int = 42, house_size: float = 15.0, gap: float = 4.0) -> List[House]:
     random.seed(seed)
     houses = []
     
-    house_size = 15.0
-    gap = 4.0
+    # house_size and gap passed as args (defaults 15.0, 4.0)
     
     for y in range(0, int(length_m - house_size), int(house_size + gap)):
         for x in range(0, int(width_m - house_size), int(house_size + gap)):
@@ -66,6 +65,11 @@ def generate_rich_zone(width_m: float, length_m: float, seed: int = 42) -> List[
             
     return houses
 
+@dataclass
+class Street:
+    points: List[Tuple[float, float]] # Polygon (likely a rect)
+    category: str # "TERTIARY_STREET"
+
 def generate_poor_zone(width_m: float, length_m: float, seed: int = 42) -> List[House]:
     random.seed(seed)
     houses = []
@@ -103,3 +107,53 @@ def generate_poor_zone(width_m: float, length_m: float, seed: int = 42) -> List[
         current_y += house_h + gap
         
     return houses
+
+def generate_street_network(width_m: float, length_m: float, style: str, seed: int = 42) -> List[Street]:
+    """Generates a network of secondary streets (polygons) to serve as obstacles."""
+    random.seed(seed)
+    streets = []
+    
+    if style == "RICH":
+        # Regular Grid
+        block_size = 45.0 # Large blocks for rich
+        street_width = 3.0
+        
+        # Horizontal Streets
+        y = block_size
+        while y < length_m - block_size:
+            poly = get_wobbly_rect_points(0, y, width_m, street_width, wobble=0.5)
+            streets.append(Street(points=poly, category="TERTIARY_STREET"))
+            y += block_size + street_width
+            
+        # Vertical Streets
+        x = block_size
+        while x < width_m - block_size:
+            poly = get_wobbly_rect_points(x, 0, street_width, length_m, wobble=0.5)
+            streets.append(Street(points=poly, category="TERTIARY_STREET"))
+            x += block_size + street_width
+            
+    elif style == "POOR":
+        # Organic / Chaotic
+        # Random cuts through the block to break it up.
+        num_streets = int((width_m * length_m) / 1200) # Density heuristic
+        street_width = 2.5
+        
+        for _ in range(num_streets):
+            # Random Start/End
+            if random.random() < 0.5:
+                # Vertical-ish
+                start_x = random.uniform(0, width_m)
+                end_x = start_x + random.uniform(-10, 10)
+                
+                # Make a rect
+                poly = get_wobbly_rect_points(start_x, 0, street_width, length_m, wobble=1.0)
+                streets.append(Street(points=poly, category="TERTIARY_STREET"))
+            else:
+                # Horizontal-ish
+                start_y = random.uniform(0, length_m)
+                end_y = start_y + random.uniform(-10, 10)
+                
+                poly = get_wobbly_rect_points(0, start_y, width_m, street_width, wobble=1.0)
+                streets.append(Street(points=poly, category="TERTIARY_STREET"))
+                
+    return streets
